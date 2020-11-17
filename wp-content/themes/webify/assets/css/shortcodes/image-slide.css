@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------
+## Before After Slider
+--------------------------------------------------------------*/
+.tb-before-after {
+  max-width: 730px;
+  width: 100%;
+  position: relative;
+  height: 400px;
+  margin: auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+.tb-before-after:before,
+.tb-before-after:after {
+  content: '';
+  position: absolute;
+  height: calc(50% - 25px);
+  width: 100%;
+  z-index: 2;
+  left: 0;
+}
+
+.tb-before-after:before {
+  top: 0;
+}
+
+.tb-before-after:after {
+  bottom: 0;
+}
+
+.tb-before-after .tb-single-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.tb-before-after .tb-single-slide.tb-before {
+  right: 50%;
+  border-radius: 0 4px 4px 4px;
+}
+
+.tb-before-after .tb-handle-before-after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  left: 50%;
+  margin-left: -15px;
+  cursor: ew-resize;
+}
+
+.tb-handle-before-after span {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tb-before-after .tb-handle-before-after:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  margin-left: -1px;
+  background: #fff;
+}
+
+.tb-handle-before-after span:before,
+.tb-handle-before-after span:after {
+  content: '';
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid #222;
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 14px;
+}
+
+.tb-handle-before-after span:before {
+  left: 25px;
+}
+
+.tb-handle-before-after span:after {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.tb-before-after .tb-after.tb-single-slide {
+  border-radius: 4px;
+}

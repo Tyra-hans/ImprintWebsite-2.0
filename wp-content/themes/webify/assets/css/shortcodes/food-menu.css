@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------
+## Food List Style
+--------------------------------------------------------------*/
+.tb-food-menu {
+  margin-bottom: 30px;
+}
+
+.tb-food-menu a {
+  display: block;
+  min-width: 120px;
+  border: 1px solid #eaeaea;
+  margin-left: -1px;
+  padding: 7px 10px;
+}
+
+.tb-food-menu .active a,
+.tb-food-menu .active a:focus {
+  background-color: #e4002b;
+  color: #fff;
+  border-color: #e4002b;
+}
+
+.tb-food-menu a:hover {
+  color: #222;
+}
+
+.tb-food-menu .active a:hover {
+  color: #fff;
+}
+
+.tb-food-menu li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+
+.tb-food-menu li:last-child a {
+  border-radius: 0 4px 4px 0;
+}
+
+.tb-food-list.tb-style1 .tb-isotop-item {
+  width: 100%;
+}
+
+.tb-food-list.tb-style1 .tb-food-list-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tb-food-list.tb-style1 .tb-food-list-in:hover {
+  background-color: #fafafa;
+}
+
+.tb-food-list.tb-style1 .tb-isotop-item {
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 3px;
+}
+
+.tb-isotop.tb-food-list.tb-style1 {
+  border-bottom: none;
+}
+
+.tb-food-price {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tb-food-list.tb-style1 .tb-food-desc {
+  position: relative;
+  padding-left: 120px;
+  min-height: 100px;
+  max-width: 700px;
+  padding-right: 15px;
+}
+
+.tb-food-list.tb-style1 .tb-food-desc img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.tb-food-list.tb-style1 .tb-food-status {
+  background-color: #0091e4;
+  padding: 0px 5px;
+  display: inline-block;
+  border-radius: 2px;
+  position: relative;
+  top: -2px;
+  margin-left: 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.tb-food-list.tb-style1 a:hover {
+  color: #e4002b;
+}
+
+.tb-food-list-isotope.tb-food-list .tb-isotop-item {
+  display: none;
+}
+
+.tb-food-list-isotope.tb-food-list .tb-isotop-item.tb-show-isotope-item {
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .tb-food-list.tb-style1 .tb-food-price {
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    min-width: 100px;
+  }
+
+  .tb-food-list.tb-style1 .tb-food-list-in {
+    padding-bottom: 43px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .tb-food-list.tb-style1 .tb-isotop-item {
+    position: relative;
+    min-height: 130px;
+  }
+
+}
+
+/*End Food List*/

@@ -1,0 +1,425 @@
+.tb-content.default-page {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.tb-content.default-page .sidebar {
+  font-size:14px;
+  line-height: 22.4px;
+}
+
+.tb-simple-text a,
+.tb-tags a:hover,
+.comment-list .reply a:hover,
+.comment-list .fn a:hover {
+  color: #6673c7;
+}
+
+.comment-list .pingback .comment-body {
+  padding-left: 0;
+}
+
+.tb-simple-text a:hover,
+.tb-content.default-page a:hover {
+  color: #222;
+}
+
+.tb-simple-text ul,
+.comment-list ul {
+  list-style: disc;
+}
+
+.tb-simple-text ul,
+.tb-simple-text ol,
+.tb-content.default-page ul,
+.tb-content.default-page ol,
+.comment-list ul,
+.comment-list ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.tb-simple-text ul ul,
+.tb-simple-text ol ol,
+.tb-content.default-page ul ul,
+.tb-content.default-page ol ol,
+.comment-list ul ul,
+.comment-list ol ol {
+  padding-left: 15px;
+}
+
+.tb-simple-text ol li,
+.tb-simple-text ul li,
+.tb-content.default-page ol li,
+.tb-content.default-page ul li,
+.comment-list ol li,
+.comment-list ul li {
+  margin-top: 11px;
+}
+
+.comment-list {
+  margin-bottom: 25px;
+}
+
+.comment-list ol {
+  list-style: none;
+}
+
+.comment-list {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.tb-simple-text p,
+.tb-simple-text h1,
+.tb-simple-text h2,
+.tb-simple-text h3,
+.tb-simple-text h4,
+.tb-simple-text h5,
+.tb-simple-text h6,
+.tb-simple-text img,
+.tb-simple-text blockquote,
+.tb-simple-text ul,
+.tb-simple-text ol,
+.tb-simple-text div[class^="col-"],
+.tb-simple-text .embed-responsive,
+.tb-simple-text .instagram-media,
+.tb-simple-text .tb-slider,
+.tb-simple-text iframe,
+.tb-content.default-page p,
+.tb-content.default-page h1,
+.tb-content.default-page h2,
+.tb-content.default-page h3,
+.tb-content.default-page h4:not(.tb-sidebar-widget-title, .tb-custom-widget-title),
+.tb-content.default-page h5,
+.tb-content.default-page h6,
+.tb-content.default-page blockquote,
+.tb-content.default-page ul,
+.tb-content.default-page ol,
+.tb-content.default-page .embed-responsive,
+.tb-content.default-page .instagram-media,
+.tb-content.default-page .tb-slider,
+.tb-content.default-page iframe,
+.comment-list p,
+.comment-list h1,
+.comment-list h2,
+.comment-list h3,
+.comment-list h4,
+.comment-list h5,
+.comment-list h6,
+.comment-list blockquote,
+.comment-list ul,
+.comment-list ol,
+.comment-list div[class^="col-"],
+.comment-list .embed-responsive,
+.comment-list .instagram-media,
+.comment-list .tb-slider,
+.comment-list iframe {
+  max-width: 100%;
+  margin-bottom: 25px;
+  clear: both;
+}
+
+.tb-simple-text *:last-child,
+.tb-content.default-page *:last-child {
+  margin-bottom: 0;
+}
+
+.tb-simple-text .tb-quote,
+.tb-content.default-page .tb-quote {
+  margin-bottom: 30px;
+}
+
+.tb-simple-text .tb-quote p,
+.tb-content.default-page .tb-quote p {
+  margin-bottom: 5px;
+}
+
+.tb-simple-text h3 small,
+.tb-content.default-page h3 small {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tb-simple-text h1,
+.tb-simple-text h2,
+.tb-simple-text h3,
+.tb-simple-text h4,
+.tb-simple-text h5,
+.tb-simple-text h6,
+.tb-content.default-page h1,
+.tb-content.default-page h2,
+.tb-content.default-page h3,
+.tb-content.default-page h4:not(.tb-sidebar-widget-title, .tb-custom-widget-title),
+.tb-content.default-page h5,
+.tb-content.default-page h6,
+.comment-list h1,
+.comment-list h2,
+.comment-list h3,
+.comment-list h4,
+.comment-list h5,
+.comment-list h6 {
+  line-height: 1.2em;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.tb-simple-text h2,
+.tb-content.default-page h2,
+.comment-list h2 {
+  font-size: 38px;
+}
+
+.tb-simple-text h3,
+.tb-content.default-page h3,
+.comment-list h3 {
+  font-size: 28px;
+}
+
+.tb-simple-text h4,
+.tb-content.default-page h4:not(.tb-sidebar-widget-title, .tb-custom-widget-title),
+.comment-list h4 {
+  font-size: 21px;
+}
+
+.tb-simple-text h5,
+.tb-content.default-page h5,
+.comment-list h5 {
+  font-size: 18px;
+}
+
+.tb-simple-text h6,
+.tb-content.default-page h6,
+.comment-list h6 {
+  font-size: 16px;
+}
+
+.tb-simple-text strong,
+.tb-content.default-page strong,
+.comment-list strong {
+  color: #222;
+  font-weight: 500;
+}
+
+.tb-blog-single-post-style1 .wp-block-image img {
+  margin-bottom: 5px;
+}
+
+.tb-blog-single-post-style1 .wp-block-image figcaption {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.tb-simple-text blockquote,
+.tb-content.default-page blockquote,
+.comment-list blockquote {
+  font-size: 24px;
+  line-height: 1.6em;
+  color: #222;
+  border: 1px solid #eaeaea !important;
+  text-align: left;
+  padding: 30px 40px !important;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Circular', sans-serif;
+  border-radius: 4px;
+}
+
+.tb-simple-text blockquote cite {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #666;
+}
+
+.tb-simple-text blockquote cite:before {
+  content: '-';
+  margin-right: 3px;
+}
+
+.tb-simple-text blockquote br {
+  display: none;
+}
+
+.tb-simple-text blockquote p {
+  margin-bottom: 16px;
+}
+
+.tb-simple-text table,
+.tb-content.default-page table,
+.comment-list table {
+  margin-bottom: 35px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.tb-simple-text th,
+.tb-simple-text td,
+.tb-content.default-page th,
+.tb-content.default-page td,
+.comment-list th,
+.comment-list td {
+  padding: 8px 15px;
+}
+
+.tb-simple-text table th,
+.tb-content.default-page table th,
+.comment-list table th {
+  font-weight: 500;
+  color: #666;
+}
+
+.tb-simple-text dl,
+.tb-simple-text dd,
+.tb-content.default-page dl,
+.tb-content.default-page dd,
+.comment-list dl,
+.comment-list dd {
+  margin-bottom: 25px;
+}
+
+.tb-simple-text dt,
+.tb-content.default-page dt,
+.comment-list dt {
+  font-weight: 500;
+}
+
+.tb-simple-text address,
+.tb-content.default-page address,
+.comment-list address {
+  margin-bottom: 25px;
+}
+
+.tb-simple-text code,
+.tb-content.default-page code,
+.comment-list code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+.tb-simple-text hr,
+.comment-list hr {
+  margin: 25px 0;
+}
+
+.tb-simple-text kbd,
+.tb-content.default-page kbd,
+.comment-list kbd {
+  background-color: #222;
+  border-radius: 4px;
+}
+
+.tb-simple-text pre,
+.tb-content.default-page pre,
+.comment-list pre {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+  color: #222;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: inherit;
+}
+
+.tb-simple-text pre h2,
+.tb-content.default-page pre h2,
+.comment-list pre h2 {
+  margin-top: 0;
+}
+
+.tb-simple-text cite,
+.tb-content.default-page cite,
+.comment-list cite {
+  font-style: initial;
+}
+
+.alignleft,
+.alignleft img {
+  float: left;
+  margin: 5px 15px 5px 0;
+}
+
+.alignright,
+.alignright img {
+  float: right;
+  margin: 5px 0 5px 15px;
+}
+
+.aligncenter,
+.aligncenter img {
+  clear: both;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.post-password-form input[type="password"] {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  height: 40px;
+  width: 280px;
+  padding: 5px 15px;
+  margin-left: 6px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post-password-form input[type="password"]:hover {
+  border-color: #666;
+  outline: none;
+}
+
+.post-password-form input[type="submit"] {
+  border: none;
+  height: 39px;
+  width: 80px;
+  border-radius: 4px;
+  background: #222;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 6px;
+  position: relative;
+  top: -1px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post-password-form input[type="submit"]:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.comment-body .comment-meta+p>strong {
+  font-size: 18px;
+}
+
+.gallery-caption,
+.wp-caption-text {
+  font-size: 12px;
+  font-weight: 600;
+  font-style: italic;
+  color: #666;
+  display: inline-block;
+}
+
+.tb-content.default-page .comments-title,
+.tb-content.default-page .comment-reply-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}

@@ -1,0 +1,250 @@
+/*--------------------------------------------------------------
+## Shope Card
+--------------------------------------------------------------*/
+/*Style1*/
+.tb-shop-card.tb-style1 {
+  position: relative;
+}
+
+.tb-shop-card.tb-style1 .tb-zoom-effect-in {
+  height: 300px;
+}
+
+.tb-shop-card.tb-style1 .tb-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .4)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .4));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .4));
+  background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .4));
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-shop-card.tb-style1:hover .tb-overlay {
+  -webkit-transform: scale(1.035);
+  -ms-transform: scale(1.035);
+  transform: scale(1.035);
+}
+
+.tb-shop-card.tb-style1 .tb-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px;
+  z-index: 1;
+}
+
+.tb-shop-card.tb-style1 .tb-card-btn {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.tb-shop-card.tb-style1 .tb-card-btn:hover {
+  color: #fff;
+}
+
+.tb-shop-card.tb-style1 .tb-card-btn:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(249, 249, 249, 0.4);
+}
+
+.tb-shop-card.tb-style1 .tb-card-btn:after,
+.tb-shop-card.tb-style2 .tb-card-text h2 a:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.tb-btn.tb-style1:hover:before,
+.tb-shop-card.tb-style1 .tb-card-btn:hover:after,
+.tb-shop-card.tb-style2 .tb-card-text h2 a:hover:after {
+  opacity: 1;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.tb-shop-card.tb-style1 .tb-card-btn:after {
+  height: 2px;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+/*Style2*/
+.tb-shop-card.tb-style2 {
+  position: relative;
+}
+
+.tb-shop-card.tb-style2 .onsale {
+  position: absolute;
+  text-transform: uppercase;
+  top: 10px;
+  right: 10px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  padding: 5px 5px 4px;
+}
+
+.tb-shop-card.tb-style2 .tb-product-img {
+  height: 350px;
+  position: relative;
+}
+
+.tb-shop-card.tb-style2 .tb-before-hover {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-shop-card.tb-style2 .tb-after-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-shop-card.tb-style2 .tb-product-img:hover .tb-after-hover {
+  opacity: 1;
+}
+
+.tb-shop-card.tb-style2 .tb-product-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.tb-shop-card.tb-style2 .tb-quick-view-btn {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  height: 35px;
+  width: 100%;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: #222;
+  color: #fff;
+  z-index: 4;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-family: 'Circular', sans-serif;
+}
+
+.tb-shop-card.tb-style2:hover .tb-quick-view-btn {
+  bottom: 0;
+}
+
+.tb-shop-card.tb-style2 .tb-quick-view-btn:hover {
+  background-color: rgba(34, 34, 34, 0.9);
+}
+
+.tb-shop-card.tb-style2 .tb-card-text {
+  position: relative;
+  padding-right: 100px;
+}
+
+.tb-shop-card.tb-style2 .tb-like {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  font-size: 13px;
+  color: #c6c6c6;
+}
+
+.tb-shop-card.tb-style2 .tb-like:hover {
+  color: #666;
+}
+
+.tb-shop-card.tb-style2 .tb-card-text h2 a {
+  position: relative;
+  color: inherit;
+}
+
+.tb-shop-card.tb-style2 .tb-card-text h2 a:after {
+  background-color: #222;
+  height: 1px;
+}
+
+.tb-cart-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.tb-shop-card.tb-style2:hover .tb-cart-btn {
+  opacity: 1;
+}
+
+.tb-cart-btn a {
+  margin: 5px 0;
+}
+
+.tb-shop-card.tb-style2 span.price {
+  color: #666;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+.tb-shop-card .star-rating {
+  margin-top: 5px;
+}
+
+
+.tb-shop-card .tb-product-category {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #b5b5b5;
+  line-height: 14px;
+  margin-top: -3px;
+  margin-bottom: 5px;
+}

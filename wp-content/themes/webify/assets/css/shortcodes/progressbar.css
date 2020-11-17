@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+## ProgressBar
+--------------------------------------------------------------*/
+.tb-progressbar.tb-style1 {
+  padding: 40px 30px;
+}
+
+.tb-progressbar.tb-style1 .tb-single-progressbar:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.tb-progressbar.tb-style1 .tb-single-bar-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-top: -6px;
+}
+
+.tb-progressbar.tb-style1 .tb-single-bar {
+  position: relative;
+  height: 5px;
+  background: #eaeaea;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.tb-progressbar.tb-style1 .tb-single-bar-in {
+  position: absolute;
+  height: 100%;
+  left: -100%;
+  top: 0;
+  background-color: #5752d0;
+  border-radius: 3px;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+}
+
+.tb-progressbar.tb-style1 .tb-single-bar.tb-active .tb-single-bar-in {
+  left: 0%;
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.tb-progressbar.tb-style1.tb-type1 .tb-single-bar-title {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.tb-progressbar.tb-style1.tb-type1 .tb-single-bar {
+  height: 6px;
+}
+
+.tb-progressbar.tb-style1.tb-type1 {
+  padding: 0;
+}
+
+.tb-progressbar.tb-style1.tb-type1 .tb-single-progressbar {
+  margin-bottom: 0;
+}

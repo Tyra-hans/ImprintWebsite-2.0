@@ -1,0 +1,619 @@
+/*--------------------------------------------------------------
+## Pricing Table
+--------------------------------------------------------------*/
+/*Style1*/
+.df-pricing-card.df-style1 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-pricing-card.df-style1:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+.df-pricing-card.df-style1 .df-pricing-heading {
+  padding: 16px 30px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.df-pricing-feature {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.df-pricing-card.df-style6 .df-pricing-feature {
+  font-size: 16px;
+}
+
+.df-pricing-card.df-style1 .df-price {
+  line-height: 52px;
+  padding: 24px 30px 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.df-pricing-card.df-style1 .df-price .df-price-currency {
+  font-style: initial;
+  position: relative;
+  top: -6px;
+  margin-right: 0;
+}
+
+.df-pricing-card.df-style1 .df-price .df-price-cycle {
+  font-style: initial;
+  position: relative;
+  bottom: -17px;
+  margin-left: -2px;
+}
+
+.df-pricing-card.df-style1 .df-pricing-feature {
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.df-pricing-card.df-style1 .df-pricing-feature li {
+  padding-left: 25px;
+  position: relative;
+}
+
+.df-pricing-card.df-style1 .df-pricing-feature li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.df-pricing-card.df-style1 .df-pricing-feature li i {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.df-pricing-card.df-style1 .df-pricing-btn {
+  padding: 30px;
+  padding-top: 0;
+}
+
+.df-pricing-card.df-style1.df-mkt-green .df-pricing-feature li i,
+.df-pricing-card.df-style1.df-mkt-green .df-price {
+  color: #4ed55f
+}
+
+.df-pricing-card.df-style1.df-mkt-orange .df-pricing-feature li i,
+.df-pricing-card.df-style1.df-mkt-orange .df-price {
+  color: #f99205;
+}
+
+.df-pricing-card.df-style1.df-mkt-blue .df-pricing-feature li i,
+.df-pricing-card.df-style1.df-mkt-blue .df-price {
+  color: #5ac4f6;
+}
+
+/*Style2*/
+.df-pricing-card.df-style2 .df-price {
+  padding: 14px 15px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.df-pricing-card.df-style2 .df-price i {
+  font-style: normal;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 6px;
+}
+
+.df-pricing-card.df-style2 .df-price span {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.df-pricing-card.df-style2 .df-pricing-heading {
+  padding: 18px 15px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.df-pricing-card.df-style2 .df-pricing-feature li {
+  padding: 9px 15px;
+}
+
+.df-pricing-card.df-style2 .df-pricing-feature li:nth-child(odd) {
+  background-color: rgba(92, 106, 196, 0.05)
+}
+
+.df-pricing-card.df-style2.df-active .df-btn {
+  color: #fff;
+  background-color: #5c6ac4;
+}
+
+.df-pricing-card.df-style2.df-active .df-btn:hover {
+  background-color: #47529a;
+}
+
+/*Style3*/
+.df-pricing-card.df-style3 .df-price-card-body {
+  border: 1px solid #eaeaea;
+  border-radius: 4px 0 4px 4px;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-pricing-card.df-style3 .df-price-card-body .df-pricing-card-row:hover {
+  background-color: #fafafa;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-row:last-child {
+  border-bottom: none;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-col {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #eaeaea;
+  text-align: center;
+  padding: 9px 15px;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-col:last-child {
+  border-right: none;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-col.df-pricing-card-title {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 280px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.df-pricing-card.df-style3 .df-feature-check {
+  color: #50b83c;
+}
+
+.df-pricing-card.df-style3 .df-feature-cross {
+  color: #b5b5b5;
+}
+
+.df-pricing-card.df-style3 .df-price-card-head {
+  margin-left: 280px;
+  border: 1px solid #eaeaea;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
+
+.df-pricing-card.df-style3 .df-price-card-head .df-pricing-card-col {
+  padding: 0;
+}
+
+.df-pricing-card.df-style3 .df-pricing-card-btn {
+  padding: 15px;
+}
+
+.df-pricing-card.df-style3 .df-pricing-heading {
+  padding: 11px 15px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.df-pricing-card.df-style3 .df-price {
+  padding-bottom: 3px;
+  padding-top: 23px;
+}
+
+.df-pricing-card.df-style3 .df-price-currency {
+  font-style: initial;
+  position: relative;
+  top: -11px;
+  margin-right: 1px;
+}
+
+/*Styel4*/
+
+.df-pricing-table-style3 .df-pricing-heading {
+  padding: 10px 15px;
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.df-pricing-table-style3 .df-price {
+  padding-bottom: 6px;
+  padding-top: 17px;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+.df-pricing-table-style3 .df-price-currency {
+  font-style: initial;
+  position: relative;
+  top: -11px;
+  margin-right: 1px;
+}
+
+.df-pricing-table-style3 .df-pricing-card-btn {
+  padding: 15px 5px 12px 5px;
+}
+
+.df-pricing-table-style3 {
+  text-align: center;
+  border: 1px solid #eaeaea;
+  margin-left: -1px;
+}
+
+.df-pricing-table-style4 {
+  border: 1px solid #eaeaea;
+  margin-top: 205px;
+  border-radius: 4px 0 0 4px;
+}
+
+.df-pricing-table-style3 .df-btn.df-style3 {
+  width: 100%;
+}
+
+.df-pricing-table-style3 .fa-check {
+  color: #50b83c;
+}
+
+.df-pricing-table-style3 .fa-times {
+  color: #b5b5b5;
+}
+
+.df-pricing-card.df-style4 .df-pricing-card-row,
+.df-pricing-table-style3 .df-pricing-card-row,
+.df-pricing-table-style3 .df-pricing-feature li,
+.df-pricing-table-style4 .df-pricing-feature li {
+  min-height: 40px;
+  border-bottom: 1px solid #eaeaea;
+  padding: 9px 15px 8px;
+  line-height: 1.6em;
+}
+
+.df-pricing-table-style3 .df-pricing-feature li:last-child,
+.df-pricing-table-style4 .df-pricing-feature li:last-child {
+  border-bottom: none;
+}
+
+.df-pricing-table-style3 .df-pricing-card-row.df-pricing-heading {
+  padding: 10px 15px;
+}
+
+.df-pricing-table-style4 .df-pricing-feature {
+  font-weight: 500;
+}
+
+.df-pricing-table-style3 .df-pricing-card-row:nth-child(2) {
+  min-height: 146px;
+}
+
+.elementor-row>.elementor-element:nth-child(2) .df-pricing-table-style3,
+.elementor-row>.elementor-element:nth-child(2) .df-pricing-card-row.df-pricing-heading {
+  border-radius: 4px 0 0 0;
+}
+
+.elementor-row>.elementor-element:last-child .df-pricing-table-style3 {
+  border-radius: 0 4px 4px 0;
+}
+
+.elementor-row>.elementor-element:last-child .df-pricing-card-row.df-pricing-heading {
+  border-radius: 0 4px 0px 0;
+}
+
+
+.df-pricing-tab.df-style1 li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 32px;
+}
+
+.df-pricing-tab.df-style1 li a {
+  font-size: 15px;
+  padding: 0 40px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.df-pricing-tab.df-style1 li:first-child a {
+  padding-left: 0;
+}
+
+.df-pricing-tab.df-style1 li:last-child a {
+  padding-right: 0;
+}
+
+.df-pricing-tab.df-style1 .df-pricing-switch {
+  position: relative;
+  height: 32px;
+  width: 60px;
+  background-color: #50b83c;
+  border-radius: 16px;
+  margin-right: -30px;
+  pointer-events: none;
+  margin-left: -30px;
+}
+
+.df-pricing-tab.df-style1 li.active .df-pricing-switch {
+  background-color: #b4bbc1;
+}
+
+.df-pricing-tab.df-style1 .df-pricing-switch span {
+  display: block;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-box-shadow: -0.382px 1.963px 3.92px 0.08px rgba(0, 0, 0, 0.2);
+  box-shadow: -0.382px 1.963px 3.92px 0.08px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 31px;
+  top: 3px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-pricing-tab.df-style1 li.active .df-pricing-switch span {
+  left: 3px;
+}
+
+.df-pricing-card.df-style5 {
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.df-pricing-card.df-style5 .df-packeg-heading {
+  background: #fafafa;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+.df-pricing-card.df-style5 .df-packeg-price {
+  margin-bottom: 0;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 48px;
+  font-weight: 500;
+  padding: 23px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.df-pricing-card.df-style5 .df-packeg-currency {
+  font-style: normal;
+  font-size: 16px;
+  position: relative;
+  top: 11px;
+  margin-right: 2px;
+}
+
+.df-pricing-card.df-style5 .df-packeg-feature {
+  font-size: 14px;
+  padding: 25px 30px;
+}
+
+.df-pricing-card.df-style5 .df-packeg-feature li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.df-pricing-card.df-style5 .df-packeg-btn {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: 1px solid #eaeaea;
+  padding: 0.6em 2.8em;
+  text-align: center;
+}
+
+.df-pricing-card.df-style5 .df-packeg-btn:hover {
+  background-color: #fafafa;
+}
+
+.df-pricing-card.df-style5.df-featured-packeg .df-packeg-btn {
+  color: #fff;
+  background-color: #1b9eff;
+}
+
+.df-pricing-card.df-style5.df-featured-packeg .df-packeg-btn:hover {
+  opacity: 0.8
+}
+
+.df-pricing-card.df-style5.df-featured-packeg {
+  margin-top: -25px;
+}
+
+.df-pricing-card.df-style5.df-featured-packeg .df-packeg-price {
+  padding: 36px 30px 35px;
+}
+
+.df-gutter-less .df-row>div {
+  padding: 0;
+  margin-left: -1px;
+}
+
+.df-gutter-less .df-row {
+  margin-left: 0;
+  margin-right: -3px;
+}
+
+.df-pricing-card.df-style5 .df-packeg-text {
+  opacity: 0.8;
+}
+
+.df-pricing-table-style3 i {
+  margin-right: 6px;
+}
+
+
+.df-pricing-table.df-style6 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.df-pricing-table.df-style6 .df-pricing-icon {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.df-pricing-table.df-style6 .df-pricing-price {
+  display: inline-block;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.df-pricing-table.df-style6 .df-price-currency {
+  font-style: initial;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-right: 1px;
+}
+
+.df-pricing-table.df-style6 .df-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 25px;
+  color: #212529;
+}
+
+.df-pricing-table.df-style6 .df-pricing-feature {
+  padding: 19px 30px 25px;
+}
+
+.df-pricing-table.df-style6 .df-pricing-feature li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.df-pricing-table.df-style6 .df-pricing-feature li:last-child {
+  margin-bottom: 0;
+}
+
+.df-pricing-table.df-style6 .df-pricing-feature i {
+  color: #34c759;
+  font-size: 14px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.df-pricing-table.df-style6 .df-pricing-btn {
+  padding: 0 20px;
+}
+
+.df-pricing-table.df-style6 .df-pricing-head {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.df-pricing-table.df-style6 .df-popular-bar {
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #fff;
+  background-color: #b5b5b5;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 4px 4px 0 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.df-pricing-table.df-style6 .df-pricing-heading {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.df-pricing-table.df-style6.df-featured-price {
+  -webkit-box-shadow: 0px 13px 20.16px 3.84px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 13px 20.16px 3.84px rgba(0, 0, 0, 0.1);
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -40px;
+}
+
+@media screen and (max-width: 991px) {
+  .df-pricing-card.df-style4 {
+    min-width: 990px;
+  }
+
+  .df-pricing-table-style4 {
+    margin-top: 0;
+  }
+
+  .df-pricing-table.df-style6 {
+    margin-top: 0;
+  }
+}

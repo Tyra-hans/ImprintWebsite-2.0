@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------
+## Text Box Style
+--------------------------------------------------------------*/
+.df-text-box.df-style1 .df-special-text,
+.df-text-box.df-style2 .df-special-text {
+  position: relative;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 48px;
+  line-height: 0.9em;
+  color: #fff;
+  margin-bottom: -3px;
+}
+
+.df-text-box.df-style1 .df-special-text span,
+.df-text-box.df-style2 .df-special-text span {
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-left: 5px;
+}
+
+.df-text-box.df-style1 .df-special-text span {
+  line-height: 20px;
+  margin-top: -3px;
+}
+
+.df-counter.df-style1 h3.df-count-no {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.df-text-box.df-style2 {
+  height: 580px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.df-text-box.df-style2 .df-text-box-slider-title {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: -5px;
+  margin-top: -3px;
+}
+
+.df-text-box.df-style2 .df-text-box-slider-content {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.df-text-box.df-style2 .df-text-box-in {
+  padding: 60px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .8)));
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .8));
+  background: -o-linear-gradient(transparent, rgba(0, 0, 0, .8));
+  background: linear-gradient(transparent, rgba(0, 0, 0, .8));
+  padding-top: 30px;
+}
+
+.df-text-box.df-style2 .df-btn {
+  color: #fff;
+  font-size: 14px;
+}
+
+
+.df-text-box.df-style2 .df-text-box-btn {
+  overflow: hidden;
+  height: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.df-text-box.df-style2:hover .df-text-box-btn {
+  height: 52px;
+}
+
+.df-text-box.df-style2.df-type1 .df-text-box-in {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-text-box.df-style2.df-type1:hover .df-text-box-in {
+  background: rgba(18, 35, 63, 0.8)
+}
+
+.df-text-box.df-style2.df-type1 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.df-text-box.df-style3 {
+  padding: 15px;
+  border: 2px solid rgba(234, 234, 234, 0.05);
+  min-height: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-text-box.df-style3:hover {
+  border-color: rgba(234, 234, 234, 0.5);
+}
+
+.df-text-box.df-style3 h3.df-count-no {
+  font-size: 48px;
+  margin: 0;
+  margin-top: -12px;
+  color: #222;
+}
+
+.df-counter.df-style1 .df-label,
+.df-text-box.df-style3 .df-label {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+@media screen and (max-width: 767px) {
+  .df-text-box.df-style2 {
+    height: 470px;
+  }
+
+  .df-text-box.df-style2 .df-text-box-btn {
+    height: 52px;
+  }
+
+  .df-text-box.df-style2 {
+    border-right: 0;
+  }
+}

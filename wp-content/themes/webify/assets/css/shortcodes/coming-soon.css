@@ -1,0 +1,62 @@
+.tb-coming-soon-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: initial;
+}
+
+.tb-coming-soon-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.tb-coming-soon-wrap #tb-if-expired {
+  position: relative;
+  z-index: 1;
+}
+
+.tb-coming-soon-wrap .tb-newsletter.tb-style3 {
+  max-width: 560px;
+}
+
+.tb-coming-soon-wrap .tb-form-field input,
+.tb-coming-soon-wrap .tb-newsletter.tb-style3 .tb-btn input,
+.tb-coming-soon-wrap .tb-newsletter.tb-style3 .tb-btn {
+  height: 50px;
+  padding: 8px 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 991px) {
+  .tb-coming-soon-wrap.tb-style1 {
+    display: flex;
+    height: 100vh;
+  }
+
+  .tb-coming-soon-left,
+  .tb-coming-soon-right {
+    flex: 1;
+    position: relative;
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .tb-coming-soon-wrap .tb-form-field input,
+  .tb-coming-soon-wrap .tb-newsletter.tb-style3 .tb-btn input,
+  .tb-coming-soon-wrap .tb-newsletter.tb-style3 .tb-btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .tb-coming-soon-right {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

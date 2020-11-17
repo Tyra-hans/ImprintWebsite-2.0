@@ -1,0 +1,399 @@
+/*--------------------------------------------------------------
+## Team Card Style
+--------------------------------------------------------------*/
+.df-team-card.df-style1 .df-team-img {
+  height: 260px;
+  border-radius: 4px 4px 0 0;
+}
+
+.df-team-card.df-style1 .df-team-text {
+  padding: 16px 15px 14px;
+}
+
+.df-team-card.df-style1 .df-team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 8px 5px;
+}
+
+.df-team-card.df-style1 .df-team-social a {
+  font-size: 12px;
+  color: #b5b5b5;
+  padding: 0 6px;
+  font-weight: 400;
+  position: relative;
+}
+
+.df-team-card.df-style1 .df-team-social a:not(:last-child):before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(181, 181, 181, 0.8);
+  top: 6px;
+}
+
+.df-team-card.df-style1 a:hover {
+  color: #666;
+}
+
+.df-team-card.df-style1 {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+}
+
+.df-team-card.df-style1:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+.df-team-card.df-style1 .df-team-name,
+.df-team-card.df-style4 .df-team-name,
+.df-team-card.df-style5 .df-team-name,
+.df-team-card.df-style3 .df-team-name {
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.6em;
+  font-weight: 400;
+  color: #222;
+}
+
+.df-team-card.df-style1 .df-team-position,
+.df-team-card.df-style5 .df-team-position,
+.df-team-card.df-style4 .df-team-position,
+.df-team-card.df-style3 .df-team-position {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #666;
+}
+
+.df-team-card.df-style1.df-type1 .df-team-name {
+  color: #fff;
+}
+
+.df-team-card.df-style1.df-type1 .df-team-position {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.df-team-card.df-style5 .df-team-member-text {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.df-team-card.df-style1.df-type1 .df-team-img {
+  height: 375px;
+}
+
+.df-team-card.df-style1.df-type1 .df-team-card-meta {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background: -o-linear-gradient(transparent, rgba(0, 0, 0, .8));
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .8)));
+  background: linear-gradient(transparent, rgba(0, 0, 0, .8));
+  padding-top: 15px;
+}
+
+.df-team-card.df-style1.df-type1:hover .df-team-card-meta {
+  opacity: 1;
+}
+
+.df-team-card.df-style1.df-type1 .df-team-social a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.df-team-card.df-style1.df-type1 hr {
+  border-color: rgba(234, 234, 234, 0.5);
+}
+
+.df-team-card.df-style1.df-type1 a:hover {
+  color: #fff;
+}
+
+/*Style3*/
+.df-team-card.df-style3 .df-team-img {
+  height: 350px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+}
+
+.df-team-card.df-style3 .df-team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.df-team-card.df-style3 .df-team-social a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+}
+
+.df-team-card.df-style3 .df-team-social a:hover {
+  color: #fff;
+}
+
+.df-team-card.df-style3:hover .df-team-social a {
+  opacity: 1;
+  top: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(1) {
+  -webkit-transition-delay: 0.08s;
+  -o-transition-delay: 0.08s;
+  transition-delay: 0.08s;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(2) {
+  -webkit-transition-delay: 0.16s;
+  -o-transition-delay: 0.16s;
+  transition-delay: 0.16s;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(3) {
+  -webkit-transition-delay: 0.24s;
+  -o-transition-delay: 0.24s;
+  transition-delay: 0.24s;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(4) {
+  -webkit-transition-delay: 0.32s;
+  -o-transition-delay: 0.32s;
+  transition-delay: 0.32s;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(5) {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.df-team-card.df-style3:hover .df-team-social a:nth-of-type(6) {
+  -webkit-transition-delay: 0.48s;
+  -o-transition-delay: 0.48s;
+  transition-delay: 0.48s;
+}
+
+.df-team-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.df-team-card.df-style3:hover .df-team-overlay {
+  opacity: 1;
+}
+
+.df-team-card.df-style3 .df-team-text {
+  padding: 16px 15px 14px;
+}
+
+.df-team-card.df-style3 {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/*Style4*/
+.df-team-card.df-style4 {
+  border-radius: 4px;
+  border-radius: 120px 120px 4px 4px;
+}
+
+.df-team-card.df-style4 .df-team-img {
+  height: 350px;
+  position: relative;
+}
+
+.df-team-card.df-style4 .df-team-card-meta {
+  padding: 17px 20px 15px;
+  margin-top: -75px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 100px 100px 0 0;
+}
+
+.df-team-card.df-style4:hover .df-team-card-meta {
+  background-color: #fff;
+}
+
+.df-team-card.df-style4:hover .df-team-overlay {
+  opacity: 1;
+}
+
+.df-team-card.df-style4 .df-team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 73px;
+  position: relative;
+  z-index: 3;
+}
+
+.df-team-card.df-style4 .df-team-social a {
+  color: #fff;
+  font-size: 15px;
+  margin: 0 -5px;
+  position: relative;
+  top: 25px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.df-team-card.df-style4:hover .df-team-social a {
+  margin: 0 10px;
+  top: 0px;
+  opacity: 1;
+  -webkit-transition-delay: 0.08s;
+  -o-transition-delay: 0.08s;
+  transition-delay: 0.08s;
+}
+
+/*Style5*/
+.df-team-card.df-style5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.df-team-card.df-style5 .df-team-img {
+  width: 220px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  border-radius: 4px 0 0 4px;
+  min-height: 220px;
+  margin-right: 20px;
+}
+
+.df-team-card.df-style5 .df-team-position,
+.df-team-card.df-style5 .df-team-member-text {
+  color: rgba(5, 30, 49, 0.8);
+}
+
+.df-team-card.df-style5 .df-team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.df-team-card.df-style5 .df-team-social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-right: 15px;
+  color: #b5b5b5;
+}
+
+.df-team-card.df-style5 .df-team-social a:hover {
+  color: rgba(5, 30, 49, 0.8);
+  background-color: #fafafa;
+}
+
+.df-team-card.df-style5 .df-team-social a:last-child {
+  margin-right: 0;
+}
+
+.df-team-card.df-style5 {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-team-card.df-style5:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+@media screen and (max-width: 575px) {
+  .df-team-card.df-style5 {
+    display: block;
+  }
+
+  .df-team-card.df-style5 .df-team-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .df-team-card.df-style5 .df-team-card-meta {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,123 @@
+.tb-fancybox.tb-style1,
+.tb-fancybox.tb-style2,
+.tb-fancybox.tb-style3,
+.tb-fancybox.tb-style4 {
+  height: 370px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+.tb-fancybox.tb-style1:before,
+.tb-fancybox.tb-style2:before,
+.tb-fancybox.tb-style3:before,
+.tb-fancybox.tb-style4:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #111;
+  opacity: 0.5;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.tb-fancybox.tb-style1:hover:before,
+.tb-fancybox.tb-style2:hover:before,
+.tb-fancybox.tb-style4:hover:before,
+.tb-fancybox.tb-style3:hover:before {
+  opacity: 0.8;
+}
+
+.tb-fancybox.tb-style1 .tb-fancybox-bg,
+.tb-fancybox.tb-style2 .tb-fancybox-bg,
+.tb-fancybox.tb-style3 .tb-fancybox-bg,
+.tb-fancybox.tb-style4 .tb-fancybox-bg {
+  height: 100%;
+  width: 100%;
+}
+
+.tb-fancybox.tb-style1 .tb-fancybox-info,
+.tb-fancybox.tb-style2 .tb-fancybox-info,
+.tb-fancybox.tb-style3 .tb-fancybox-info,
+.tb-fancybox.tb-style4 .tb-fancybox-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 40px;
+  z-index: 2
+}
+
+.tb-fancybox.tb-style1 .tb-btn,
+.tb-fancybox.tb-style2 .tb-btn,
+.tb-fancybox.tb-style3 .tb-btn,
+.tb-fancybox.tb-style4 .tb-btn {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-fancybox.tb-style4 .tb-btn.tb-style3 {
+  border-radius: 1.6em;
+}
+
+.tb-fancybox.tb-style1:hover .tb-btn.tb-style3,
+.tb-fancybox.tb-style2:hover .tb-btn.tb-style3,
+.tb-fancybox.tb-style3:hover .tb-btn.tb-style3 {
+  background-color: #fff;
+  border-color: #fff;
+  color: #222;
+}
+
+.tb-fancybox.tb-style4:hover .tb-btn.tb-style3 {
+  background-color: #1db954;
+  border-color: #1db954;
+  color: #fff;
+}
+
+.tb-fancybox.tb-style1 .tb-fancybox-icon,
+.tb-fancybox.tb-style2 .tb-fancybox-icon,
+.tb-fancybox.tb-style3 .tb-fancybox-icon,
+.tb-fancybox.tb-style4 .tb-fancybox-icon {
+  height: 48px;
+  width: 48px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.tb-fancybox.tb-style3 {
+  text-align: center;
+}

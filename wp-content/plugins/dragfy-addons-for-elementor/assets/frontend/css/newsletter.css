@@ -1,0 +1,260 @@
+/*--------------------------------------------------------------
+## News Letter
+--------------------------------------------------------------*/
+/*Style1*/
+.df-border.df-newsletter-wrap {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.df-newsletter.df-style1 input {
+  width: 100%;
+  background-color: #2d2d2d;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 43px;
+  padding: 10px 45px 10px 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 4px;
+}
+
+.df-newsletter.df-style1 input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.df-newsletter.df-style1 input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.df-newsletter.df-style1 input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.df-newsletter.df-style1 input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.df-newsletter.df-style1 input:focus {
+  outline: none;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.df-newsletter.df-style1 .df-btn.df-style1 {
+  padding: 5px 15px 5px;
+  overflow: hidden;
+}
+
+.df-newsletter.df-style1 .df-btn.df-style4 {
+  padding: 0.645em 3.2em;
+  border-radius: 0;
+}
+
+/*Style2*/
+.df-newsletter.df-style2 {
+  position: relative;
+}
+
+.df-newsletter.df-style2 input {
+  width: 100%;
+  padding: 9px 50px 9px 20px;
+  color: #666666;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+
+.df-newsletter.df-style2 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  border: none;
+  background: #1a1a1a;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transform: all 0.4s ease;
+  -ms-transform: all 0.4s ease;
+  transform: all 0.4s ease;
+}
+
+.df-newsletter.df-style2 button:hover {
+  background: #111;
+}
+
+/*Style3*/
+.df-newsletter.df-style3 {
+  max-width: 370px;
+  width: 100%;
+  margin: auto;
+}
+
+/*Style4*/
+.df-newsletter.df-style4 {
+  padding: 20px 40px;
+}
+
+.df-newsletter.df-style4 input {
+  height: 40px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-newsletter.df-style4 input:focus {
+  outline: none;
+  border-color: #4ed55f;
+}
+
+/*Style5*/
+.df-newsletter.df-style5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*Style5*/
+.df-newsletter.df-style6 {
+  padding: 30px;
+}
+
+/*Style6*/
+.df-newsletter.df-style7 {
+  position: relative;
+  max-width: 450px;
+}
+
+.df-newsletter.df-style7 .df-newsletter-submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  line-height: 40px;
+  min-width: 150px;
+  padding: 0 2.1em;
+  border-radius: 0 4px 4px 0;
+  font-weight: 500;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #50b83c;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-newsletter.df-style7 .df-newsletter-submit:hover {
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.df-newsletter.df-style7 input:focus {
+  border-color: #50b83c;
+}
+
+/*Style8*/
+
+.df-newsletter.df-style8 button {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  width: 45px;
+  border: none;
+  color: #fff;
+  background: #5d5a9e;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.df-newsletter.df-style8 input {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  height: 35px;
+  padding: 0 15px;
+  font-weight: 300;
+}
+
+.df-newsletter.df-style8 input:focus {
+  outline: none;
+}
+
+.df-newsletter.df-style8 button:hover {
+  opacity: 0.9;
+}
+
+.df-newsletter.df-style8 {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 255px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.df-newsletter.df-style8.df-type1 {
+  margin: auto;
+  top: 0;
+}
+
+.df-light-footer .df-newsletter.df-style8.df-type1 input {
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+.df-dark-footer .df-newsletter.df-style8.df-type1 input {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.sidebar-item.widget .df-newsletter.df-style8 {
+  top: 0;
+  max-width: 100%;
+}
+
+.sidebar-item.widget .df-newsletter.df-style8 input {
+  border: 1px solid #eaeaea;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sidebar-item.widget .df-newsletter.df-style8 input:focus {
+  border-color: #5d5a9e;
+}
+
+.sidebar-item.widget.df-footer-address-widget ul li {
+  color: #666;
+}
+
+.sidebar-item.widget.df-footer-address-widget ul li i {
+  color: #b5b5b5;
+}
+
+.sidebar-item .df-footer-text-widget-text {
+  margin-bottom: -6px;
+}
+
+@media screen and (max-width: 991px) {
+  .df-newsletter.df-style7 {
+    width: 100%;
+  }
+}

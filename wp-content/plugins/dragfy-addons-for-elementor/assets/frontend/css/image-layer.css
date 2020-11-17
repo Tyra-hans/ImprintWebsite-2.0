@@ -1,0 +1,63 @@
+.df-image-layer.df-style1.df-layer-parallax {
+  height: 720px;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.df-image-layer.df-style1 .df-image-layer-in {
+  position: absolute;
+}
+
+.df-image-layer.df-style1 .df-image-layer-in.df-style1 {
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.df-image-layer.df-style1 .df-image-layer-in.df-style3 {
+  z-index: 3;
+  left: 44%;
+  top: 19%;
+}
+
+.df-image-layer.df-style1 .df-image-layer-in.df-style4 {
+  z-index: 2;
+  left: 31%;
+  top: 54%;
+}
+
+.df-image-layer.df-style2 .df-image-layer-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.df-image-layer.df-style2 .df-layer-img {
+  height: 300px;
+  width: 300px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 18px 2px rgba(6, 34, 51, 0.08);
+  box-shadow: 0px 10px 18px 2px rgba(6, 34, 51, 0.08);
+  position: relative;
+}
+
+.df-image-layer.df-style2 .df-layer-img:nth-child(2) {
+  margin-top: -240px;
+  margin-left: 285px;
+}
+
+.df-image-layer.df-style2 .df-layer-img:last-child {
+  margin-left: 20px;
+  margin-top: -170px;
+}

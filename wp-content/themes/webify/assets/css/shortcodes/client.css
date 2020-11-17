@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------
+## Client Style
+--------------------------------------------------------------*/
+.tb-client.tb-style1 {
+  height: 80px;
+}
+
+.tb-client.tb-style2 {
+  height: 95px;
+}
+
+.tb-client.tb-style3 {
+  height: 52px;
+}
+
+.tb-clients.tb-style1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.tb-client.tb-style4 {
+  padding: 0 15px;
+}
+
+
+.tb-client5-wrap {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.tb-client5-wrap-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -1px;
+}
+
+.tb-client.tb-style5 {
+  height: 200px;
+  width: 25%;
+  border-left: 1px solid #eaeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: -1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tb-client.tb-style5 .tb-btn {
+  border-radius: 0;
+}
+
+.tb-client.tb-style5 .tb-client-btn {
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-client.tb-style5:hover .tb-client-btn {
+  bottom: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .tb-client.tb-style5 {
+    width: 33.333333%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tb-client.tb-style5 {
+    width: 50%;
+  }
+}

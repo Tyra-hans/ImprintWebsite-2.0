@@ -1,0 +1,13 @@
+.tb-bigger-thumb.tb-style1 {
+  height: 500px;
+}
+
+.tb-product-form.tb-style1 {
+  max-width: 370px;
+}
+
+@media screen and (max-width: 991px) {
+  .tb-bigger-thumb.tb-style1 {
+    height: 400px;
+  }
+}

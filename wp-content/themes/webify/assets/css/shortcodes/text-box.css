@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+## Text Box Style
+--------------------------------------------------------------*/
+.tb-text-box.tb-style1 .tb-special-text,
+.tb-text-box.tb-style2 .tb-special-text {
+  position: relative;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tb-text-box.tb-style1 .tb-special-text span,
+.tb-text-box.tb-style2 .tb-special-text span {
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-left: 5px;
+}
+
+.tb-text-box.tb-style1 .tb-special-text span {
+  line-height: 20px;
+  margin-top: -3px;
+}
+
+.tb-text-box.tb-style2 {
+  height: 580px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.tb-text-box.tb-style2 .tb-text-box-in {
+  padding: 60px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .8)));
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  padding-top: 30px;
+}
+
+.tb-text-box.tb-style2 .tb-btn {
+  color: #fff;
+}
+
+
+.tb-text-box.tb-style2 .tb-text-box-btn {
+  overflow: hidden;
+  height: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.tb-text-box.tb-style2:hover .tb-text-box-btn {
+  height: 52px;
+}
+
+.tb-text-box.tb-style2.tb-type1 .tb-text-box-in {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-text-box.tb-style2.tb-type1:hover .tb-text-box-in {
+  background: rgba(18, 35, 63, 0.8)
+}
+
+.tb-text-box.tb-style2.tb-type1 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.tb-text-box.tb-style3 {
+  padding: 15px;
+  border: 2px solid rgba(234, 234, 234, 0.05);
+  min-height: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tb-text-box.tb-style3:hover {
+  border-color: rgba(234, 234, 234, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .tb-text-box.tb-style2 {
+    height: 470px;
+  }
+
+  .tb-text-box.tb-style2 .tb-text-box-btn {
+    height: 52px;
+  }
+
+  .tb-text-box.tb-style2 {
+    border-right: 0;
+  }
+}

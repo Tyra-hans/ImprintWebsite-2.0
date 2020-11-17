@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------
+## Horizontal Scroll
+--------------------------------------------------------------*/
+
+.tb-horizontal-scroll-wrap *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.tb-horizontal-scroll-wrap *::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.tb-horizontal-scroll-wrap {
+  overflow: hidden;
+  height: calc(100vh - 140px);
+  padding: 0 30px;
+  position: relative;
+}
+
+.tb-horizontal-scroll-wrap:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  right: 0;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.tb-horizontal-scroll {
+  width: 100vh;
+  height: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: rotate(-90deg) translate3d(0, -100vh, 0);
+  transform: rotate(-90deg) translate3d(0, -100vh, 0);
+}
+
+.tb-horizontal-scroll>div {
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transform: rotate(90deg) translate3d(0, calc(-100vh + 60px), 0);
+  transform: rotate(90deg) translate3d(0, -100vh, 0);
+}
+
+.tb-horizontal-scroll-in {
+  height: calc(100vh);
+  position: relative;
+}
+
+.tb-horizontal-scroll-in .tb-horizontal-scroll-bar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100vw - 200px);
+}
+
+.tb-horizontal-scroll-item {
+  float: initial;
+  margin-bottom: 0;
+  width: 29.5%;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tb-horizontal-scroll-right-padd {
+  width: 30px !important;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+}
+
+.tb-horizontal-scroll-item .tb-bg {
+  display: block;
+  position: relative;
+}
+
+.tb-horizontal-scroll-item .tb-bg:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tb-horizontal-scroll-item .tb-bg:hover:before {
+  opacity: 0.5;
+}
+
+.tb-horizontal-scroll-bar .tb-horizontal-scroll-item:not(:nth-last-child(2)),
+.tb-horizontal-scroll-bar .tb-horizontal-scroll-item:not(:nth-last-child(2)) {
+  margin-right: 30px;
+}
+
+.lg-img-wrap {
+  padding: 50px 30px !important;
+}
+
+.tb-horizontal-scroll-item .tb-bg img {
+  width: 0;
+}
+
+@media screen and (max-width: 1600px) {
+
+  .tb-horizontal-scroll-in .tb-horizontal-scroll-bar {
+    width: calc(100vw - 60px);
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+  .tb-horizontal-scroll-item {
+    width: 50% !important;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .tb-horizontal-scroll-item {
+    width: 80% !important;
+  }
+
+}

@@ -1,0 +1,358 @@
+/*--------------------------------------------------------------
+## Accordian
+--------------------------------------------------------------*/
+/*Accordian Style1*/
+.df-accordian-wrap.df-style1 {
+  border-top: 1px solid #eaeaea;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian {
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian-title {
+  padding: 15px 30px 15px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian-body {
+  margin-top: -4px;
+  padding-bottom: 14px;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian-body p {
+  margin-bottom: 0;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian-toggle {
+  position: absolute;
+  color: #b5b5b5;
+  font-size: 14px;
+  right: 10px;
+  top: 19px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-accordian-wrap.df-style1 .df-accordian.active .df-accordian-toggle {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+/*Accordian Style1 type1*/
+.df-accordian-wrap.df-style1.df-type1 .df-accordian {
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+  padding: 10px 0px;
+  padding-right: 0;
+  position: relative;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian.active {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian.active:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fbfbfb;
+  left: 0;
+  top: -3px;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian-toggle {
+  right: 20px;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian-body {
+  margin-bottom: 0;
+  padding: 0 30px 13px 30px;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian-title {
+  padding: 15px 30px 15px 30px;
+  color: #222;
+}
+
+.df-accordian-wrap.df-style1.df-type1 .df-accordian-body p {
+  margin-bottom: 0;
+}
+
+/*Style2*/
+.df-accordian.df-style2 .df-accordian-title {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 13px 20px;
+  background-color: #fafafa;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.df-accordian .df-accordian-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+.df-accordian.df-style2 .df-accordian.df-active .df-accordian-title {
+  color: #1b9eff
+}
+
+.df-accordian.df-style2 .df-accordian-btn {
+  display: block;
+  height: 10px;
+  width: 10px;
+  right: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+
+.df-accordian.df-style2 .df-accordian-btn:before,
+.df-accordian.df-style2 .df-accordian-btn:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background: #051e31;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-accordian.df-style2 .df-accordian-btn:before {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 3px;
+  left: 0;
+}
+
+.df-accordian.df-style2.active .df-accordian-btn:before {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.df-accordian.df-style2 .df-accordian-btn:after {
+  top: 3px;
+  left: 0px;
+}
+
+.df-accordian.df-style2.df-active .df-accordian-title {
+  border-radius: 4px 4px 0 0
+}
+
+.df-accordian.df-style2 .df-accordian-title-body {
+  opacity: 0.8;
+  padding: 15px 20px;
+  border: 1px solid #eaeaea;
+  border-top: 0;
+  margin-top: 0px;
+  display: none;
+  font-size: 14px;
+}
+
+.df-accordian.df-style2 .df-accordian-title-body p {
+  margin-bottom: 20px;
+}
+
+.df-accordian.df-style2 .df-accordian-title-body p:last-child {
+  margin-bottom: 0;
+}
+
+.df-accordian.df-style2 .df-accordian-body {
+  padding: 15px 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 0 0 4px 4px;
+  margin-top: -2px;
+}
+
+.df-accordian-img-gallery {
+  padding: 5px 0px;
+}
+
+.df-accordian-img-gallery .df-row {
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: -20px;
+}
+
+.df-accordian-img-gallery .df-row>div {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.df-accordian-img-gallery img {
+  width: 100%;
+}
+
+.df-accordian.df-style2 .df-accordian-body p {
+  margin-bottom: 10px;
+}
+
+.df-accordian.df-style2 .df-accordian-body p:last-child {
+  margin-bottom: 0;
+}
+
+.df-gallery-accordian {
+  height: 480px;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.df-gallery-accordian .df-gallery-accordian-in {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+  -webkit-box-shadow: -5px 0 40px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: -5px 0 40px 1px rgba(0, 0, 0, 0.6);
+}
+
+.df-gallery-accordian .df-gallery-accordian-in.active {
+  -webkit-box-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.df-gallery-accordian .df-gallery-accordian-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #fff;
+}
+
+.df-gallery-accordian.df-horizontal .df-gallery-accordian-img {
+  height: 100% !important;
+}
+
+.df-gallery-accordian .df-gallery-accordian-text {
+  width: 100%;
+  padding: 30px 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.75)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75));
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75));
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-gallery-accordian .df-gallery-accordian-in.active .df-gallery-accordian-text {
+  opacity: 1;
+}
+
+.df-gallery-accordian .df-gallery-accordian-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 9px;
+  position: relative;
+  left: 30px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+
+.df-gallery-accordian .df-gallery-accordian-in.active .df-gallery-accordian-title {
+  opacity: 1;
+  left: 0;
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.df-gallery-accordian .df-gallery-accordian-subtitle {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  left: 30px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+
+.df-gallery-accordian .df-gallery-accordian-in.active .df-gallery-accordian-subtitle {
+  opacity: 1;
+  left: 0;
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.df-gallery-accordian.df-vertical {
+  height: 600px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.df-gallery-accordian.df-vertical .df-gallery-accordian-img {
+  width: 100% !important;
+}
+
+.df-gallery-accordian.df-vertical .df-gallery-accordian-in.active {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+@media screen and (max-width: 575px) {
+  .df-gallery-accordian.df-horizontal {
+    height: 600px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .df-gallery-accordian.df-horizontal .df-gallery-accordian-img {
+    width: 100% !important;
+  }
+
+  .df-gallery-accordian.df-horizontal .df-gallery-accordian-in.active {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+}

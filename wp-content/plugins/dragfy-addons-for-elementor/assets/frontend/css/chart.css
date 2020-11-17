@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+## Chart
+--------------------------------------------------------------*/
+.df-graph-chart.df-style1 {
+  width: 100%;
+  position: relative;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-right: 30px;
+  padding-left: 55px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  border-radius: 4px;
+}
+
+.df-graph-title {
+  position: absolute;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #b5b5b5;
+  -webkit-transform: rotate(-90deg) translateY(-50%);
+  -ms-transform: rotate(-90deg) translateY(-50%);
+  transform: rotate(-90deg) translateY(-50%);
+  left: 15px;
+  top: 50%;
+}
+
+
+.df-circle-chart.df-style1 .df-circle-chart-in {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.df-circle-chart.df-style1 .df-circle-stroke {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 178px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.df-circle-chart.df-style1 .df-circle-stroke li {
+  width: 50%;
+  line-height: 21px;
+  color: #b5b5b5;
+  font-weight: 400;
+  position: relative;
+  padding-left: 15px;
+}
+
+.df-circle-chart.df-style1 .df-circle-stroke li .df-circle-color {
+  position: absolute;
+  height: 7px;
+  width: 7px;
+  top: 7px;
+  border-radius: 50%;
+  left: 0;
+}
+
+.df-circle-chart.df-style1 .df-offer-percentage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.df-circle-chart.df-style1 .df-offer-percentage h4 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 0;
+  line-height: 22px;
+}
+
+.df-circle-chart.df-style1 .df-offer-percentage span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #b5b5b5;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+  .df-circle-chart.df-style1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .df-graph-chart.df-style1 {
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .df-graph-title {
+    left: 5px;
+  }
+}

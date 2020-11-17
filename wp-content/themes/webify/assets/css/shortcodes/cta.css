@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+## CTA
+--------------------------------------------------------------*/
+.tb-cta-bg {
+  background: #14102A;
+}
+
+.tb-cta.tb-style1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.tb-cta.tb-style1 .tb-cta-right .tb-cryto-btn:last-child {
+  margin-right: 0px;
+}
+
+.tb-cta.tb-style1 .tb-cta-img {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+
+@media screen and (max-width: 991px) {
+  .tb-cta.tb-style1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .tb-cta.tb-style1 .tb-cta-img {
+    display: none;
+  }
+  .tb-cta.tb-style1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tb-cta.tb-style1 br {
+    display: none;
+  }
+}

@@ -1,0 +1,3704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dragfy Addons for Elementor\n"
+"POT-Creation-Date: 2020-03-14 17:05-0400\n"
+"PO-Revision-Date: 2020-03-14 17:05-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;_e;esc_attr;__e;esc_html_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.class.php:107
+msgid "Install Now"
+msgstr ""
+
+#: admin/admin.class.php:113
+msgid "Activate Now"
+msgstr ""
+
+#: admin/admin.class.php:172
+msgid "Settings"
+msgstr ""
+
+#: admin/admin.class.php:174
+msgid "Go Pro"
+msgstr ""
+
+#: admin/views/elements.php:19 admin/views/elements.php:36
+msgid "LIVE PREVIEW"
+msgstr ""
+
+#: admin/views/elements.php:29
+msgid "Pro Elements"
+msgstr ""
+
+#: admin/views/elements.php:39 elementor/widgets/dragfy-addons-table.php:88
+msgid "Pro"
+msgstr ""
+
+#: admin/views/elements.php:49
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/general.php:9 admin/views/header.php:13
+msgid "Dragfy Addons for Elementor"
+msgstr ""
+
+#: admin/views/general.php:10
+msgid ""
+"A Library of unique Elementor Widgets to add more functionality and "
+"flexibility to your website.<br>Dragfy Addons is made with care of each "
+"pixel. Making your website beautiful has never been easier."
+msgstr ""
+
+#: admin/views/general.php:12 admin/views/header.php:14
+msgid "Pro Version"
+msgstr ""
+
+#: admin/views/general.php:21
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/general.php:22
+msgid ""
+"Our online documentation will give you essential information about our "
+"theme. This is the best place to start with informative ideas."
+msgstr ""
+
+#: admin/views/general.php:23 admin/views/general.php:29
+#: elementor/widgets/dragfy-addons-flip-box.php:247
+#: elementor/widgets/dragfy-addons-icon-box.php:190
+#: elementor/widgets/dragfy-addons-image-box.php:152
+#: elementor/widgets/dragfy-addons-image-box.php:182
+msgid "Learn More"
+msgstr ""
+
+#: admin/views/general.php:27
+msgid "Support"
+msgstr ""
+
+#: admin/views/general.php:28
+msgid ""
+"We offer outstanding support through our forum. To get support first you "
+"need to register and open a ticket assign ticket to Dragfy Addons for "
+"Elementor."
+msgstr ""
+
+#: dragfy-addons-for-elementor-pro.php:182
+msgid "Dragfy Addons Elementor Pro"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:53
+#: elementor/widgets/dragfy-addons-call-to-action.php:53
+#: elementor/widgets/dragfy-addons-contact-form-7.php:90
+#: elementor/widgets/dragfy-addons-content-toggle.php:55
+#: elementor/widgets/dragfy-addons-count-down.php:53
+#: elementor/widgets/dragfy-addons-counter.php:53
+#: elementor/widgets/dragfy-addons-fancy-heading.php:51
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:71
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:71
+#: elementor/widgets/dragfy-addons-flip-box.php:54
+#: elementor/widgets/dragfy-addons-heading.php:52
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:56
+#: elementor/widgets/dragfy-addons-icon-box.php:54
+#: elementor/widgets/dragfy-addons-image-box.php:54
+#: elementor/widgets/dragfy-addons-image-comparison.php:51
+#: elementor/widgets/dragfy-addons-image-gallery.php:54
+#: elementor/widgets/dragfy-addons-image-scroll.php:51
+#: elementor/widgets/dragfy-addons-image-slider.php:50
+#: elementor/widgets/dragfy-addons-info-card.php:53
+#: elementor/widgets/dragfy-addons-interactive-banner.php:71
+#: elementor/widgets/dragfy-addons-interactive-card.php:56
+#: elementor/widgets/dragfy-addons-interactive-slider.php:52
+#: elementor/widgets/dragfy-addons-logo-carousel.php:50
+#: elementor/widgets/dragfy-addons-newsletter.php:75
+#: elementor/widgets/dragfy-addons-ninja-forms.php:72
+#: elementor/widgets/dragfy-addons-post-slider.php:71
+#: elementor/widgets/dragfy-addons-post.php:71
+#: elementor/widgets/dragfy-addons-pricing-table.php:55
+#: elementor/widgets/dragfy-addons-progress-bar.php:52
+#: elementor/widgets/dragfy-addons-round-chart.php:54
+#: elementor/widgets/dragfy-addons-tabs.php:54
+#: elementor/widgets/dragfy-addons-team-member-slider.php:54
+#: elementor/widgets/dragfy-addons-team-member.php:54
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:54
+#: elementor/widgets/dragfy-addons-testimonial.php:51
+#: elementor/widgets/dragfy-addons-timeline.php:55
+#: elementor/widgets/dragfy-addons-wp-forms.php:72
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:52
+msgid "General Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:60
+#: elementor/widgets/dragfy-addons-call-to-action.php:60
+#: elementor/widgets/dragfy-addons-contact-form-7.php:97
+#: elementor/widgets/dragfy-addons-content-toggle.php:62
+#: elementor/widgets/dragfy-addons-count-down.php:60
+#: elementor/widgets/dragfy-addons-counter.php:60
+#: elementor/widgets/dragfy-addons-fancy-heading.php:58
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:78
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:78
+#: elementor/widgets/dragfy-addons-flip-box.php:61
+#: elementor/widgets/dragfy-addons-heading.php:59
+#: elementor/widgets/dragfy-addons-hotspot.php:87
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:63
+#: elementor/widgets/dragfy-addons-icon-box.php:61
+#: elementor/widgets/dragfy-addons-image-box.php:61
+#: elementor/widgets/dragfy-addons-image-comparison.php:58
+#: elementor/widgets/dragfy-addons-image-gallery.php:60
+#: elementor/widgets/dragfy-addons-image-scroll.php:58
+#: elementor/widgets/dragfy-addons-image-slider.php:57
+#: elementor/widgets/dragfy-addons-info-card.php:60
+#: elementor/widgets/dragfy-addons-interactive-banner.php:78
+#: elementor/widgets/dragfy-addons-interactive-card.php:62
+#: elementor/widgets/dragfy-addons-interactive-slider.php:59
+#: elementor/widgets/dragfy-addons-logo-carousel.php:57
+#: elementor/widgets/dragfy-addons-newsletter.php:82
+#: elementor/widgets/dragfy-addons-post-slider.php:78
+#: elementor/widgets/dragfy-addons-post.php:78
+#: elementor/widgets/dragfy-addons-pricing-table.php:62
+#: elementor/widgets/dragfy-addons-progress-bar.php:59
+#: elementor/widgets/dragfy-addons-tabs.php:61
+#: elementor/widgets/dragfy-addons-team-member-slider.php:61
+#: elementor/widgets/dragfy-addons-team-member.php:61
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:61
+#: elementor/widgets/dragfy-addons-testimonial.php:58
+#: elementor/widgets/dragfy-addons-timeline.php:62
+#: modules/parallax/module.php:132 modules/particles/module.php:122
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:65
+#: elementor/widgets/dragfy-addons-call-to-action.php:65
+#: elementor/widgets/dragfy-addons-contact-form-7.php:102
+#: elementor/widgets/dragfy-addons-content-toggle.php:67
+#: elementor/widgets/dragfy-addons-count-down.php:65
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:83
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:83
+#: elementor/widgets/dragfy-addons-flip-box.php:66
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:68
+#: elementor/widgets/dragfy-addons-icon-box.php:66
+#: elementor/widgets/dragfy-addons-image-box.php:66
+#: elementor/widgets/dragfy-addons-image-comparison.php:63
+#: elementor/widgets/dragfy-addons-image-gallery.php:65
+#: elementor/widgets/dragfy-addons-image-scroll.php:63
+#: elementor/widgets/dragfy-addons-image-slider.php:62
+#: elementor/widgets/dragfy-addons-info-card.php:65
+#: elementor/widgets/dragfy-addons-interactive-card.php:67
+#: elementor/widgets/dragfy-addons-post-slider.php:83
+#: elementor/widgets/dragfy-addons-post.php:83
+#: elementor/widgets/dragfy-addons-pricing-table.php:67
+#: elementor/widgets/dragfy-addons-tabs.php:66
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:66
+#: elementor/widgets/dragfy-addons-testimonial.php:63
+#: elementor/widgets/dragfy-addons-timeline.php:67
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:66
+#: elementor/widgets/dragfy-addons-call-to-action.php:66
+#: elementor/widgets/dragfy-addons-contact-form-7.php:103
+#: elementor/widgets/dragfy-addons-content-toggle.php:68
+#: elementor/widgets/dragfy-addons-count-down.php:66
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:84
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:84
+#: elementor/widgets/dragfy-addons-flip-box.php:67
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:69
+#: elementor/widgets/dragfy-addons-icon-box.php:67
+#: elementor/widgets/dragfy-addons-image-box.php:67
+#: elementor/widgets/dragfy-addons-image-comparison.php:64
+#: elementor/widgets/dragfy-addons-image-gallery.php:66
+#: elementor/widgets/dragfy-addons-image-scroll.php:64
+#: elementor/widgets/dragfy-addons-image-slider.php:63
+#: elementor/widgets/dragfy-addons-info-card.php:66
+#: elementor/widgets/dragfy-addons-interactive-card.php:68
+#: elementor/widgets/dragfy-addons-post-slider.php:84
+#: elementor/widgets/dragfy-addons-post.php:84
+#: elementor/widgets/dragfy-addons-pricing-table.php:68
+#: elementor/widgets/dragfy-addons-tabs.php:67
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:67
+#: elementor/widgets/dragfy-addons-testimonial.php:64
+#: elementor/widgets/dragfy-addons-timeline.php:68
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:67
+#: elementor/widgets/dragfy-addons-call-to-action.php:67
+#: elementor/widgets/dragfy-addons-contact-form-7.php:104
+#: elementor/widgets/dragfy-addons-count-down.php:67
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:85
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:85
+#: elementor/widgets/dragfy-addons-flip-box.php:68
+#: elementor/widgets/dragfy-addons-icon-box.php:68
+#: elementor/widgets/dragfy-addons-image-box.php:68
+#: elementor/widgets/dragfy-addons-image-gallery.php:67
+#: elementor/widgets/dragfy-addons-image-scroll.php:65
+#: elementor/widgets/dragfy-addons-image-slider.php:64
+#: elementor/widgets/dragfy-addons-info-card.php:67
+#: elementor/widgets/dragfy-addons-interactive-card.php:69
+#: elementor/widgets/dragfy-addons-post.php:85
+#: elementor/widgets/dragfy-addons-pricing-table.php:69
+#: elementor/widgets/dragfy-addons-tabs.php:68
+#: elementor/widgets/dragfy-addons-testimonial.php:65
+#: elementor/widgets/dragfy-addons-timeline.php:69
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:68
+#: elementor/widgets/dragfy-addons-contact-form-7.php:105
+#: elementor/widgets/dragfy-addons-count-down.php:68
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:86
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:86
+#: elementor/widgets/dragfy-addons-icon-box.php:69
+#: elementor/widgets/dragfy-addons-image-box.php:69
+#: elementor/widgets/dragfy-addons-image-gallery.php:68
+#: elementor/widgets/dragfy-addons-post.php:86
+#: elementor/widgets/dragfy-addons-pricing-table.php:70
+#: elementor/widgets/dragfy-addons-tabs.php:69
+#: elementor/widgets/dragfy-addons-testimonial.php:66
+msgid "Style 4"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:76
+msgid "Active Item"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:79
+#: elementor/widgets/dragfy-addons-tabs.php:79
+msgid "1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:88
+#: elementor/widgets/dragfy-addons-business-hours.php:77
+#: elementor/widgets/dragfy-addons-call-to-action.php:95
+#: elementor/widgets/dragfy-addons-content-toggle.php:79
+#: elementor/widgets/dragfy-addons-count-down.php:98
+#: elementor/widgets/dragfy-addons-fancy-heading.php:81
+#: elementor/widgets/dragfy-addons-flip-box.php:206
+#: elementor/widgets/dragfy-addons-heading.php:102
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:133
+#: elementor/widgets/dragfy-addons-icon-box.php:149
+#: elementor/widgets/dragfy-addons-image-box-slider.php:143
+#: elementor/widgets/dragfy-addons-image-box.php:111
+#: elementor/widgets/dragfy-addons-info-card.php:78
+#: elementor/widgets/dragfy-addons-interactive-banner.php:161
+#: elementor/widgets/dragfy-addons-interactive-card.php:121
+#: elementor/widgets/dragfy-addons-interactive-slider.php:146
+#: elementor/widgets/dragfy-addons-newsletter.php:117
+#: elementor/widgets/dragfy-addons-progress-bar.php:94
+#: elementor/widgets/dragfy-addons-table.php:98
+#: elementor/widgets/dragfy-addons-tabs.php:89
+#: elementor/widgets/dragfy-addons-team-member-slider.php:114
+#: elementor/widgets/dragfy-addons-team-member.php:100
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:215
+#: elementor/widgets/dragfy-addons-testimonial.php:96
+#: elementor/widgets/dragfy-addons-timeline.php:79
+msgid "Content Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:97
+#: elementor/widgets/dragfy-addons-contact-form-7.php:135
+#: elementor/widgets/dragfy-addons-count-down.php:88
+#: elementor/widgets/dragfy-addons-image-box.php:88
+#: elementor/widgets/dragfy-addons-info-card.php:85
+#: elementor/widgets/dragfy-addons-interactive-banner.php:129
+#: elementor/widgets/dragfy-addons-newsletter.php:106
+#: elementor/widgets/dragfy-addons-pricing-table.php:126
+#: elementor/widgets/dragfy-addons-team-member-slider.php:123
+#: elementor/widgets/dragfy-addons-team-member.php:87
+#: modules/parallax/module.php:123
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:100
+msgid "This field is only for Style 3 & 4"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:107
+#: elementor/widgets/dragfy-addons-accordion.php:117
+#: elementor/widgets/dragfy-addons-counter.php:85
+#: elementor/widgets/dragfy-addons-flip-box.php:191
+#: elementor/widgets/dragfy-addons-heading.php:87
+#: elementor/widgets/dragfy-addons-hotspot.php:93
+#: elementor/widgets/dragfy-addons-hotspot.php:101
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:153
+#: elementor/widgets/dragfy-addons-icon-box.php:134
+#: elementor/widgets/dragfy-addons-interactive-card.php:106
+#: elementor/widgets/dragfy-addons-interactive-card.php:152
+#: elementor/widgets/dragfy-addons-pricing-table.php:125
+#: elementor/widgets/dragfy-addons-pricing-table.php:213
+#: elementor/widgets/dragfy-addons-pricing-table.php:799
+#: elementor/widgets/dragfy-addons-road-map.php:145
+#: elementor/widgets/dragfy-addons-tabs.php:107
+#: elementor/widgets/dragfy-addons-team-member.php:150
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:196
+#: elementor/widgets/dragfy-addons-timeline.php:308
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:109
+msgid "This field is only for Style 2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:131
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:189
+#: elementor/widgets/dragfy-addons-flip-box.php:213
+#: elementor/widgets/dragfy-addons-hotspot.php:115
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:166
+#: elementor/widgets/dragfy-addons-icon-box.php:156
+#: elementor/widgets/dragfy-addons-image-box-slider.php:162
+#: elementor/widgets/dragfy-addons-image-box.php:118
+#: elementor/widgets/dragfy-addons-info-card.php:96
+#: elementor/widgets/dragfy-addons-interactive-card.php:128
+#: elementor/widgets/dragfy-addons-line-chart.php:62
+#: elementor/widgets/dragfy-addons-progress-bar.php:103
+#: elementor/widgets/dragfy-addons-road-map.php:158
+#: elementor/widgets/dragfy-addons-tabs.php:132
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:134
+msgid "Accordion Title"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:141
+#: elementor/widgets/dragfy-addons-content-toggle.php:109
+#: elementor/widgets/dragfy-addons-content-toggle.php:119
+#: elementor/widgets/dragfy-addons-content-toggle.php:166
+#: elementor/widgets/dragfy-addons-content-toggle.php:176
+#: elementor/widgets/dragfy-addons-count-down.php:165
+#: elementor/widgets/dragfy-addons-hotspot.php:124
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:175
+#: elementor/widgets/dragfy-addons-tabs.php:141
+#: elementor/widgets/dragfy-addons-team-member.php:127
+#: elementor/widgets/dragfy-addons-team-member.php:130
+#: elementor/widgets/dragfy-addons-timeline.php:108
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:143
+msgid "Accordion Content"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:151
+#: elementor/widgets/dragfy-addons-business-hours.php:155
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:149
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:248
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:128
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:272
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:204
+#: elementor/widgets/dragfy-addons-image-box-slider.php:201
+#: elementor/widgets/dragfy-addons-interactive-card.php:175
+#: elementor/widgets/dragfy-addons-interactive-slider.php:236
+#: elementor/widgets/dragfy-addons-pricing-table.php:248
+#: elementor/widgets/dragfy-addons-progress-bar.php:133
+#: elementor/widgets/dragfy-addons-road-map.php:188
+#: elementor/widgets/dragfy-addons-round-chart.php:141
+#: elementor/widgets/dragfy-addons-table.php:201
+#: elementor/widgets/dragfy-addons-tabs.php:150
+#: elementor/widgets/dragfy-addons-team-member-slider.php:184
+#: elementor/widgets/dragfy-addons-team-member.php:173
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:270
+#: elementor/widgets/dragfy-addons-timeline.php:129
+#: modules/parallax/module.php:187
+msgid "Items"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:156
+msgid "Accordion #1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:157
+#: elementor/widgets/dragfy-addons-accordion.php:161
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
+"pulvinar dapibus leo."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:160
+msgid "Accordion #2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:174
+#: elementor/widgets/dragfy-addons-business-hours.php:247
+#: elementor/widgets/dragfy-addons-call-to-action.php:248
+#: elementor/widgets/dragfy-addons-content-toggle.php:228
+#: elementor/widgets/dragfy-addons-count-down.php:256
+#: elementor/widgets/dragfy-addons-counter.php:164
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:297
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:321
+#: elementor/widgets/dragfy-addons-flip-box.php:292
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:232
+#: elementor/widgets/dragfy-addons-icon-box.php:210
+#: elementor/widgets/dragfy-addons-image-box-slider.php:228
+#: elementor/widgets/dragfy-addons-image-box.php:200
+#: elementor/widgets/dragfy-addons-image-comparison.php:100
+#: elementor/widgets/dragfy-addons-image-scroll.php:129
+#: elementor/widgets/dragfy-addons-image-slider.php:130
+#: elementor/widgets/dragfy-addons-info-card.php:147
+#: elementor/widgets/dragfy-addons-interactive-card.php:230
+#: elementor/widgets/dragfy-addons-line-chart.php:105
+#: elementor/widgets/dragfy-addons-logo-carousel.php:137
+#: elementor/widgets/dragfy-addons-newsletter.php:184
+#: elementor/widgets/dragfy-addons-post-slider.php:280
+#: elementor/widgets/dragfy-addons-post.php:269
+#: elementor/widgets/dragfy-addons-pricing-table.php:304
+#: elementor/widgets/dragfy-addons-progress-bar.php:156
+#: elementor/widgets/dragfy-addons-road-map.php:212
+#: elementor/widgets/dragfy-addons-round-chart.php:169
+#: elementor/widgets/dragfy-addons-table.php:222
+#: elementor/widgets/dragfy-addons-team-member-slider.php:247
+#: elementor/widgets/dragfy-addons-team-member.php:189
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:293
+#: elementor/widgets/dragfy-addons-testimonial.php:133
+#: elementor/widgets/dragfy-addons-timeline.php:163
+#: elementor/widgets/dragfy-addons-video-box.php:170
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:88
+msgid "General Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:183
+#: elementor/widgets/dragfy-addons-accordion.php:256
+#: elementor/widgets/dragfy-addons-accordion.php:342
+#: elementor/widgets/dragfy-addons-business-hours.php:257
+#: elementor/widgets/dragfy-addons-call-to-action.php:257
+#: elementor/widgets/dragfy-addons-content-toggle.php:238
+#: elementor/widgets/dragfy-addons-count-down.php:265
+#: elementor/widgets/dragfy-addons-count-down.php:771
+#: elementor/widgets/dragfy-addons-counter.php:174
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:306
+#: elementor/widgets/dragfy-addons-flip-box.php:301
+#: elementor/widgets/dragfy-addons-heading.php:279
+#: elementor/widgets/dragfy-addons-heading.php:419
+#: elementor/widgets/dragfy-addons-heading.php:595
+#: elementor/widgets/dragfy-addons-hotspot.php:228
+#: elementor/widgets/dragfy-addons-hotspot.php:371
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:273
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:292
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:332
+#: elementor/widgets/dragfy-addons-icon-box.php:219
+#: elementor/widgets/dragfy-addons-image-box-slider.php:237
+#: elementor/widgets/dragfy-addons-image-box.php:209
+#: elementor/widgets/dragfy-addons-image-box.php:326
+#: elementor/widgets/dragfy-addons-info-card.php:157
+#: elementor/widgets/dragfy-addons-interactive-banner.php:279
+#: elementor/widgets/dragfy-addons-interactive-card.php:239
+#: elementor/widgets/dragfy-addons-interactive-card.php:315
+#: elementor/widgets/dragfy-addons-line-chart.php:134
+#: elementor/widgets/dragfy-addons-newsletter.php:193
+#: elementor/widgets/dragfy-addons-post-slider.php:289
+#: elementor/widgets/dragfy-addons-post.php:278
+#: elementor/widgets/dragfy-addons-pricing-table.php:314
+#: elementor/widgets/dragfy-addons-progress-bar.php:165
+#: elementor/widgets/dragfy-addons-progress-bar.php:228
+#: elementor/widgets/dragfy-addons-progress-bar.php:279
+#: elementor/widgets/dragfy-addons-road-map.php:221
+#: elementor/widgets/dragfy-addons-road-map.php:296
+#: elementor/widgets/dragfy-addons-round-chart.php:178
+#: elementor/widgets/dragfy-addons-table.php:232
+#: elementor/widgets/dragfy-addons-team-member-slider.php:275
+#: elementor/widgets/dragfy-addons-team-member.php:218
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:302
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:376
+#: elementor/widgets/dragfy-addons-testimonial.php:142
+#: elementor/widgets/dragfy-addons-timeline.php:173
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:97
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:170
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:192
+#: elementor/widgets/dragfy-addons-accordion.php:306
+#: elementor/widgets/dragfy-addons-accordion.php:391
+#: elementor/widgets/dragfy-addons-business-hours.php:266
+#: elementor/widgets/dragfy-addons-business-hours.php:432
+#: elementor/widgets/dragfy-addons-call-to-action.php:266
+#: elementor/widgets/dragfy-addons-call-to-action.php:359
+#: elementor/widgets/dragfy-addons-call-to-action.php:401
+#: elementor/widgets/dragfy-addons-call-to-action.php:443
+#: elementor/widgets/dragfy-addons-call-to-action.php:467
+#: elementor/widgets/dragfy-addons-call-to-action.php:566
+#: elementor/widgets/dragfy-addons-call-to-action.php:714
+#: elementor/widgets/dragfy-addons-contact-form-7.php:249
+#: elementor/widgets/dragfy-addons-contact-form-7.php:298
+#: elementor/widgets/dragfy-addons-content-toggle.php:247
+#: elementor/widgets/dragfy-addons-count-down.php:274
+#: elementor/widgets/dragfy-addons-count-down.php:371
+#: elementor/widgets/dragfy-addons-count-down.php:412
+#: elementor/widgets/dragfy-addons-count-down.php:464
+#: elementor/widgets/dragfy-addons-count-down.php:550
+#: elementor/widgets/dragfy-addons-count-down.php:633
+#: elementor/widgets/dragfy-addons-count-down.php:780
+#: elementor/widgets/dragfy-addons-counter.php:183
+#: elementor/widgets/dragfy-addons-counter.php:294
+#: elementor/widgets/dragfy-addons-counter.php:335
+#: elementor/widgets/dragfy-addons-fancy-heading.php:177
+#: elementor/widgets/dragfy-addons-fancy-heading.php:245
+#: elementor/widgets/dragfy-addons-fancy-heading.php:319
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:365
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:459
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:503
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:546
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:390
+#: elementor/widgets/dragfy-addons-flip-box.php:344
+#: elementor/widgets/dragfy-addons-flip-box.php:387
+#: elementor/widgets/dragfy-addons-flip-box.php:448
+#: elementor/widgets/dragfy-addons-flip-box.php:491
+#: elementor/widgets/dragfy-addons-flip-box.php:540
+#: elementor/widgets/dragfy-addons-heading.php:297
+#: elementor/widgets/dragfy-addons-heading.php:437
+#: elementor/widgets/dragfy-addons-heading.php:613
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:373
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:449
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:492
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:534
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:557
+#: elementor/widgets/dragfy-addons-icon-box.php:274
+#: elementor/widgets/dragfy-addons-icon-box.php:341
+#: elementor/widgets/dragfy-addons-icon-box.php:416
+#: elementor/widgets/dragfy-addons-icon-box.php:459
+#: elementor/widgets/dragfy-addons-icon-box.php:482
+#: elementor/widgets/dragfy-addons-image-box-slider.php:246
+#: elementor/widgets/dragfy-addons-image-box-slider.php:330
+#: elementor/widgets/dragfy-addons-image-box-slider.php:382
+#: elementor/widgets/dragfy-addons-image-box-slider.php:417
+#: elementor/widgets/dragfy-addons-image-box.php:252
+#: elementor/widgets/dragfy-addons-image-box.php:378
+#: elementor/widgets/dragfy-addons-image-box.php:421
+#: elementor/widgets/dragfy-addons-image-box.php:444
+#: elementor/widgets/dragfy-addons-image-box.php:552
+#: elementor/widgets/dragfy-addons-image-gallery.php:203
+#: elementor/widgets/dragfy-addons-info-card.php:166
+#: elementor/widgets/dragfy-addons-info-card.php:249
+#: elementor/widgets/dragfy-addons-info-card.php:291
+#: elementor/widgets/dragfy-addons-info-card.php:327
+#: elementor/widgets/dragfy-addons-interactive-banner.php:327
+#: elementor/widgets/dragfy-addons-interactive-banner.php:368
+#: elementor/widgets/dragfy-addons-interactive-banner.php:453
+#: elementor/widgets/dragfy-addons-interactive-card.php:248
+#: elementor/widgets/dragfy-addons-interactive-card.php:367
+#: elementor/widgets/dragfy-addons-interactive-card.php:429
+#: elementor/widgets/dragfy-addons-interactive-card.php:470
+#: elementor/widgets/dragfy-addons-interactive-card.php:511
+#: elementor/widgets/dragfy-addons-interactive-card.php:533
+#: elementor/widgets/dragfy-addons-interactive-slider.php:285
+#: elementor/widgets/dragfy-addons-interactive-slider.php:327
+#: elementor/widgets/dragfy-addons-interactive-slider.php:369
+#: elementor/widgets/dragfy-addons-line-chart.php:143
+#: elementor/widgets/dragfy-addons-logo-carousel.php:165
+#: elementor/widgets/dragfy-addons-newsletter.php:202
+#: elementor/widgets/dragfy-addons-newsletter.php:296
+#: elementor/widgets/dragfy-addons-newsletter.php:336
+#: elementor/widgets/dragfy-addons-newsletter.php:410
+#: elementor/widgets/dragfy-addons-newsletter.php:460
+#: elementor/widgets/dragfy-addons-ninja-forms.php:261
+#: elementor/widgets/dragfy-addons-ninja-forms.php:311
+#: elementor/widgets/dragfy-addons-post-slider.php:298
+#: elementor/widgets/dragfy-addons-post-slider.php:365
+#: elementor/widgets/dragfy-addons-post-slider.php:511
+#: elementor/widgets/dragfy-addons-post.php:287
+#: elementor/widgets/dragfy-addons-post.php:354
+#: elementor/widgets/dragfy-addons-post.php:500
+#: elementor/widgets/dragfy-addons-post.php:573
+#: elementor/widgets/dragfy-addons-post.php:720
+#: elementor/widgets/dragfy-addons-post.php:806
+#: elementor/widgets/dragfy-addons-post.php:1012
+#: elementor/widgets/dragfy-addons-pricing-table.php:323
+#: elementor/widgets/dragfy-addons-pricing-table.php:400
+#: elementor/widgets/dragfy-addons-pricing-table.php:486
+#: elementor/widgets/dragfy-addons-pricing-table.php:606
+#: elementor/widgets/dragfy-addons-pricing-table.php:646
+#: elementor/widgets/dragfy-addons-pricing-table.php:678
+#: elementor/widgets/dragfy-addons-pricing-table.php:720
+#: elementor/widgets/dragfy-addons-pricing-table.php:884
+#: elementor/widgets/dragfy-addons-progress-bar.php:331
+#: elementor/widgets/dragfy-addons-progress-bar.php:372
+#: elementor/widgets/dragfy-addons-progress-bar.php:414
+#: elementor/widgets/dragfy-addons-road-map.php:230
+#: elementor/widgets/dragfy-addons-road-map.php:315
+#: elementor/widgets/dragfy-addons-road-map.php:407
+#: elementor/widgets/dragfy-addons-road-map.php:448
+#: elementor/widgets/dragfy-addons-road-map.php:540
+#: elementor/widgets/dragfy-addons-round-chart.php:187
+#: elementor/widgets/dragfy-addons-table.php:241
+#: elementor/widgets/dragfy-addons-tabs.php:180
+#: elementor/widgets/dragfy-addons-team-member-slider.php:284
+#: elementor/widgets/dragfy-addons-team-member-slider.php:419
+#: elementor/widgets/dragfy-addons-team-member-slider.php:462
+#: elementor/widgets/dragfy-addons-team-member.php:227
+#: elementor/widgets/dragfy-addons-team-member.php:361
+#: elementor/widgets/dragfy-addons-team-member.php:404
+#: elementor/widgets/dragfy-addons-team-member.php:446
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:311
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:478
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:551
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:594
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:637
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:669
+#: elementor/widgets/dragfy-addons-testimonial.php:151
+#: elementor/widgets/dragfy-addons-testimonial.php:247
+#: elementor/widgets/dragfy-addons-testimonial.php:320
+#: elementor/widgets/dragfy-addons-testimonial.php:363
+#: elementor/widgets/dragfy-addons-testimonial.php:406
+#: elementor/widgets/dragfy-addons-wp-forms.php:208
+#: elementor/widgets/dragfy-addons-wp-forms.php:258
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:106
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:204
+#: elementor/widgets/dragfy-addons-accordion.php:319
+#: elementor/widgets/dragfy-addons-accordion.php:404
+#: elementor/widgets/dragfy-addons-business-hours.php:278
+#: elementor/widgets/dragfy-addons-business-hours.php:377
+#: elementor/widgets/dragfy-addons-business-hours.php:420
+#: elementor/widgets/dragfy-addons-call-to-action.php:278
+#: elementor/widgets/dragfy-addons-call-to-action.php:554
+#: elementor/widgets/dragfy-addons-call-to-action.php:702
+#: elementor/widgets/dragfy-addons-contact-form-7.php:236
+#: elementor/widgets/dragfy-addons-contact-form-7.php:286
+#: elementor/widgets/dragfy-addons-content-toggle.php:259
+#: elementor/widgets/dragfy-addons-count-down.php:286
+#: elementor/widgets/dragfy-addons-count-down.php:476
+#: elementor/widgets/dragfy-addons-count-down.php:562
+#: elementor/widgets/dragfy-addons-count-down.php:621
+#: elementor/widgets/dragfy-addons-count-down.php:792
+#: elementor/widgets/dragfy-addons-counter.php:195
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:353
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:559
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:403
+#: elementor/widgets/dragfy-addons-flip-box.php:332
+#: elementor/widgets/dragfy-addons-flip-box.php:528
+#: elementor/widgets/dragfy-addons-heading.php:310
+#: elementor/widgets/dragfy-addons-heading.php:450
+#: elementor/widgets/dragfy-addons-heading.php:626
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:386
+#: elementor/widgets/dragfy-addons-icon-box.php:262
+#: elementor/widgets/dragfy-addons-icon-box.php:353
+#: elementor/widgets/dragfy-addons-image-box-slider.php:258
+#: elementor/widgets/dragfy-addons-image-box-slider.php:404
+#: elementor/widgets/dragfy-addons-image-box.php:240
+#: elementor/widgets/dragfy-addons-image-box.php:540
+#: elementor/widgets/dragfy-addons-image-gallery.php:191
+#: elementor/widgets/dragfy-addons-info-card.php:178
+#: elementor/widgets/dragfy-addons-info-card.php:314
+#: elementor/widgets/dragfy-addons-interactive-banner.php:440
+#: elementor/widgets/dragfy-addons-interactive-card.php:260
+#: elementor/widgets/dragfy-addons-interactive-slider.php:392
+#: elementor/widgets/dragfy-addons-interactive-slider.php:552
+#: elementor/widgets/dragfy-addons-line-chart.php:155
+#: elementor/widgets/dragfy-addons-logo-carousel.php:153
+#: elementor/widgets/dragfy-addons-newsletter.php:214
+#: elementor/widgets/dragfy-addons-newsletter.php:398
+#: elementor/widgets/dragfy-addons-newsletter.php:448
+#: elementor/widgets/dragfy-addons-ninja-forms.php:249
+#: elementor/widgets/dragfy-addons-ninja-forms.php:299
+#: elementor/widgets/dragfy-addons-post-slider.php:310
+#: elementor/widgets/dragfy-addons-post-slider.php:377
+#: elementor/widgets/dragfy-addons-post.php:299
+#: elementor/widgets/dragfy-addons-post.php:366
+#: elementor/widgets/dragfy-addons-post.php:585
+#: elementor/widgets/dragfy-addons-post.php:732
+#: elementor/widgets/dragfy-addons-pricing-table.php:335
+#: elementor/widgets/dragfy-addons-pricing-table.php:412
+#: elementor/widgets/dragfy-addons-pricing-table.php:498
+#: elementor/widgets/dragfy-addons-pricing-table.php:786
+#: elementor/widgets/dragfy-addons-pricing-table.php:872
+#: elementor/widgets/dragfy-addons-progress-bar.php:204
+#: elementor/widgets/dragfy-addons-road-map.php:242
+#: elementor/widgets/dragfy-addons-road-map.php:327
+#: elementor/widgets/dragfy-addons-round-chart.php:199
+#: elementor/widgets/dragfy-addons-table.php:253
+#: elementor/widgets/dragfy-addons-table.php:324
+#: elementor/widgets/dragfy-addons-table.php:354
+#: elementor/widgets/dragfy-addons-team-member-slider.php:296
+#: elementor/widgets/dragfy-addons-team-member.php:239
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:323
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:395
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:490
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:681
+#: elementor/widgets/dragfy-addons-testimonial.php:163
+#: elementor/widgets/dragfy-addons-testimonial.php:259
+#: elementor/widgets/dragfy-addons-timeline.php:182
+#: elementor/widgets/dragfy-addons-wp-forms.php:196
+#: elementor/widgets/dragfy-addons-wp-forms.php:246
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:118
+msgid "Padding"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:224
+#: elementor/widgets/dragfy-addons-accordion.php:284
+#: elementor/widgets/dragfy-addons-accordion.php:369
+#: elementor/widgets/dragfy-addons-business-hours.php:298
+#: elementor/widgets/dragfy-addons-business-hours.php:407
+#: elementor/widgets/dragfy-addons-call-to-action.php:298
+#: elementor/widgets/dragfy-addons-call-to-action.php:541
+#: elementor/widgets/dragfy-addons-call-to-action.php:689
+#: elementor/widgets/dragfy-addons-contact-form-7.php:222
+#: elementor/widgets/dragfy-addons-contact-form-7.php:273
+#: elementor/widgets/dragfy-addons-content-toggle.php:279
+#: elementor/widgets/dragfy-addons-count-down.php:306
+#: elementor/widgets/dragfy-addons-count-down.php:497
+#: elementor/widgets/dragfy-addons-count-down.php:583
+#: elementor/widgets/dragfy-addons-count-down.php:608
+#: elementor/widgets/dragfy-addons-count-down.php:812
+#: elementor/widgets/dragfy-addons-counter.php:215
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:340
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:533
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:345
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:377
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:560
+#: elementor/widgets/dragfy-addons-flip-box.php:110
+#: elementor/widgets/dragfy-addons-flip-box.php:319
+#: elementor/widgets/dragfy-addons-flip-box.php:515
+#: elementor/widgets/dragfy-addons-heading.php:331
+#: elementor/widgets/dragfy-addons-heading.php:472
+#: elementor/widgets/dragfy-addons-heading.php:647
+#: elementor/widgets/dragfy-addons-hotspot.php:247
+#: elementor/widgets/dragfy-addons-hotspot.php:319
+#: elementor/widgets/dragfy-addons-hotspot.php:388
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:407
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:735
+#: elementor/widgets/dragfy-addons-icon-box.php:237
+#: elementor/widgets/dragfy-addons-icon-box.php:327
+#: elementor/widgets/dragfy-addons-image-box-slider.php:278
+#: elementor/widgets/dragfy-addons-image-box-slider.php:617
+#: elementor/widgets/dragfy-addons-image-box.php:227
+#: elementor/widgets/dragfy-addons-image-box.php:301
+#: elementor/widgets/dragfy-addons-image-box.php:345
+#: elementor/widgets/dragfy-addons-image-box.php:527
+#: elementor/widgets/dragfy-addons-image-gallery.php:178
+#: elementor/widgets/dragfy-addons-image-scroll.php:192
+#: elementor/widgets/dragfy-addons-image-slider.php:161
+#: elementor/widgets/dragfy-addons-image-slider.php:292
+#: elementor/widgets/dragfy-addons-info-card.php:198
+#: elementor/widgets/dragfy-addons-info-card.php:339
+#: elementor/widgets/dragfy-addons-interactive-banner.php:466
+#: elementor/widgets/dragfy-addons-interactive-banner.php:602
+#: elementor/widgets/dragfy-addons-interactive-card.php:280
+#: elementor/widgets/dragfy-addons-interactive-card.php:333
+#: elementor/widgets/dragfy-addons-interactive-slider.php:405
+#: elementor/widgets/dragfy-addons-interactive-slider.php:565
+#: elementor/widgets/dragfy-addons-line-chart.php:176
+#: elementor/widgets/dragfy-addons-logo-carousel.php:177
+#: elementor/widgets/dragfy-addons-newsletter.php:234
+#: elementor/widgets/dragfy-addons-newsletter.php:385
+#: elementor/widgets/dragfy-addons-newsletter.php:435
+#: elementor/widgets/dragfy-addons-ninja-forms.php:236
+#: elementor/widgets/dragfy-addons-ninja-forms.php:286
+#: elementor/widgets/dragfy-addons-post-slider.php:330
+#: elementor/widgets/dragfy-addons-post-slider.php:435
+#: elementor/widgets/dragfy-addons-post-slider.php:486
+#: elementor/widgets/dragfy-addons-post-slider.php:679
+#: elementor/widgets/dragfy-addons-post.php:319
+#: elementor/widgets/dragfy-addons-post.php:424
+#: elementor/widgets/dragfy-addons-post.php:475
+#: elementor/widgets/dragfy-addons-post.php:643
+#: elementor/widgets/dragfy-addons-post.php:694
+#: elementor/widgets/dragfy-addons-post.php:782
+#: elementor/widgets/dragfy-addons-post.php:883
+#: elementor/widgets/dragfy-addons-post.php:934
+#: elementor/widgets/dragfy-addons-post.php:987
+#: elementor/widgets/dragfy-addons-pricing-table.php:355
+#: elementor/widgets/dragfy-addons-pricing-table.php:432
+#: elementor/widgets/dragfy-addons-pricing-table.php:518
+#: elementor/widgets/dragfy-addons-pricing-table.php:859
+#: elementor/widgets/dragfy-addons-progress-bar.php:182
+#: elementor/widgets/dragfy-addons-progress-bar.php:256
+#: elementor/widgets/dragfy-addons-progress-bar.php:288
+#: elementor/widgets/dragfy-addons-road-map.php:262
+#: elementor/widgets/dragfy-addons-road-map.php:347
+#: elementor/widgets/dragfy-addons-road-map.php:499
+#: elementor/widgets/dragfy-addons-road-map.php:658
+#: elementor/widgets/dragfy-addons-round-chart.php:220
+#: elementor/widgets/dragfy-addons-table.php:273
+#: elementor/widgets/dragfy-addons-team-member-slider.php:316
+#: elementor/widgets/dragfy-addons-team-member-slider.php:377
+#: elementor/widgets/dragfy-addons-team-member-slider.php:650
+#: elementor/widgets/dragfy-addons-team-member.php:259
+#: elementor/widgets/dragfy-addons-team-member.php:311
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:343
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:415
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:510
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:702
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:833
+#: elementor/widgets/dragfy-addons-testimonial.php:183
+#: elementor/widgets/dragfy-addons-testimonial.php:279
+#: elementor/widgets/dragfy-addons-video-box.php:186
+#: elementor/widgets/dragfy-addons-video-box.php:236
+#: elementor/widgets/dragfy-addons-wp-forms.php:183
+#: elementor/widgets/dragfy-addons-wp-forms.php:233
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:138
+msgid "Border Raidus"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:238
+#: elementor/widgets/dragfy-addons-business-hours.php:312
+#: elementor/widgets/dragfy-addons-business-hours.php:491
+#: elementor/widgets/dragfy-addons-business-hours.php:547
+#: elementor/widgets/dragfy-addons-call-to-action.php:312
+#: elementor/widgets/dragfy-addons-call-to-action.php:579
+#: elementor/widgets/dragfy-addons-call-to-action.php:727
+#: elementor/widgets/dragfy-addons-contact-form-7.php:357
+#: elementor/widgets/dragfy-addons-contact-form-7.php:413
+#: elementor/widgets/dragfy-addons-content-toggle.php:293
+#: elementor/widgets/dragfy-addons-count-down.php:333
+#: elementor/widgets/dragfy-addons-count-down.php:692
+#: elementor/widgets/dragfy-addons-count-down.php:748
+#: elementor/widgets/dragfy-addons-count-down.php:826
+#: elementor/widgets/dragfy-addons-counter.php:229
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:316
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:574
+#: elementor/widgets/dragfy-addons-flip-box.php:357
+#: elementor/widgets/dragfy-addons-flip-box.php:599
+#: elementor/widgets/dragfy-addons-flip-box.php:655
+#: elementor/widgets/dragfy-addons-hotspot.php:261
+#: elementor/widgets/dragfy-addons-hotspot.php:402
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:313
+#: elementor/widgets/dragfy-addons-icon-box.php:252
+#: elementor/widgets/dragfy-addons-image-box-slider.php:293
+#: elementor/widgets/dragfy-addons-image-box.php:265
+#: elementor/widgets/dragfy-addons-image-box.php:611
+#: elementor/widgets/dragfy-addons-image-box.php:667
+#: elementor/widgets/dragfy-addons-image-comparison.php:153
+#: elementor/widgets/dragfy-addons-image-gallery.php:154
+#: elementor/widgets/dragfy-addons-info-card.php:212
+#: elementor/widgets/dragfy-addons-info-card.php:404
+#: elementor/widgets/dragfy-addons-info-card.php:466
+#: elementor/widgets/dragfy-addons-interactive-banner.php:522
+#: elementor/widgets/dragfy-addons-interactive-banner.php:574
+#: elementor/widgets/dragfy-addons-interactive-banner.php:616
+#: elementor/widgets/dragfy-addons-interactive-card.php:294
+#: elementor/widgets/dragfy-addons-interactive-slider.php:470
+#: elementor/widgets/dragfy-addons-interactive-slider.php:532
+#: elementor/widgets/dragfy-addons-interactive-slider.php:630
+#: elementor/widgets/dragfy-addons-interactive-slider.php:691
+#: elementor/widgets/dragfy-addons-line-chart.php:190
+#: elementor/widgets/dragfy-addons-newsletter.php:258
+#: elementor/widgets/dragfy-addons-newsletter.php:519
+#: elementor/widgets/dragfy-addons-newsletter.php:575
+#: elementor/widgets/dragfy-addons-ninja-forms.php:370
+#: elementor/widgets/dragfy-addons-ninja-forms.php:426
+#: elementor/widgets/dragfy-addons-post-slider.php:344
+#: elementor/widgets/dragfy-addons-post.php:333
+#: elementor/widgets/dragfy-addons-pricing-table.php:369
+#: elementor/widgets/dragfy-addons-pricing-table.php:943
+#: elementor/widgets/dragfy-addons-pricing-table.php:999
+#: elementor/widgets/dragfy-addons-progress-bar.php:196
+#: elementor/widgets/dragfy-addons-road-map.php:276
+#: elementor/widgets/dragfy-addons-round-chart.php:234
+#: elementor/widgets/dragfy-addons-table.php:287
+#: elementor/widgets/dragfy-addons-team-member-slider.php:341
+#: elementor/widgets/dragfy-addons-team-member.php:283
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:357
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:716
+#: elementor/widgets/dragfy-addons-testimonial.php:208
+#: elementor/widgets/dragfy-addons-timeline.php:206
+#: elementor/widgets/dragfy-addons-video-box.php:200
+#: elementor/widgets/dragfy-addons-video-box.php:250
+#: elementor/widgets/dragfy-addons-wp-forms.php:317
+#: elementor/widgets/dragfy-addons-wp-forms.php:373
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:152
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:247
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:399
+#: elementor/widgets/dragfy-addons-flip-box.php:421
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:464
+#: elementor/widgets/dragfy-addons-icon-box.php:388
+#: elementor/widgets/dragfy-addons-image-box-slider.php:302
+#: elementor/widgets/dragfy-addons-image-box.php:317
+#: elementor/widgets/dragfy-addons-info-card.php:222
+#: elementor/widgets/dragfy-addons-interactive-card.php:401
+#: elementor/widgets/dragfy-addons-post-slider.php:503
+#: elementor/widgets/dragfy-addons-post.php:492
+#: elementor/widgets/dragfy-addons-progress-bar.php:344
+#: elementor/widgets/dragfy-addons-road-map.php:380
+#: elementor/widgets/dragfy-addons-tabs.php:172
+msgid "Title Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:264
+#: elementor/widgets/dragfy-addons-accordion.php:350
+#: elementor/widgets/dragfy-addons-business-hours.php:470
+#: elementor/widgets/dragfy-addons-business-hours.php:526
+#: elementor/widgets/dragfy-addons-call-to-action.php:606
+#: elementor/widgets/dragfy-addons-call-to-action.php:646
+#: elementor/widgets/dragfy-addons-call-to-action.php:754
+#: elementor/widgets/dragfy-addons-call-to-action.php:794
+#: elementor/widgets/dragfy-addons-contact-form-7.php:202
+#: elementor/widgets/dragfy-addons-contact-form-7.php:336
+#: elementor/widgets/dragfy-addons-contact-form-7.php:392
+#: elementor/widgets/dragfy-addons-count-down.php:671
+#: elementor/widgets/dragfy-addons-count-down.php:727
+#: elementor/widgets/dragfy-addons-flip-box.php:578
+#: elementor/widgets/dragfy-addons-flip-box.php:634
+#: elementor/widgets/dragfy-addons-heading.php:225
+#: elementor/widgets/dragfy-addons-heading.php:365
+#: elementor/widgets/dragfy-addons-heading.php:541
+#: elementor/widgets/dragfy-addons-hotspot.php:268
+#: elementor/widgets/dragfy-addons-hotspot.php:409
+#: elementor/widgets/dragfy-addons-image-box.php:590
+#: elementor/widgets/dragfy-addons-image-box.php:646
+#: elementor/widgets/dragfy-addons-info-card.php:383
+#: elementor/widgets/dragfy-addons-info-card.php:444
+#: elementor/widgets/dragfy-addons-newsletter.php:366
+#: elementor/widgets/dragfy-addons-newsletter.php:498
+#: elementor/widgets/dragfy-addons-newsletter.php:554
+#: elementor/widgets/dragfy-addons-ninja-forms.php:217
+#: elementor/widgets/dragfy-addons-ninja-forms.php:349
+#: elementor/widgets/dragfy-addons-ninja-forms.php:405
+#: elementor/widgets/dragfy-addons-post-slider.php:416
+#: elementor/widgets/dragfy-addons-post-slider.php:467
+#: elementor/widgets/dragfy-addons-post-slider.php:540
+#: elementor/widgets/dragfy-addons-post-slider.php:560
+#: elementor/widgets/dragfy-addons-post.php:405
+#: elementor/widgets/dragfy-addons-post.php:456
+#: elementor/widgets/dragfy-addons-post.php:529
+#: elementor/widgets/dragfy-addons-post.php:549
+#: elementor/widgets/dragfy-addons-post.php:624
+#: elementor/widgets/dragfy-addons-post.php:675
+#: elementor/widgets/dragfy-addons-post.php:763
+#: elementor/widgets/dragfy-addons-post.php:864
+#: elementor/widgets/dragfy-addons-post.php:915
+#: elementor/widgets/dragfy-addons-post.php:968
+#: elementor/widgets/dragfy-addons-pricing-table.php:444
+#: elementor/widgets/dragfy-addons-pricing-table.php:530
+#: elementor/widgets/dragfy-addons-pricing-table.php:922
+#: elementor/widgets/dragfy-addons-pricing-table.php:978
+#: elementor/widgets/dragfy-addons-tabs.php:230
+#: elementor/widgets/dragfy-addons-tabs.php:260
+#: elementor/widgets/dragfy-addons-tabs.php:291
+#: elementor/widgets/dragfy-addons-tabs.php:325
+#: elementor/widgets/dragfy-addons-wp-forms.php:164
+#: elementor/widgets/dragfy-addons-wp-forms.php:296
+#: elementor/widgets/dragfy-addons-wp-forms.php:352
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-accordion.php:333
+#: elementor/widgets/dragfy-addons-business-hours.php:369
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:506
+#: elementor/widgets/dragfy-addons-table.php:346
+#: elementor/widgets/dragfy-addons-tabs.php:308
+#: elementor/widgets/dragfy-addons-team-member.php:418
+#: elementor/widgets/dragfy-addons-timeline.php:272
+msgid "Content Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:57
+#: elementor/widgets/dragfy-addons-table.php:58
+msgid "Heading Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:64
+#: elementor/widgets/dragfy-addons-call-to-action.php:116
+#: elementor/widgets/dragfy-addons-content-toggle.php:95
+#: elementor/widgets/dragfy-addons-content-toggle.php:151
+#: elementor/widgets/dragfy-addons-count-down.php:105
+#: elementor/widgets/dragfy-addons-heading.php:120
+#: elementor/widgets/dragfy-addons-interactive-banner.php:168
+#: elementor/widgets/dragfy-addons-interactive-banner.php:232
+#: elementor/widgets/dragfy-addons-interactive-slider.php:176
+#: elementor/widgets/dragfy-addons-newsletter.php:124
+#: elementor/widgets/dragfy-addons-timeline.php:98
+msgid "Heading"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:67
+msgid "Office Opening Hours"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:87
+msgid "Day"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:90
+#: elementor/widgets/dragfy-addons-business-hours.php:100
+#: elementor/widgets/dragfy-addons-business-hours.php:160
+msgid "Sunday"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:97
+msgid "Time"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:106
+#: elementor/widgets/dragfy-addons-table.php:153
+msgid "Styling"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:113
+msgid "Day Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:123
+msgid "Time Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:133
+#: elementor/widgets/dragfy-addons-business-hours.php:328
+#: elementor/widgets/dragfy-addons-business-hours.php:452
+#: elementor/widgets/dragfy-addons-business-hours.php:508
+#: elementor/widgets/dragfy-addons-call-to-action.php:329
+#: elementor/widgets/dragfy-addons-call-to-action.php:596
+#: elementor/widgets/dragfy-addons-call-to-action.php:635
+#: elementor/widgets/dragfy-addons-call-to-action.php:744
+#: elementor/widgets/dragfy-addons-call-to-action.php:783
+#: elementor/widgets/dragfy-addons-contact-form-7.php:182
+#: elementor/widgets/dragfy-addons-contact-form-7.php:318
+#: elementor/widgets/dragfy-addons-contact-form-7.php:374
+#: elementor/widgets/dragfy-addons-content-toggle.php:310
+#: elementor/widgets/dragfy-addons-count-down.php:434
+#: elementor/widgets/dragfy-addons-count-down.php:520
+#: elementor/widgets/dragfy-addons-count-down.php:653
+#: elementor/widgets/dragfy-addons-count-down.php:709
+#: elementor/widgets/dragfy-addons-counter.php:255
+#: elementor/widgets/dragfy-addons-fancy-heading.php:277
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:385
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:581
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:619
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:657
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:425
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:463
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:501
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:541
+#: elementor/widgets/dragfy-addons-flip-box.php:143
+#: elementor/widgets/dragfy-addons-flip-box.php:165
+#: elementor/widgets/dragfy-addons-flip-box.php:560
+#: elementor/widgets/dragfy-addons-flip-box.php:616
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:756
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:794
+#: elementor/widgets/dragfy-addons-icon-box.php:295
+#: elementor/widgets/dragfy-addons-image-box-slider.php:438
+#: elementor/widgets/dragfy-addons-image-box-slider.php:478
+#: elementor/widgets/dragfy-addons-image-box-slider.php:638
+#: elementor/widgets/dragfy-addons-image-box-slider.php:676
+#: elementor/widgets/dragfy-addons-image-box.php:572
+#: elementor/widgets/dragfy-addons-image-box.php:628
+#: elementor/widgets/dragfy-addons-image-comparison.php:191
+#: elementor/widgets/dragfy-addons-image-slider.php:313
+#: elementor/widgets/dragfy-addons-image-slider.php:351
+#: elementor/widgets/dragfy-addons-info-card.php:361
+#: elementor/widgets/dragfy-addons-info-card.php:422
+#: elementor/widgets/dragfy-addons-interactive-banner.php:487
+#: elementor/widgets/dragfy-addons-interactive-banner.php:539
+#: elementor/widgets/dragfy-addons-interactive-slider.php:426
+#: elementor/widgets/dragfy-addons-interactive-slider.php:487
+#: elementor/widgets/dragfy-addons-interactive-slider.php:586
+#: elementor/widgets/dragfy-addons-interactive-slider.php:647
+#: elementor/widgets/dragfy-addons-line-chart.php:216
+#: elementor/widgets/dragfy-addons-logo-carousel.php:318
+#: elementor/widgets/dragfy-addons-newsletter.php:356
+#: elementor/widgets/dragfy-addons-newsletter.php:480
+#: elementor/widgets/dragfy-addons-newsletter.php:536
+#: elementor/widgets/dragfy-addons-ninja-forms.php:207
+#: elementor/widgets/dragfy-addons-ninja-forms.php:331
+#: elementor/widgets/dragfy-addons-ninja-forms.php:387
+#: elementor/widgets/dragfy-addons-post-slider.php:406
+#: elementor/widgets/dragfy-addons-post-slider.php:457
+#: elementor/widgets/dragfy-addons-post-slider.php:700
+#: elementor/widgets/dragfy-addons-post-slider.php:738
+#: elementor/widgets/dragfy-addons-post.php:395
+#: elementor/widgets/dragfy-addons-post.php:446
+#: elementor/widgets/dragfy-addons-post.php:614
+#: elementor/widgets/dragfy-addons-post.php:665
+#: elementor/widgets/dragfy-addons-post.php:753
+#: elementor/widgets/dragfy-addons-post.php:854
+#: elementor/widgets/dragfy-addons-post.php:905
+#: elementor/widgets/dragfy-addons-post.php:958
+#: elementor/widgets/dragfy-addons-pricing-table.php:389
+#: elementor/widgets/dragfy-addons-pricing-table.php:475
+#: elementor/widgets/dragfy-addons-pricing-table.php:837
+#: elementor/widgets/dragfy-addons-pricing-table.php:904
+#: elementor/widgets/dragfy-addons-pricing-table.php:960
+#: elementor/widgets/dragfy-addons-road-map.php:480
+#: elementor/widgets/dragfy-addons-road-map.php:679
+#: elementor/widgets/dragfy-addons-road-map.php:717
+#: elementor/widgets/dragfy-addons-table.php:190
+#: elementor/widgets/dragfy-addons-table.php:303
+#: elementor/widgets/dragfy-addons-tabs.php:220
+#: elementor/widgets/dragfy-addons-tabs.php:250
+#: elementor/widgets/dragfy-addons-tabs.php:281
+#: elementor/widgets/dragfy-addons-tabs.php:315
+#: elementor/widgets/dragfy-addons-team-member-slider.php:671
+#: elementor/widgets/dragfy-addons-team-member-slider.php:709
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:854
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:892
+#: elementor/widgets/dragfy-addons-video-box.php:217
+#: elementor/widgets/dragfy-addons-wp-forms.php:154
+#: elementor/widgets/dragfy-addons-wp-forms.php:278
+#: elementor/widgets/dragfy-addons-wp-forms.php:334
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:143
+#: elementor/widgets/dragfy-addons-business-hours.php:338
+#: elementor/widgets/dragfy-addons-content-toggle.php:331
+#: elementor/widgets/dragfy-addons-hotspot.php:236
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:588
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:617
+#: elementor/widgets/dragfy-addons-icon-box.php:514
+#: elementor/widgets/dragfy-addons-icon-box.php:546
+#: elementor/widgets/dragfy-addons-image-box-slider.php:458
+#: elementor/widgets/dragfy-addons-image-box-slider.php:498
+#: elementor/widgets/dragfy-addons-image-box.php:475
+#: elementor/widgets/dragfy-addons-image-box.php:505
+#: elementor/widgets/dragfy-addons-info-card.php:372
+#: elementor/widgets/dragfy-addons-info-card.php:433
+#: elementor/widgets/dragfy-addons-interactive-card.php:564
+#: elementor/widgets/dragfy-addons-interactive-card.php:596
+#: elementor/widgets/dragfy-addons-interactive-slider.php:437
+#: elementor/widgets/dragfy-addons-interactive-slider.php:498
+#: elementor/widgets/dragfy-addons-interactive-slider.php:597
+#: elementor/widgets/dragfy-addons-interactive-slider.php:658
+#: elementor/widgets/dragfy-addons-line-chart.php:224
+#: elementor/widgets/dragfy-addons-logo-carousel.php:338
+#: elementor/widgets/dragfy-addons-post.php:1064
+#: elementor/widgets/dragfy-addons-tabs.php:192
+#: elementor/widgets/dragfy-addons-tabs.php:335
+#: elementor/widgets/dragfy-addons-timeline.php:193
+#: elementor/widgets/dragfy-addons-timeline.php:352
+msgid "Border Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:161
+msgid "8:00 AM - 5:00 PM"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:173
+#: elementor/widgets/dragfy-addons-call-to-action.php:173
+#: elementor/widgets/dragfy-addons-count-down.php:177
+#: elementor/widgets/dragfy-addons-flip-box.php:236
+#: elementor/widgets/dragfy-addons-image-box.php:171
+#: elementor/widgets/dragfy-addons-interactive-banner.php:190
+#: elementor/widgets/dragfy-addons-newsletter.php:166
+#: elementor/widgets/dragfy-addons-pricing-table.php:266
+msgid "Button Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:180
+#: elementor/widgets/dragfy-addons-business-hours.php:183
+#: elementor/widgets/dragfy-addons-count-down.php:185
+#: elementor/widgets/dragfy-addons-count-down.php:188
+#: elementor/widgets/dragfy-addons-flip-box.php:244
+#: elementor/widgets/dragfy-addons-image-box.php:179
+#: elementor/widgets/dragfy-addons-interactive-banner.php:198
+#: elementor/widgets/dragfy-addons-interactive-slider.php:198
+#: elementor/widgets/dragfy-addons-interactive-slider.php:217
+#: elementor/widgets/dragfy-addons-newsletter.php:173
+#: elementor/widgets/dragfy-addons-pricing-table.php:273
+#: elementor/widgets/dragfy-addons-pricing-table.php:275
+msgid "Button Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:190
+#: elementor/widgets/dragfy-addons-count-down.php:195
+#: elementor/widgets/dragfy-addons-interactive-banner.php:209
+#: elementor/widgets/dragfy-addons-pricing-table.php:283
+msgid "Button Link"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:193
+#: elementor/widgets/dragfy-addons-call-to-action.php:194
+#: elementor/widgets/dragfy-addons-call-to-action.php:214
+#: elementor/widgets/dragfy-addons-count-down.php:198
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:197
+#: elementor/widgets/dragfy-addons-interactive-banner.php:213
+#: elementor/widgets/dragfy-addons-interactive-slider.php:209
+#: elementor/widgets/dragfy-addons-interactive-slider.php:229
+#: elementor/widgets/dragfy-addons-pricing-table.php:287
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:203
+msgid "Contact Number Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:210
+msgid "Phone Number"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:213
+msgid "+40 050 123044"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:222
+#: elementor/widgets/dragfy-addons-call-to-action.php:224
+#: elementor/widgets/dragfy-addons-contact-form-7.php:148
+#: elementor/widgets/dragfy-addons-content-toggle.php:203
+#: elementor/widgets/dragfy-addons-counter.php:140
+#: elementor/widgets/dragfy-addons-fancy-heading.php:193
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:272
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:296
+#: elementor/widgets/dragfy-addons-flip-box.php:267
+#: elementor/widgets/dragfy-addons-heading.php:180
+#: elementor/widgets/dragfy-addons-hotspot.php:194
+#: elementor/widgets/dragfy-addons-ninja-forms.php:146
+#: elementor/widgets/dragfy-addons-wp-forms.php:93
+msgid "Go Premium for More Features"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:229
+#: elementor/widgets/dragfy-addons-call-to-action.php:231
+#: elementor/widgets/dragfy-addons-contact-form-7.php:155
+#: elementor/widgets/dragfy-addons-content-toggle.php:210
+#: elementor/widgets/dragfy-addons-counter.php:147
+#: elementor/widgets/dragfy-addons-fancy-heading.php:200
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:279
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:303
+#: elementor/widgets/dragfy-addons-flip-box.php:274
+#: elementor/widgets/dragfy-addons-heading.php:187
+#: elementor/widgets/dragfy-addons-hotspot.php:201
+#: elementor/widgets/dragfy-addons-ninja-forms.php:153
+#: elementor/widgets/dragfy-addons-wp-forms.php:100
+msgid "Unlock more possibilities"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:321
+#: elementor/widgets/dragfy-addons-call-to-action.php:374
+#: elementor/widgets/dragfy-addons-content-toggle.php:344
+#: elementor/widgets/dragfy-addons-count-down.php:343
+#: elementor/widgets/dragfy-addons-heading.php:345
+#: elementor/widgets/dragfy-addons-interactive-banner.php:300
+#: elementor/widgets/dragfy-addons-interactive-slider.php:299
+#: elementor/widgets/dragfy-addons-newsletter.php:269
+#: elementor/widgets/dragfy-addons-table.php:296
+#: elementor/widgets/dragfy-addons-timeline.php:244
+msgid "Heading Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:348
+#: elementor/widgets/dragfy-addons-business-hours.php:565
+#: elementor/widgets/dragfy-addons-call-to-action.php:339
+#: elementor/widgets/dragfy-addons-call-to-action.php:381
+#: elementor/widgets/dragfy-addons-call-to-action.php:423
+#: elementor/widgets/dragfy-addons-call-to-action.php:487
+#: elementor/widgets/dragfy-addons-call-to-action.php:508
+#: elementor/widgets/dragfy-addons-content-toggle.php:362
+#: elementor/widgets/dragfy-addons-count-down.php:351
+#: elementor/widgets/dragfy-addons-count-down.php:392
+#: elementor/widgets/dragfy-addons-count-down.php:444
+#: elementor/widgets/dragfy-addons-count-down.php:530
+#: elementor/widgets/dragfy-addons-counter.php:245
+#: elementor/widgets/dragfy-addons-counter.php:274
+#: elementor/widgets/dragfy-addons-counter.php:315
+#: elementor/widgets/dragfy-addons-fancy-heading.php:157
+#: elementor/widgets/dragfy-addons-fancy-heading.php:225
+#: elementor/widgets/dragfy-addons-fancy-heading.php:299
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:591
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:629
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:667
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:435
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:473
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:511
+#: elementor/widgets/dragfy-addons-flip-box.php:376
+#: elementor/widgets/dragfy-addons-flip-box.php:428
+#: elementor/widgets/dragfy-addons-flip-box.php:470
+#: elementor/widgets/dragfy-addons-hotspot.php:349
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:429
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:471
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:513
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:578
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:607
+#: elementor/widgets/dragfy-addons-icon-box.php:306
+#: elementor/widgets/dragfy-addons-icon-box.php:395
+#: elementor/widgets/dragfy-addons-icon-box.php:438
+#: elementor/widgets/dragfy-addons-icon-box.php:503
+#: elementor/widgets/dragfy-addons-icon-box.php:535
+#: elementor/widgets/dragfy-addons-image-box-slider.php:309
+#: elementor/widgets/dragfy-addons-image-box-slider.php:351
+#: elementor/widgets/dragfy-addons-image-box-slider.php:448
+#: elementor/widgets/dragfy-addons-image-box-slider.php:488
+#: elementor/widgets/dragfy-addons-image-box.php:358
+#: elementor/widgets/dragfy-addons-image-box.php:400
+#: elementor/widgets/dragfy-addons-image-box.php:465
+#: elementor/widgets/dragfy-addons-image-box.php:495
+#: elementor/widgets/dragfy-addons-info-card.php:229
+#: elementor/widgets/dragfy-addons-info-card.php:271
+#: elementor/widgets/dragfy-addons-interactive-banner.php:307
+#: elementor/widgets/dragfy-addons-interactive-banner.php:348
+#: elementor/widgets/dragfy-addons-interactive-banner.php:500
+#: elementor/widgets/dragfy-addons-interactive-banner.php:552
+#: elementor/widgets/dragfy-addons-interactive-card.php:356
+#: elementor/widgets/dragfy-addons-interactive-card.php:409
+#: elementor/widgets/dragfy-addons-interactive-card.php:450
+#: elementor/widgets/dragfy-addons-interactive-card.php:491
+#: elementor/widgets/dragfy-addons-interactive-card.php:553
+#: elementor/widgets/dragfy-addons-interactive-card.php:585
+#: elementor/widgets/dragfy-addons-interactive-slider.php:264
+#: elementor/widgets/dragfy-addons-interactive-slider.php:306
+#: elementor/widgets/dragfy-addons-interactive-slider.php:348
+#: elementor/widgets/dragfy-addons-interactive-slider.php:448
+#: elementor/widgets/dragfy-addons-interactive-slider.php:510
+#: elementor/widgets/dragfy-addons-interactive-slider.php:608
+#: elementor/widgets/dragfy-addons-interactive-slider.php:669
+#: elementor/widgets/dragfy-addons-line-chart.php:259
+#: elementor/widgets/dragfy-addons-line-chart.php:284
+#: elementor/widgets/dragfy-addons-newsletter.php:276
+#: elementor/widgets/dragfy-addons-newsletter.php:316
+#: elementor/widgets/dragfy-addons-post.php:1033
+#: elementor/widgets/dragfy-addons-post.php:1053
+#: elementor/widgets/dragfy-addons-pricing-table.php:586
+#: elementor/widgets/dragfy-addons-pricing-table.php:626
+#: elementor/widgets/dragfy-addons-pricing-table.php:667
+#: elementor/widgets/dragfy-addons-pricing-table.php:700
+#: elementor/widgets/dragfy-addons-pricing-table.php:766
+#: elementor/widgets/dragfy-addons-progress-bar.php:310
+#: elementor/widgets/dragfy-addons-progress-bar.php:351
+#: elementor/widgets/dragfy-addons-progress-bar.php:393
+#: elementor/widgets/dragfy-addons-road-map.php:387
+#: elementor/widgets/dragfy-addons-road-map.php:428
+#: elementor/widgets/dragfy-addons-road-map.php:520
+#: elementor/widgets/dragfy-addons-round-chart.php:250
+#: elementor/widgets/dragfy-addons-table.php:313
+#: elementor/widgets/dragfy-addons-team-member-slider.php:398
+#: elementor/widgets/dragfy-addons-team-member-slider.php:441
+#: elementor/widgets/dragfy-addons-team-member-slider.php:511
+#: elementor/widgets/dragfy-addons-team-member-slider.php:531
+#: elementor/widgets/dragfy-addons-team-member.php:340
+#: elementor/widgets/dragfy-addons-team-member.php:383
+#: elementor/widgets/dragfy-addons-team-member.php:426
+#: elementor/widgets/dragfy-addons-team-member.php:495
+#: elementor/widgets/dragfy-addons-team-member.php:515
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:531
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:573
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:616
+#: elementor/widgets/dragfy-addons-testimonial.php:300
+#: elementor/widgets/dragfy-addons-testimonial.php:342
+#: elementor/widgets/dragfy-addons-testimonial.php:385
+#: elementor/widgets/dragfy-addons-timeline.php:222
+#: elementor/widgets/dragfy-addons-timeline.php:251
+#: elementor/widgets/dragfy-addons-timeline.php:279
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:178
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:399
+#: elementor/widgets/dragfy-addons-contact-form-7.php:265
+#: elementor/widgets/dragfy-addons-count-down.php:599
+#: elementor/widgets/dragfy-addons-flip-box.php:506
+#: elementor/widgets/dragfy-addons-image-box.php:518
+#: elementor/widgets/dragfy-addons-interactive-banner.php:431
+#: elementor/widgets/dragfy-addons-newsletter.php:427
+#: elementor/widgets/dragfy-addons-ninja-forms.php:278
+#: elementor/widgets/dragfy-addons-pricing-table.php:851
+#: elementor/widgets/dragfy-addons-wp-forms.php:225
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:446
+#: elementor/widgets/dragfy-addons-call-to-action.php:481
+#: elementor/widgets/dragfy-addons-call-to-action.php:590
+#: elementor/widgets/dragfy-addons-call-to-action.php:738
+#: elementor/widgets/dragfy-addons-contact-form-7.php:312
+#: elementor/widgets/dragfy-addons-count-down.php:647
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:410
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:574
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:418
+#: elementor/widgets/dragfy-addons-flip-box.php:126
+#: elementor/widgets/dragfy-addons-flip-box.php:554
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:265
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:572
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:750
+#: elementor/widgets/dragfy-addons-icon-box.php:497
+#: elementor/widgets/dragfy-addons-image-box-slider.php:432
+#: elementor/widgets/dragfy-addons-image-box-slider.php:632
+#: elementor/widgets/dragfy-addons-image-box.php:459
+#: elementor/widgets/dragfy-addons-image-box.php:566
+#: elementor/widgets/dragfy-addons-image-slider.php:307
+#: elementor/widgets/dragfy-addons-info-card.php:355
+#: elementor/widgets/dragfy-addons-interactive-banner.php:481
+#: elementor/widgets/dragfy-addons-interactive-card.php:547
+#: elementor/widgets/dragfy-addons-interactive-slider.php:420
+#: elementor/widgets/dragfy-addons-interactive-slider.php:580
+#: elementor/widgets/dragfy-addons-newsletter.php:474
+#: elementor/widgets/dragfy-addons-ninja-forms.php:325
+#: elementor/widgets/dragfy-addons-post-slider.php:400
+#: elementor/widgets/dragfy-addons-post-slider.php:534
+#: elementor/widgets/dragfy-addons-post-slider.php:694
+#: elementor/widgets/dragfy-addons-post.php:389
+#: elementor/widgets/dragfy-addons-post.php:523
+#: elementor/widgets/dragfy-addons-post.php:608
+#: elementor/widgets/dragfy-addons-post.php:848
+#: elementor/widgets/dragfy-addons-post.php:1027
+#: elementor/widgets/dragfy-addons-pricing-table.php:898
+#: elementor/widgets/dragfy-addons-road-map.php:673
+#: elementor/widgets/dragfy-addons-tabs.php:214
+#: elementor/widgets/dragfy-addons-team-member-slider.php:505
+#: elementor/widgets/dragfy-addons-team-member-slider.php:665
+#: elementor/widgets/dragfy-addons-team-member.php:489
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:848
+#: elementor/widgets/dragfy-addons-timeline.php:365
+#: elementor/widgets/dragfy-addons-wp-forms.php:272
+msgid "Normal"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:502
+#: elementor/widgets/dragfy-addons-call-to-action.php:502
+#: elementor/widgets/dragfy-addons-call-to-action.php:629
+#: elementor/widgets/dragfy-addons-call-to-action.php:777
+#: elementor/widgets/dragfy-addons-contact-form-7.php:368
+#: elementor/widgets/dragfy-addons-count-down.php:703
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:430
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:613
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:457
+#: elementor/widgets/dragfy-addons-flip-box.php:159
+#: elementor/widgets/dragfy-addons-flip-box.php:610
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:284
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:601
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:788
+#: elementor/widgets/dragfy-addons-icon-box.php:529
+#: elementor/widgets/dragfy-addons-image-box-slider.php:472
+#: elementor/widgets/dragfy-addons-image-box-slider.php:670
+#: elementor/widgets/dragfy-addons-image-box.php:489
+#: elementor/widgets/dragfy-addons-image-box.php:622
+#: elementor/widgets/dragfy-addons-image-slider.php:345
+#: elementor/widgets/dragfy-addons-info-card.php:416
+#: elementor/widgets/dragfy-addons-interactive-banner.php:533
+#: elementor/widgets/dragfy-addons-interactive-card.php:579
+#: elementor/widgets/dragfy-addons-interactive-slider.php:481
+#: elementor/widgets/dragfy-addons-interactive-slider.php:641
+#: elementor/widgets/dragfy-addons-newsletter.php:530
+#: elementor/widgets/dragfy-addons-ninja-forms.php:381
+#: elementor/widgets/dragfy-addons-post-slider.php:451
+#: elementor/widgets/dragfy-addons-post-slider.php:553
+#: elementor/widgets/dragfy-addons-post-slider.php:732
+#: elementor/widgets/dragfy-addons-post.php:440
+#: elementor/widgets/dragfy-addons-post.php:542
+#: elementor/widgets/dragfy-addons-post.php:659
+#: elementor/widgets/dragfy-addons-post.php:899
+#: elementor/widgets/dragfy-addons-post.php:1047
+#: elementor/widgets/dragfy-addons-pricing-table.php:954
+#: elementor/widgets/dragfy-addons-road-map.php:711
+#: elementor/widgets/dragfy-addons-tabs.php:244
+#: elementor/widgets/dragfy-addons-team-member-slider.php:525
+#: elementor/widgets/dragfy-addons-team-member-slider.php:703
+#: elementor/widgets/dragfy-addons-team-member.php:509
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:886
+#: elementor/widgets/dragfy-addons-wp-forms.php:328
+msgid "Hover"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-business-hours.php:558
+msgid "Contact Number Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:77
+#: elementor/widgets/dragfy-addons-contact-form-7.php:127
+#: elementor/widgets/dragfy-addons-count-down.php:80
+#: elementor/widgets/dragfy-addons-hotspot.php:58
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:79
+#: elementor/widgets/dragfy-addons-image-box.php:81
+#: elementor/widgets/dragfy-addons-image-comparison.php:73
+#: elementor/widgets/dragfy-addons-image-scroll.php:75
+#: elementor/widgets/dragfy-addons-image-slider.php:75
+#: elementor/widgets/dragfy-addons-interactive-banner.php:121
+#: elementor/widgets/dragfy-addons-interactive-card.php:79
+#: elementor/widgets/dragfy-addons-logo-carousel.php:120
+#: elementor/widgets/dragfy-addons-newsletter.php:98
+#: elementor/widgets/dragfy-addons-team-member.php:80
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:169
+#: elementor/widgets/dragfy-addons-video-box.php:51
+msgid "Image Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:85
+msgid "Object Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:102
+#: elementor/widgets/dragfy-addons-counter.php:128
+#: elementor/widgets/dragfy-addons-progress-bar.php:113
+#: elementor/widgets/dragfy-addons-round-chart.php:114
+msgid "Label"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:106
+msgid "NEW"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:119
+msgid "Power up your workflow with Dragfy."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:129
+#: elementor/widgets/dragfy-addons-count-down.php:116
+#: elementor/widgets/dragfy-addons-count-down.php:120
+#: elementor/widgets/dragfy-addons-fancy-heading.php:88
+#: elementor/widgets/dragfy-addons-heading.php:109
+#: elementor/widgets/dragfy-addons-interactive-banner.php:244
+#: elementor/widgets/dragfy-addons-interactive-slider.php:166
+#: elementor/widgets/dragfy-addons-newsletter.php:134
+msgid "Sub Heading"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:132
+msgid "30 days trial - Power up your workflow with dragfy toolkit"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:143
+#: elementor/widgets/dragfy-addons-icon-box.php:179
+#: elementor/widgets/dragfy-addons-image-box.php:141
+#: elementor/widgets/dragfy-addons-info-card.php:118
+#: elementor/widgets/dragfy-addons-interactive-card.php:197
+msgid "Link Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:151
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:184
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:186
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:211
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:216
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:221
+#: elementor/widgets/dragfy-addons-icon-box.php:187
+#: elementor/widgets/dragfy-addons-image-box-slider.php:181
+#: elementor/widgets/dragfy-addons-image-box-slider.php:208
+#: elementor/widgets/dragfy-addons-image-box-slider.php:214
+#: elementor/widgets/dragfy-addons-image-box.php:149
+#: elementor/widgets/dragfy-addons-info-card.php:125
+#: elementor/widgets/dragfy-addons-interactive-card.php:205
+msgid "Link Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:161
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:194
+#: elementor/widgets/dragfy-addons-icon-box.php:198
+#: elementor/widgets/dragfy-addons-image-box-slider.php:190
+#: elementor/widgets/dragfy-addons-image-box.php:159
+#: elementor/widgets/dragfy-addons-info-card.php:135
+#: elementor/widgets/dragfy-addons-interactive-card.php:215
+#: elementor/widgets/dragfy-addons-team-member.php:163
+#: elementor/widgets/dragfy-addons-timeline.php:118
+msgid "Link URL"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:181
+#: elementor/widgets/dragfy-addons-call-to-action.php:182
+#: elementor/widgets/dragfy-addons-interactive-slider.php:196
+msgid "Primary Button Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:191
+#: elementor/widgets/dragfy-addons-interactive-slider.php:206
+msgid "Primary Button Link"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:201
+#: elementor/widgets/dragfy-addons-call-to-action.php:202
+#: elementor/widgets/dragfy-addons-interactive-slider.php:216
+msgid "Secondary Button Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:211
+#: elementor/widgets/dragfy-addons-interactive-slider.php:226
+msgid "Secondary Button Link"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:321
+#: elementor/widgets/dragfy-addons-counter.php:308
+#: elementor/widgets/dragfy-addons-ninja-forms.php:172
+#: elementor/widgets/dragfy-addons-progress-bar.php:302
+#: elementor/widgets/dragfy-addons-wp-forms.php:119
+msgid "Label Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:415
+#: elementor/widgets/dragfy-addons-count-down.php:384
+#: elementor/widgets/dragfy-addons-fancy-heading.php:150
+#: elementor/widgets/dragfy-addons-heading.php:204
+#: elementor/widgets/dragfy-addons-interactive-slider.php:257
+#: elementor/widgets/dragfy-addons-newsletter.php:309
+msgid "Sub Heading Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:458
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:549
+#: elementor/widgets/dragfy-addons-icon-box.php:473
+#: elementor/widgets/dragfy-addons-image-box-slider.php:396
+#: elementor/widgets/dragfy-addons-image-box.php:435
+#: elementor/widgets/dragfy-addons-info-card.php:306
+#: elementor/widgets/dragfy-addons-interactive-card.php:524
+msgid "Link Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:524
+msgid "Primary Button Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-call-to-action.php:672
+msgid "Secondary Button Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:71
+#: elementor/widgets/dragfy-addons-newsletter.php:55
+#: elementor/widgets/dragfy-addons-ninja-forms.php:53
+#: elementor/widgets/dragfy-addons-wp-forms.php:53
+msgid "Warning"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:78
+msgid ""
+"<strong>Contact Form 7</strong> is not installed/activated on your site. "
+"Please install and activate <strong>Contact Form 7</strong>."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:113
+#: elementor/widgets/dragfy-addons-interactive-banner.php:255
+msgid "Contact Form"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:117
+#: elementor/widgets/dragfy-addons-interactive-banner.php:260
+#: elementor/widgets/dragfy-addons-ninja-forms.php:83
+#: elementor/widgets/dragfy-addons-wp-forms.php:83
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:175
+#: elementor/widgets/dragfy-addons-interactive-banner.php:585
+#: elementor/widgets/dragfy-addons-newsletter.php:349
+#: elementor/widgets/dragfy-addons-ninja-forms.php:200
+#: elementor/widgets/dragfy-addons-wp-forms.php:147
+msgid "Form Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-contact-form-7.php:192
+#: elementor/widgets/dragfy-addons-ninja-forms.php:179
+#: elementor/widgets/dragfy-addons-wp-forms.php:126
+msgid "Label Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:88
+msgid "One"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:98
+msgid "Current Features"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:105
+#: elementor/widgets/dragfy-addons-content-toggle.php:162
+msgid "Content Type"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:110
+#: elementor/widgets/dragfy-addons-content-toggle.php:167
+msgid "Saved Templates"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:121
+#: elementor/widgets/dragfy-addons-tabs.php:156
+#: elementor/widgets/dragfy-addons-tabs.php:160
+msgid ""
+"Energetic Adobe Certified Expert (ACE) web designer with 6+ years of "
+"experience. Seeking to enhance design excellence at Dujo International. "
+"Designed 5 responsive websites per month for Amphimia Global with 99% client "
+"satisfaction. Raised UX scores by 35% and customer retention by 18%. "
+"Received Awwards prize 2015."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:130
+#: elementor/widgets/dragfy-addons-content-toggle.php:187
+msgid "Choose Template"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:144
+msgid "Two"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:154
+msgid "Upcoming Features"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:178
+#, php-format
+msgid ""
+"Energetic Adobe Certified Expert (ACE) web designer with 6+ years of "
+"experience. Seeking to enhance design excellence at Dujo International. "
+"Designed 5 responsive websites per month for Amphimia Global with 99% client "
+"satisfaction."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:303
+msgid "Switcher Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:321
+msgid "Controller Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-content-toggle.php:351
+msgid "Active Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:69
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:87
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:87
+#: elementor/widgets/dragfy-addons-icon-box.php:70
+#: elementor/widgets/dragfy-addons-image-box.php:70
+#: elementor/widgets/dragfy-addons-image-gallery.php:69
+#: elementor/widgets/dragfy-addons-post.php:87
+#: elementor/widgets/dragfy-addons-testimonial.php:67
+msgid "Style 5"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:70
+#: elementor/widgets/dragfy-addons-icon-box.php:71
+#: elementor/widgets/dragfy-addons-image-box.php:71
+#: elementor/widgets/dragfy-addons-image-gallery.php:70
+#: elementor/widgets/dragfy-addons-post.php:88
+msgid "Style 6"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:108
+#: elementor/widgets/dragfy-addons-timeline.php:99
+#: elementor/widgets/dragfy-addons-timeline.php:135
+#: elementor/widgets/dragfy-addons-timeline.php:140
+#: elementor/widgets/dragfy-addons-timeline.php:145
+#: elementor/widgets/dragfy-addons-timeline.php:150
+msgid "Your Heading"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:127
+msgid "Due Date"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:132
+msgid ""
+"Date format is (yyyy/mm/dd). Time format is (hh:mm:ss). Example: 2020-01-01 "
+"09:30."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:139
+msgid "Time Units"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:143
+#: elementor/widgets/dragfy-addons-count-down.php:215
+#: elementor/widgets/dragfy-addons-count-down.php:218
+msgid "Days"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:144
+#: elementor/widgets/dragfy-addons-count-down.php:225
+#: elementor/widgets/dragfy-addons-count-down.php:228
+msgid "Hours"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:145
+#: elementor/widgets/dragfy-addons-count-down.php:235
+#: elementor/widgets/dragfy-addons-count-down.php:238
+msgid "Minutes"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:146
+#: elementor/widgets/dragfy-addons-count-down.php:245
+#: elementor/widgets/dragfy-addons-count-down.php:248
+msgid "Seconds"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:158
+msgid "Expire Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:168
+msgid "Token Expired"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:208
+msgid "Translation Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:318
+#: elementor/widgets/dragfy-addons-timeline.php:371
+#: elementor/widgets/dragfy-addons-timeline.php:391
+msgid "Line Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:427
+msgid "Digit Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:513
+msgid "Unit Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-count-down.php:761
+msgid "Element Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:77
+#: elementor/widgets/dragfy-addons-flip-box.php:183
+#: elementor/widgets/dragfy-addons-heading.php:79
+#: elementor/widgets/dragfy-addons-icon-box.php:127
+#: elementor/widgets/dragfy-addons-interactive-card.php:98
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:188
+msgid "Icon Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:100
+msgid "Count Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:107
+msgid "Count No"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:117
+msgid "Suffix"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:118
+msgid "k"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:129
+msgid "Active Users"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:238
+#: elementor/widgets/dragfy-addons-flip-box.php:367
+#: elementor/widgets/dragfy-addons-hotspot.php:341
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:322
+#: elementor/widgets/dragfy-addons-icon-box.php:288
+#: elementor/widgets/dragfy-addons-interactive-card.php:347
+#: elementor/widgets/dragfy-addons-road-map.php:287
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:367
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-counter.php:267
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:421
+msgid "Count Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:91
+msgid "We design digital platforms."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:98
+msgid "Before Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:101
+msgid "Build your"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:108
+msgid "Fancy Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:118
+#: elementor/widgets/dragfy-addons-heading.php:147
+#: elementor/widgets/dragfy-addons-interactive-slider.php:119
+#: elementor/widgets/dragfy-addons-round-chart.php:81
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:122
+#: elementor/widgets/dragfy-addons-heading.php:152
+#: elementor/widgets/dragfy-addons-interactive-slider.php:123
+#: elementor/widgets/dragfy-addons-round-chart.php:85
+#: modules/particles/module.php:194
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:126
+#: elementor/widgets/dragfy-addons-heading.php:156
+#: elementor/widgets/dragfy-addons-interactive-slider.php:127
+#: elementor/widgets/dragfy-addons-round-chart.php:89
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:130
+#: elementor/widgets/dragfy-addons-heading.php:160
+#: modules/particles/module.php:195
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:134
+#: elementor/widgets/dragfy-addons-heading.php:164
+msgid "Justified"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:218
+msgid "Before Text Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:260
+msgid "Fancy Text Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:267
+msgid "Cursor Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-fancy-heading.php:288
+msgid "Loading Bar Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:95
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:240
+#: elementor/widgets/dragfy-addons-image-slider.php:138
+#: elementor/widgets/dragfy-addons-interactive-banner.php:99
+#: elementor/widgets/dragfy-addons-line-chart.php:113
+#: elementor/widgets/dragfy-addons-progress-bar.php:237
+#: elementor/widgets/dragfy-addons-team-member-slider.php:255
+#: elementor/widgets/dragfy-addons-team-member.php:197
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:97
+#: elementor/widgets/dragfy-addons-line-chart.php:115
+#: elementor/widgets/dragfy-addons-line-chart.php:158
+#: elementor/widgets/dragfy-addons-line-chart.php:235
+#: elementor/widgets/dragfy-addons-round-chart.php:202
+msgid "You may need to click `Apply` button after settings this option"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:118
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:97
+msgid "Filters Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:125
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:104
+msgid "\"All\" Label"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:128
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:107
+msgid "All"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:138
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:117
+#: elementor/widgets/dragfy-addons-newsletter.php:146
+#: elementor/widgets/dragfy-addons-team-member-slider.php:134
+#: elementor/widgets/dragfy-addons-team-member.php:107
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:234
+#: elementor/widgets/dragfy-addons-testimonial.php:103
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:154
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:254
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:133
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:278
+msgid "Category 1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:157
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:258
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:136
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:282
+msgid "Category 2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:170
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:149
+#: elementor/widgets/dragfy-addons-image-gallery.php:80
+msgid "Images Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:179
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:158
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:176
+msgid "Upload Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:192
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:253
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:277
+msgid "Image #1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:200
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:168
+#: elementor/widgets/dragfy-addons-post-slider.php:267
+#: elementor/widgets/dragfy-addons-post.php:184
+msgid "Category"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:203
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:171
+msgid "To assign for multiple categories, separate by a comma"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:211
+#: elementor/widgets/dragfy-addons-image-gallery.php:96
+#: elementor/widgets/dragfy-addons-image-scroll.php:91
+msgid "Link To"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:215
+#: elementor/widgets/dragfy-addons-image-gallery.php:100
+#: elementor/widgets/dragfy-addons-image-scroll.php:95
+msgid "Lightbox"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:216
+#: elementor/widgets/dragfy-addons-image-gallery.php:101
+#: elementor/widgets/dragfy-addons-image-scroll.php:96
+msgid "External Link"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:217
+#: elementor/widgets/dragfy-addons-image-gallery.php:102
+#: elementor/widgets/dragfy-addons-image-scroll.php:97
+msgid "Existing Page"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:226
+#: elementor/widgets/dragfy-addons-image-gallery.php:111
+#: elementor/widgets/dragfy-addons-image-scroll.php:106
+msgid "Select Page"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:237
+#: elementor/widgets/dragfy-addons-image-gallery.php:122
+#: elementor/widgets/dragfy-addons-image-scroll.php:117
+msgid "External URL"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:257
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:281
+msgid "Image #2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:378
+msgid "Overlay Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:416
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:436
+#: elementor/widgets/dragfy-addons-line-chart.php:206
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:474
+#: elementor/widgets/dragfy-addons-post-slider.php:357
+#: elementor/widgets/dragfy-addons-post.php:346
+msgid "Category Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:482
+msgid "Category Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:516
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:360
+msgid "Filter Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-gallery.php:651
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:495
+#: elementor/widgets/dragfy-addons-post.php:952
+#: elementor/widgets/dragfy-addons-tabs.php:275
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:179
+msgid "Popup"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:182
+msgid ""
+"If YES then video will open as popup, otherwise it will pay inside container."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:189
+#: elementor/widgets/dragfy-addons-video-box.php:78
+msgid "Type"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:194
+#: elementor/widgets/dragfy-addons-video-box.php:83
+msgid "Youtube"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:195
+#: elementor/widgets/dragfy-addons-video-box.php:84
+msgid "Vimeo"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:203
+#: elementor/widgets/dragfy-addons-video-box.php:92
+msgid "URL"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:213
+#: elementor/widgets/dragfy-addons-video-box.php:102
+msgid "Related Videos"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:216
+#: elementor/widgets/dragfy-addons-video-box.php:105
+msgid "Enable/Disable related videos after the video."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:223
+#: elementor/widgets/dragfy-addons-video-box.php:112
+msgid "Player Controls"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:225
+#: elementor/widgets/dragfy-addons-video-box.php:114
+msgid "Show/hide player controls."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:233
+#: elementor/widgets/dragfy-addons-video-box.php:122
+msgid "Mute"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:241
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:112
+#: elementor/widgets/dragfy-addons-image-box-slider.php:70
+#: elementor/widgets/dragfy-addons-image-slider.php:110
+#: elementor/widgets/dragfy-addons-interactive-slider.php:91
+#: elementor/widgets/dragfy-addons-logo-carousel.php:89
+#: elementor/widgets/dragfy-addons-post-slider.php:110
+#: elementor/widgets/dragfy-addons-road-map.php:71
+#: elementor/widgets/dragfy-addons-team-member-slider.php:94
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:96
+#: elementor/widgets/dragfy-addons-video-box.php:130
+msgid "Loop"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:249
+#: elementor/widgets/dragfy-addons-video-box.php:138
+msgid "Start Time"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:252
+#: elementor/widgets/dragfy-addons-video-box.php:141
+msgid "Specify a start time (in seconds)."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:261
+#: elementor/widgets/dragfy-addons-video-box.php:150
+msgid "End Time"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:264
+#: elementor/widgets/dragfy-addons-video-box.php:153
+msgid "Specify a end time (in seconds)."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:534
+#: elementor/widgets/dragfy-addons-video-box.php:210
+msgid "Play Icon Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:582
+#: elementor/widgets/dragfy-addons-flip-box.php:400
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:352
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:689
+#: elementor/widgets/dragfy-addons-icon-box.php:366
+#: elementor/widgets/dragfy-addons-image-box-slider.php:571
+#: elementor/widgets/dragfy-addons-image-slider.php:246
+#: elementor/widgets/dragfy-addons-interactive-card.php:380
+#: elementor/widgets/dragfy-addons-logo-carousel.php:250
+#: elementor/widgets/dragfy-addons-post-slider.php:633
+#: elementor/widgets/dragfy-addons-post.php:818
+#: elementor/widgets/dragfy-addons-pricing-table.php:807
+#: elementor/widgets/dragfy-addons-road-map.php:360
+#: elementor/widgets/dragfy-addons-road-map.php:612
+#: elementor/widgets/dragfy-addons-team-member-slider.php:604
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:428
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:458
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:787
+#: elementor/widgets/dragfy-addons-testimonial.php:227
+#: elementor/widgets/dragfy-addons-video-box.php:258
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-filterable-video-gallery.php:600
+#: elementor/widgets/dragfy-addons-heading.php:507
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:340
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:766
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:804
+#: elementor/widgets/dragfy-addons-image-box-slider.php:361
+#: elementor/widgets/dragfy-addons-image-box-slider.php:648
+#: elementor/widgets/dragfy-addons-image-box-slider.php:686
+#: elementor/widgets/dragfy-addons-image-comparison.php:202
+#: elementor/widgets/dragfy-addons-image-slider.php:323
+#: elementor/widgets/dragfy-addons-image-slider.php:361
+#: elementor/widgets/dragfy-addons-logo-carousel.php:328
+#: elementor/widgets/dragfy-addons-post-slider.php:710
+#: elementor/widgets/dragfy-addons-post-slider.php:748
+#: elementor/widgets/dragfy-addons-pricing-table.php:226
+#: elementor/widgets/dragfy-addons-pricing-table.php:540
+#: elementor/widgets/dragfy-addons-road-map.php:304
+#: elementor/widgets/dragfy-addons-road-map.php:689
+#: elementor/widgets/dragfy-addons-road-map.php:727
+#: elementor/widgets/dragfy-addons-tabs.php:120
+#: elementor/widgets/dragfy-addons-team-member-slider.php:681
+#: elementor/widgets/dragfy-addons-team-member-slider.php:719
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:384
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:864
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:902
+#: elementor/widgets/dragfy-addons-timeline.php:320
+#: elementor/widgets/dragfy-addons-video-box.php:276
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:76
+msgid "Animation Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:81
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:82
+msgid "Vertical"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:95
+msgid "Flip Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:133
+#: elementor/widgets/dragfy-addons-hotspot.php:65
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:86
+#: elementor/widgets/dragfy-addons-interactive-card.php:86
+#: elementor/widgets/dragfy-addons-interactive-slider.php:156
+#: elementor/widgets/dragfy-addons-video-box.php:58
+msgid "Background Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:216
+#: elementor/widgets/dragfy-addons-icon-box.php:158
+#: elementor/widgets/dragfy-addons-image-box-slider.php:206
+#: elementor/widgets/dragfy-addons-image-box-slider.php:212
+#: elementor/widgets/dragfy-addons-image-box.php:121
+msgid "Super Creative"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:223
+#: elementor/widgets/dragfy-addons-heading.php:133
+#: elementor/widgets/dragfy-addons-icon-box.php:166
+#: elementor/widgets/dragfy-addons-image-box.php:128
+#: elementor/widgets/dragfy-addons-info-card.php:106
+#: elementor/widgets/dragfy-addons-interactive-banner.php:178
+#: elementor/widgets/dragfy-addons-interactive-card.php:139
+#: elementor/widgets/dragfy-addons-interactive-slider.php:186
+#: elementor/widgets/dragfy-addons-road-map.php:168
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:252
+#: elementor/widgets/dragfy-addons-testimonial.php:123
+msgid "Description"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:226
+#: elementor/widgets/dragfy-addons-icon-box.php:168
+#: elementor/widgets/dragfy-addons-image-box.php:131
+msgid ""
+"You can choose from 320+ icons and place it. All icons are pixel-perfect, "
+"hand-crafted & perfectly scalable. Awesome, eh?"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:254
+#: elementor/widgets/dragfy-addons-image-box.php:189
+msgid "Button URL"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-flip-box.php:462
+#: elementor/widgets/dragfy-addons-heading.php:520
+#: elementor/widgets/dragfy-addons-icon-box.php:430
+#: elementor/widgets/dragfy-addons-image-box.php:392
+#: elementor/widgets/dragfy-addons-info-card.php:264
+#: elementor/widgets/dragfy-addons-interactive-banner.php:341
+#: elementor/widgets/dragfy-addons-interactive-card.php:442
+#: elementor/widgets/dragfy-addons-interactive-slider.php:341
+#: elementor/widgets/dragfy-addons-road-map.php:421
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:609
+#: elementor/widgets/dragfy-addons-testimonial.php:378
+msgid "Description Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:112
+msgid "Modular System"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:123
+msgid "Level up your site with great-looking widgets."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:136
+msgid ""
+"Everyone wants a visually appealing site. Dragfy addon for Elementor does "
+"extactly that. All widgets are extremely customizable and created to "
+"perfection."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:212
+#: elementor/widgets/dragfy-addons-heading.php:352
+#: elementor/widgets/dragfy-addons-heading.php:528
+#: elementor/widgets/dragfy-addons-interactive-banner.php:269
+#: elementor/widgets/dragfy-addons-progress-bar.php:219
+msgid "Background Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:216
+#: elementor/widgets/dragfy-addons-heading.php:356
+#: elementor/widgets/dragfy-addons-heading.php:532
+msgid "Normal Background"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:217
+#: elementor/widgets/dragfy-addons-heading.php:357
+#: elementor/widgets/dragfy-addons-heading.php:533
+msgid "Clipped Background"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:236
+#: elementor/widgets/dragfy-addons-heading.php:376
+#: elementor/widgets/dragfy-addons-heading.php:552
+msgid "Stroke"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:244
+#: elementor/widgets/dragfy-addons-heading.php:384
+#: elementor/widgets/dragfy-addons-heading.php:560
+msgid "Stroke Text Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:255
+#: elementor/widgets/dragfy-addons-heading.php:395
+#: elementor/widgets/dragfy-addons-heading.php:571
+msgid "Stroke Fill Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:266
+#: elementor/widgets/dragfy-addons-heading.php:406
+#: elementor/widgets/dragfy-addons-heading.php:582
+msgid "Stroke Fill Width"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:485
+msgid "Primary Border Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-heading.php:496
+msgid "Secondary Border Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:77
+msgid "Marker Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:92
+msgid "Number"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:117
+#: elementor/widgets/dragfy-addons-hotspot.php:178
+msgid "Marker Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:125
+#: elementor/widgets/dragfy-addons-hotspot.php:179
+#: elementor/widgets/dragfy-addons-interactive-card.php:166
+#: elementor/widgets/dragfy-addons-interactive-card.php:181
+#: elementor/widgets/dragfy-addons-interactive-card.php:184
+msgid "Buy Ave and get access to premium and exclusive plugins for free."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:134
+#: modules/parallax/module.php:147
+msgid "Horizontal Position (%)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:153
+#: modules/parallax/module.php:167
+msgid "Vertical Position (%)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:172
+#: elementor/widgets/dragfy-addons-interactive-card.php:165
+msgid "Item"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:219
+msgid "Marker Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:283
+#: elementor/widgets/dragfy-addons-image-box.php:275
+#: elementor/widgets/dragfy-addons-image-gallery.php:134
+#: elementor/widgets/dragfy-addons-image-scroll.php:158
+#: elementor/widgets/dragfy-addons-interactive-card.php:306
+#: elementor/widgets/dragfy-addons-team-member-slider.php:350
+#: elementor/widgets/dragfy-addons-team-member.php:292
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:653
+msgid "Image Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:291
+#: modules/particles/module.php:168
+msgid "Opacity"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-hotspot.php:362
+msgid "Tooltip Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:96
+#: elementor/widgets/dragfy-addons-image-box-slider.php:54
+#: elementor/widgets/dragfy-addons-image-slider.php:95
+#: elementor/widgets/dragfy-addons-interactive-slider.php:76
+#: elementor/widgets/dragfy-addons-logo-carousel.php:73
+#: elementor/widgets/dragfy-addons-post-slider.php:94
+#: elementor/widgets/dragfy-addons-road-map.php:55
+#: elementor/widgets/dragfy-addons-team-member-slider.php:79
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:80
+msgid "Slider Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:103
+#: elementor/widgets/dragfy-addons-image-box-slider.php:61
+#: elementor/widgets/dragfy-addons-image-slider.php:102
+#: elementor/widgets/dragfy-addons-interactive-slider.php:83
+#: elementor/widgets/dragfy-addons-logo-carousel.php:80
+#: elementor/widgets/dragfy-addons-post-slider.php:101
+#: elementor/widgets/dragfy-addons-road-map.php:62
+#: elementor/widgets/dragfy-addons-team-member-slider.php:86
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:87
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:122
+#: elementor/widgets/dragfy-addons-image-box-slider.php:97
+#: elementor/widgets/dragfy-addons-image-slider.php:119
+#: elementor/widgets/dragfy-addons-interactive-slider.php:100
+#: elementor/widgets/dragfy-addons-logo-carousel.php:99
+#: elementor/widgets/dragfy-addons-post-slider.php:137
+#: elementor/widgets/dragfy-addons-road-map.php:98
+#: elementor/widgets/dragfy-addons-team-member-slider.php:103
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:123
+msgid "Speed"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:142
+msgid "Count Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:144
+msgid "673"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:146
+msgid "This field is only for Style 1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:209
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:214
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:219
+msgid "Projects Completed"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:210
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:215
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:220
+msgid ""
+"Bring to the table win-win survival strategies to ensure proactive "
+"domination. At the end of the day, going forward, a new normal that has "
+"evolved from generation ensure proactive."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:242
+msgid "Ajust height"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:631
+#: elementor/widgets/dragfy-addons-image-box-slider.php:513
+#: elementor/widgets/dragfy-addons-image-slider.php:188
+#: elementor/widgets/dragfy-addons-logo-carousel.php:109
+#: elementor/widgets/dragfy-addons-logo-carousel.php:191
+#: elementor/widgets/dragfy-addons-post-slider.php:575
+#: elementor/widgets/dragfy-addons-road-map.php:554
+#: elementor/widgets/dragfy-addons-team-member-slider.php:546
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:729
+msgid "Navigational Arrows"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:638
+#: elementor/widgets/dragfy-addons-image-box-slider.php:520
+#: elementor/widgets/dragfy-addons-image-slider.php:195
+#: elementor/widgets/dragfy-addons-logo-carousel.php:199
+#: elementor/widgets/dragfy-addons-post-slider.php:582
+#: elementor/widgets/dragfy-addons-road-map.php:561
+#: elementor/widgets/dragfy-addons-team-member-slider.php:553
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:736
+msgid "Left Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:663
+#: elementor/widgets/dragfy-addons-image-box-slider.php:545
+#: elementor/widgets/dragfy-addons-image-slider.php:220
+#: elementor/widgets/dragfy-addons-logo-carousel.php:224
+#: elementor/widgets/dragfy-addons-post-slider.php:607
+#: elementor/widgets/dragfy-addons-road-map.php:586
+#: elementor/widgets/dragfy-addons-team-member-slider.php:578
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:761
+msgid "Right Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:691
+#: elementor/widgets/dragfy-addons-image-box-slider.php:573
+#: elementor/widgets/dragfy-addons-image-slider.php:248
+#: elementor/widgets/dragfy-addons-post-slider.php:635
+#: elementor/widgets/dragfy-addons-road-map.php:614
+#: elementor/widgets/dragfy-addons-team-member-slider.php:606
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:789
+msgid "Ajust circle width & height."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:712
+#: elementor/widgets/dragfy-addons-image-box-slider.php:594
+#: elementor/widgets/dragfy-addons-image-slider.php:269
+#: elementor/widgets/dragfy-addons-logo-carousel.php:273
+#: elementor/widgets/dragfy-addons-post-slider.php:656
+#: elementor/widgets/dragfy-addons-road-map.php:635
+#: elementor/widgets/dragfy-addons-team-member-slider.php:627
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:810
+#: elementor/widgets/dragfy-addons-timeline.php:332
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box-slider.php:714
+#: elementor/widgets/dragfy-addons-image-box-slider.php:596
+#: elementor/widgets/dragfy-addons-image-slider.php:271
+#: elementor/widgets/dragfy-addons-post-slider.php:658
+#: elementor/widgets/dragfy-addons-pricing-table.php:809
+#: elementor/widgets/dragfy-addons-road-map.php:637
+#: elementor/widgets/dragfy-addons-team-member-slider.php:629
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:812
+msgid "Ajust icon size."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:72
+msgid "Style 7"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:73
+msgid "Style 8"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:74
+msgid "Style 9"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:75
+msgid "Style 10"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:76
+msgid "Style 11"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:77
+msgid "Style 12"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:85
+msgid "Horizontal Position - Left (px)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-icon-box.php:105
+msgid "Horizontal Position - Right (px)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:79
+#: elementor/widgets/dragfy-addons-post-slider.php:119
+#: elementor/widgets/dragfy-addons-road-map.php:80
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:105
+msgid "Arrows"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:88
+#: elementor/widgets/dragfy-addons-post-slider.php:128
+#: elementor/widgets/dragfy-addons-road-map.php:89
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:114
+msgid "Draggable Effect"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:106
+#: elementor/widgets/dragfy-addons-post-slider.php:146
+#: elementor/widgets/dragfy-addons-road-map.php:107
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:132
+msgid "Desktop Slide"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:117
+#: elementor/widgets/dragfy-addons-post-slider.php:157
+#: elementor/widgets/dragfy-addons-road-map.php:116
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:143
+msgid "Table Slide"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:128
+#: elementor/widgets/dragfy-addons-post-slider.php:168
+#: elementor/widgets/dragfy-addons-road-map.php:125
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:154
+msgid "Mobile Slide"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:152
+msgid " Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:171
+msgid "List(s)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:173
+msgid "Adding | in between sentence makes lists."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:207
+#: elementor/widgets/dragfy-addons-image-box-slider.php:213
+msgid ""
+"Wollo Token Sale Starts 5th September at Midday|Educating children about the "
+"future of money Awesome, eh?"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box-slider.php:344
+#: elementor/widgets/dragfy-addons-interactive-card.php:483
+msgid "Lists Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box.php:98
+msgid "Image Two"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-box.php:282
+#: elementor/widgets/dragfy-addons-image-gallery.php:141
+#: elementor/widgets/dragfy-addons-image-scroll.php:165
+#: elementor/widgets/dragfy-addons-interactive-banner.php:287
+#: elementor/widgets/dragfy-addons-team-member-slider.php:357
+msgid "Overlay Background Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:80
+msgid "First Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:89
+msgid "Second Image"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:172
+msgid "Handler Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:180
+msgid "Vertical Line Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:245
+msgid "Before"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-comparison.php:246
+msgid "After"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-gallery.php:87
+#: elementor/widgets/dragfy-addons-image-scroll.php:82
+#: elementor/widgets/dragfy-addons-image-slider.php:82
+#: elementor/widgets/dragfy-addons-logo-carousel.php:127
+msgid "Upload Images"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-scroll.php:137
+msgid "Gutter Space (px)"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-image-slider.php:140
+msgid "Ajust height."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-info-card.php:99
+msgid "Join the Community"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-info-card.php:109
+msgid "Bring to the table win-win survival way to ensure proactive domination."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:139
+#: elementor/widgets/dragfy-addons-interactive-slider.php:109
+msgid "Overlay"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:142
+msgid "Works only for Style 3 & 4"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:149
+msgid "Logo Images"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:152
+msgid "Works only for Style 5"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:199
+msgid "Button Text."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:223
+msgid "Form Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:233
+msgid "Make an Appointment"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:245
+msgid "Fill-out the details for imformation"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:382
+msgid "Shape Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:390
+msgid "Color 1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:403
+msgid "Color 2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:415
+msgid "Color 3"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:623
+msgid "Heading Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:642
+msgid "Sub Heading Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-banner.php:754
+msgid "Enter Your Email Adress"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-slider.php:167
+msgid "WELCOME TO ROYAL BONANZA"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-slider.php:384
+msgid "Button Primary Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-interactive-slider.php:543
+msgid "Button Secondary Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:55
+msgid "Line Chart"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:65
+msgid "Price History"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:72
+msgid "X-axis Values"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:75
+#: elementor/widgets/dragfy-addons-line-chart.php:96
+msgid "Enter values for axis (Note: separate values with \",\")."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:76
+msgid "100, 200, 300, 400, 500"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:83
+msgid "Y-axis Label"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:86
+#: elementor/widgets/dragfy-addons-pricing-table.php:169
+#: elementor/widgets/dragfy-addons-pricing-table.php:618
+msgid "Price"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:93
+msgid "Y-axis Values"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:97
+msgid "100, 50, 150, 100, 30"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:199
+msgid "Chart Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:233
+msgid "Border Width"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:252
+msgid "X-axis Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:267
+#: elementor/widgets/dragfy-addons-line-chart.php:292
+msgid "Grid Line Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-line-chart.php:277
+msgid "Y-axis Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-logo-carousel.php:252
+msgid "Ajust circle width & height"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-logo-carousel.php:275
+msgid "Ajust arrow size"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-logo-carousel.php:296
+#: elementor/widgets/dragfy-addons-team-member-slider.php:144
+#: elementor/widgets/dragfy-addons-team-member.php:117
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:243
+#: elementor/widgets/dragfy-addons-testimonial.php:113
+msgid "Position"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-logo-carousel.php:298
+msgid "Ajust arrow position"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:63
+msgid ""
+"<strong>Newsletter</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Newsletter</strong>."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:126
+#: elementor/widgets/dragfy-addons-newsletter.php:175
+msgid "Subscribe Newsletter"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:136
+msgid "Fill-out the form for informations"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:144
+msgid "Name Placeholder"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:155
+msgid "Email Placeholder"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:157
+msgid "Email Address"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-newsletter.php:246
+#: elementor/widgets/dragfy-addons-pricing-table.php:551
+#: elementor/widgets/dragfy-addons-pricing-table.php:739
+#: elementor/widgets/dragfy-addons-road-map.php:470
+#: elementor/widgets/dragfy-addons-team-member-slider.php:328
+#: elementor/widgets/dragfy-addons-team-member.php:271
+#: elementor/widgets/dragfy-addons-testimonial.php:195
+msgid "Horizontal Line Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:60
+msgid ""
+"<strong>Ninja Forms</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Ninja Forms</strong>."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:79
+#: elementor/widgets/dragfy-addons-wp-forms.php:79
+msgid "Select Form"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:93
+msgid "Error Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:101
+msgid "Error Message"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:106
+#: elementor/widgets/dragfy-addons-ninja-forms.php:127
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:107
+#: elementor/widgets/dragfy-addons-ninja-forms.php:128
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-ninja-forms.php:122
+msgid "Validation Message"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:181
+#: elementor/widgets/dragfy-addons-post.php:98
+msgid "Query Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:188
+#: elementor/widgets/dragfy-addons-post.php:105
+msgid "Filter By Categories"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:189
+#: elementor/widgets/dragfy-addons-post.php:106
+msgid "Specifies a category that you want to show posts from it."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:201
+#: elementor/widgets/dragfy-addons-post.php:118
+msgid "Filter By Tags"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:202
+#: elementor/widgets/dragfy-addons-post.php:119
+msgid "Specifies a tag that you want to show posts from it."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:214
+#: elementor/widgets/dragfy-addons-post.php:131
+msgid "Limit"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:224
+#: elementor/widgets/dragfy-addons-post.php:141
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:244
+#: elementor/widgets/dragfy-addons-post.php:161
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:247
+#: elementor/widgets/dragfy-addons-post.php:164
+msgid "Descending"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:248
+#: elementor/widgets/dragfy-addons-post.php:165
+msgid "Ascending"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post-slider.php:260
+#: elementor/widgets/dragfy-addons-post.php:177
+msgid "Meta Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:194
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:204
+#: elementor/widgets/dragfy-addons-road-map.php:178
+#: elementor/widgets/dragfy-addons-timeline.php:88
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:216
+msgid "Advance Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:223
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:233
+msgid "Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:244
+msgid "Read More"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:254
+msgid "Pagination"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:565
+msgid "Author Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:712
+#: elementor/widgets/dragfy-addons-road-map.php:513
+#: elementor/widgets/dragfy-addons-timeline.php:215
+msgid "Date Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:798
+msgid "Pagination Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:1003
+msgid "Read More Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-post.php:1240
+msgid "READ MORE"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:78
+msgid "Is Featured ?"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:88
+msgid "Featured Heading"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:91
+msgid "Most Popular"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:102
+msgid "Price Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:109
+msgid "Plan"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:111
+msgid "Standard"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:119
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:134
+msgid "Font Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:148
+msgid "Image Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:159
+#: elementor/widgets/dragfy-addons-pricing-table.php:579
+msgid "Currency"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:161
+msgid "$"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:171
+msgid "499"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:179
+#: elementor/widgets/dragfy-addons-pricing-table.php:659
+msgid "Seperator"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:181
+msgid "/"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:190
+#: elementor/widgets/dragfy-addons-pricing-table.php:692
+msgid "Duration"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:192
+msgid "month"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:204
+msgid "Feature Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:216
+#: elementor/widgets/dragfy-addons-pricing-table.php:228
+msgid "This option is only for Style 1, 3 & 4"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:238
+msgid "Feature"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:240
+msgid "5000 GB Bandwidth"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:254
+msgid "50 GB Bandwidth"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:294
+msgid "Button Attributes"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:380
+msgid "Featured Heading Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:467
+msgid "Plan Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:572
+msgid "Price Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:732
+msgid "Extra"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:752
+msgid "Feature Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:759
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-pricing-table.php:830
+msgid "Odd item"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:73
+msgid "Max Width"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:105
+#: elementor/widgets/dragfy-addons-progress-bar.php:138
+msgid "Development"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:115
+#: elementor/widgets/dragfy-addons-progress-bar.php:139
+msgid "150M"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:123
+#: elementor/widgets/dragfy-addons-round-chart.php:123
+msgid "Value"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:125
+#: elementor/widgets/dragfy-addons-progress-bar.php:140
+#: elementor/widgets/dragfy-addons-round-chart.php:147
+msgid "90"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:143
+msgid "Profit"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:144
+msgid "20B"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:145
+#: elementor/widgets/dragfy-addons-round-chart.php:152
+msgid "40"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:270
+msgid "Fill Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-progress-bar.php:385
+msgid "Value Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:136
+msgid "Plan Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:159
+msgid "Your Title"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:169
+#: elementor/widgets/dragfy-addons-road-map.php:194
+#: elementor/widgets/dragfy-addons-road-map.php:199
+#: elementor/widgets/dragfy-addons-timeline.php:109
+#: elementor/widgets/dragfy-addons-timeline.php:136
+#: elementor/widgets/dragfy-addons-timeline.php:141
+#: elementor/widgets/dragfy-addons-timeline.php:146
+#: elementor/widgets/dragfy-addons-timeline.php:151
+msgid "Coming up with the genius idea and forming up the business"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:180
+#: elementor/widgets/dragfy-addons-timeline.php:90
+msgid "December 2015"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:193
+msgid "Project Starts"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:195
+#: elementor/widgets/dragfy-addons-timeline.php:134
+#: elementor/widgets/dragfy-addons-timeline.php:139
+#: elementor/widgets/dragfy-addons-timeline.php:144
+#: elementor/widgets/dragfy-addons-timeline.php:149
+msgid "December 2017"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:198
+msgid "Token Sale"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:200
+msgid "November 2018"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-road-map.php:463
+msgid "Timeline Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:61
+msgid "Width"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:105
+msgid "Chart Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:132
+msgid "Stroke Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:133
+#: elementor/widgets/dragfy-addons-round-chart.php:148
+msgid "#5752d0"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:146
+msgid "Bitcoin"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:151
+msgid "Litecoin"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:153
+msgid "#7975d9"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:156
+msgid "Webcoin"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:157
+msgid "60"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:158
+msgid "#9a97e3"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-round-chart.php:244
+msgid "Label Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:65
+msgid "Heading One"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:68
+msgid "Features"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:75
+msgid "Heading Two"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:78
+msgid "Free"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:85
+msgid "Heading Three"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:108
+msgid "Heading One Value"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:111
+#: elementor/widgets/dragfy-addons-table.php:206
+msgid "30 Basic Widgets"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:118
+msgid "Heading Two Value"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:136
+msgid "Heading Three Value"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:160
+msgid "Heading One Value Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:170
+msgid "Heading Two Value Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-table.php:180
+msgid "Heading Three Value Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-tabs.php:77
+msgid "Active Tab"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-tabs.php:98
+msgid "Show Icon"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-tabs.php:155
+msgid "01 Myself"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-tabs.php:159
+msgid "02 Myself"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:137
+#: elementor/widgets/dragfy-addons-team-member-slider.php:189
+#: elementor/widgets/dragfy-addons-team-member-slider.php:196
+#: elementor/widgets/dragfy-addons-team-member-slider.php:203
+#: elementor/widgets/dragfy-addons-team-member-slider.php:210
+#: elementor/widgets/dragfy-addons-team-member-slider.php:217
+#: elementor/widgets/dragfy-addons-team-member-slider.php:224
+#: elementor/widgets/dragfy-addons-team-member-slider.php:231
+#: elementor/widgets/dragfy-addons-team-member.php:110
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:275
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:280
+#: elementor/widgets/dragfy-addons-testimonial.php:106
+msgid "John Doe"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:147
+#: elementor/widgets/dragfy-addons-team-member-slider.php:190
+#: elementor/widgets/dragfy-addons-team-member-slider.php:197
+#: elementor/widgets/dragfy-addons-team-member-slider.php:204
+#: elementor/widgets/dragfy-addons-team-member-slider.php:211
+#: elementor/widgets/dragfy-addons-team-member-slider.php:218
+#: elementor/widgets/dragfy-addons-team-member-slider.php:225
+#: elementor/widgets/dragfy-addons-team-member-slider.php:232
+#: elementor/widgets/dragfy-addons-team-member.php:120
+msgid "Developer"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:154
+#: elementor/widgets/dragfy-addons-team-member-slider.php:868
+msgid "Facebook"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:157
+#: elementor/widgets/dragfy-addons-team-member-slider.php:167
+#: elementor/widgets/dragfy-addons-team-member-slider.php:177
+#: elementor/widgets/dragfy-addons-team-member-slider.php:191
+#: elementor/widgets/dragfy-addons-team-member-slider.php:192
+#: elementor/widgets/dragfy-addons-team-member-slider.php:193
+#: elementor/widgets/dragfy-addons-team-member-slider.php:198
+#: elementor/widgets/dragfy-addons-team-member-slider.php:199
+#: elementor/widgets/dragfy-addons-team-member-slider.php:200
+#: elementor/widgets/dragfy-addons-team-member-slider.php:205
+#: elementor/widgets/dragfy-addons-team-member-slider.php:206
+#: elementor/widgets/dragfy-addons-team-member-slider.php:207
+#: elementor/widgets/dragfy-addons-team-member-slider.php:212
+#: elementor/widgets/dragfy-addons-team-member-slider.php:213
+#: elementor/widgets/dragfy-addons-team-member-slider.php:214
+#: elementor/widgets/dragfy-addons-team-member-slider.php:219
+#: elementor/widgets/dragfy-addons-team-member-slider.php:220
+#: elementor/widgets/dragfy-addons-team-member-slider.php:221
+#: elementor/widgets/dragfy-addons-team-member-slider.php:226
+#: elementor/widgets/dragfy-addons-team-member-slider.php:227
+#: elementor/widgets/dragfy-addons-team-member-slider.php:228
+#: elementor/widgets/dragfy-addons-team-member-slider.php:233
+#: elementor/widgets/dragfy-addons-team-member-slider.php:234
+#: elementor/widgets/dragfy-addons-team-member-slider.php:235
+msgid "#"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:164
+#: elementor/widgets/dragfy-addons-team-member-slider.php:869
+msgid "Twitter"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:174
+#: elementor/widgets/dragfy-addons-team-member-slider.php:870
+msgid "Dribble"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:391
+#: elementor/widgets/dragfy-addons-team-member.php:333
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:524
+#: elementor/widgets/dragfy-addons-testimonial.php:293
+msgid "Name Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:434
+#: elementor/widgets/dragfy-addons-team-member.php:376
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:566
+#: elementor/widgets/dragfy-addons-testimonial.php:335
+msgid "Position Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:476
+#: elementor/widgets/dragfy-addons-team-member.php:460
+msgid "Social Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member-slider.php:483
+#: elementor/widgets/dragfy-addons-team-member.php:467
+msgid "Seperator Color"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member.php:141
+msgid "Social Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-team-member.php:302
+msgid "Overlay Background"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:224
+#: elementor/widgets/dragfy-addons-testimonial.php:84
+msgid "Avatar"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:260
+msgid "Signature"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:263
+msgid "Works only for Style 2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:276
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:281
+#: elementor/widgets/dragfy-addons-testimonial.php:116
+msgid "Themeforest Author"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:277
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:282
+#: elementor/widgets/dragfy-addons-testimonial.php:125
+msgid "Add testimonial description here. Edit and place your own text."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial-slider.php:450
+#: elementor/widgets/dragfy-addons-testimonial.php:219
+msgid "Avatar Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-testimonial.php:77
+msgid "Avatar Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-timeline.php:300
+msgid "Connector Style"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-timeline.php:385
+msgid "Focused"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-video-box.php:71
+msgid "Video Settings"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-video-box.php:161
+msgid "Tilt Effect"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-wp-forms.php:60
+msgid ""
+"<strong>WpForms</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Wp Forms</strong>."
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:59
+msgid "Channel ID"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:69
+msgid "Aspect Ratio"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:74
+msgid "1:1"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:75
+msgid "3:2"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:76
+msgid "4:3"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:77
+msgid "16:9"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:78
+msgid "21:9"
+msgstr ""
+
+#: elementor/widgets/dragfy-addons-youtube-video-playlist.php:161
+msgid "Playlist Style"
+msgstr ""
+
+#: includes/helpers/helpers.class.php:152
+msgid "LOAD MORE ARTICLES"
+msgstr ""
+
+#: includes/helpers/helpers.class.php:233
+msgid "Select Ninja Form"
+msgstr ""
+
+#: includes/helpers/helpers.class.php:239
+#: includes/helpers/helpers.class.php:266
+msgid "Create a Form First"
+msgstr ""
+
+#: includes/helpers/helpers.class.php:260
+msgid "Select a WPForm"
+msgstr ""
+
+#: modules/parallax/module.php:100
+msgid "Dragfy - Parallax Background"
+msgstr ""
+
+#: modules/parallax/module.php:109
+msgid "Enable Parallax"
+msgstr ""
+
+#: modules/parallax/module.php:137
+msgid "Rotate"
+msgstr ""
+
+#: modules/parallax/module.php:138
+msgid "Bottom Top"
+msgstr ""
+
+#: modules/parallax/module.php:139
+msgid "Right Left"
+msgstr ""
+
+#: modules/particles/module.php:101
+msgid "Dragfy - Particle Background"
+msgstr ""
+
+#: modules/particles/module.php:110
+msgid "Enable Particles"
+msgstr ""
+
+#: modules/particles/module.php:127
+msgid "Polygon"
+msgstr ""
+
+#: modules/particles/module.php:128
+msgid "NASA"
+msgstr ""
+
+#: modules/particles/module.php:129
+msgid "Snow"
+msgstr ""
+
+#: modules/particles/module.php:130
+msgid "Custom"
+msgstr ""
+
+#: modules/particles/module.php:154
+msgid "Particle Color"
+msgstr ""
+
+#: modules/particles/module.php:188
+msgid "Flow Direction"
+msgstr ""
+
+#: modules/particles/module.php:192
+msgid "Top"
+msgstr ""
+
+#: modules/particles/module.php:193
+msgid "Bottom"
+msgstr ""
+
+#: modules/particles/module.php:196
+msgid "Top Left"
+msgstr ""
+
+#: modules/particles/module.php:197
+msgid "Top Right"
+msgstr ""
+
+#: modules/particles/module.php:198
+msgid "Bottom Left"
+msgstr ""
+
+#: modules/particles/module.php:199
+msgid "Bottom Right"
+msgstr ""
+
+#: modules/particles/module.php:212
+msgid "Advanced Settings"
+msgstr ""
+
+#: modules/particles/module.php:214 modules/particles/module.php:292
+msgid "Yes"
+msgstr ""
+
+#: modules/particles/module.php:215 modules/particles/module.php:293
+msgid "No"
+msgstr ""
+
+#: modules/particles/module.php:229
+msgid "Number of Particles"
+msgstr ""
+
+#: modules/particles/module.php:249
+msgid "Particle Size"
+msgstr ""
+
+#: modules/particles/module.php:269
+msgid "Move Speed"
+msgstr ""
+
+#: modules/particles/module.php:290
+msgid "Enable Hover Effect"
+msgstr ""

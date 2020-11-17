@@ -1,0 +1,397 @@
+.wpcf7-form-control-wrap {
+  position: relative;
+  display: block;
+}
+
+.df-contact-form-wrapper label {
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.df-contact-form-wrapper .wpcf7-form-control-wrap span {
+  font-size: 14px;
+  display: block;
+  line-height: 1.6em;
+  margin-bottom: 15px;
+  color: #DE3618;
+}
+
+.df-contact-form-wrapper .wpcf7-form-control-wrap input,
+.df-contact-form-wrapper .wpcf7-form-control-wrap textarea {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  height: 42px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #666;
+  display: block;
+  font-weight: 300;
+}
+
+.df-contact-form-wrapper .wpcf7-form-control-wrap textarea {
+  height: 140px;
+}
+
+.df-contact-form-wrapper .wpcf7-form-control-wrap input:focus,
+.df-contact-form-wrapper .wpcf7-form-control-wrap textarea:focus {
+  border-color: #5D5BCA;
+}
+
+.df-contact-form-wrapper .wpcf7-form-control-wrap input:focus,
+.df-contact-form-wrapper .wpcf7-form-control-wrap textarea:focus {
+  outline: none;
+  border-color: #5D5BCA;
+}
+
+.df-contact-form-wrapper p {
+  margin: 0;
+}
+
+.df-appointment-form form>p span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.select-doctor:before,
+.select-department:before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 9px;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #b5b5b5;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.select-doctor:after,
+.select-department:after {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #fafafa;
+  top: 16px;
+  right: 4px;
+}
+
+.df-form-field input,
+.df-form-field textarea,
+.df-appointment-form form>p input,
+.df-appointment-form form>p select {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 6px 15px;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #666;
+  display: block;
+  font-weight: 300;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 45px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.df-appointment-form form>p input,
+.df-appointment-form form>p select {
+  border: none;
+  border-bottom: 2px solid #eaeaea;
+  border-radius: 0;
+  background: transparent;
+  margin-bottom: 0px;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.df-form-field.df-style1 input:focus,
+.df-appointment-form form>p input:focus,
+.df-appointment-form form>p select:focus {
+  border-color: #666 !important;
+  outline: none;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.df-appointment-form form>p input:foucs,
+.df-appointment-form form>p select:foucs {
+  background-color: transparent;
+}
+
+.df-hero-form.df-style2 .df-btn.df-style4 {
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.55em;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 43px;
+  margin-top: 30px;
+}
+
+.df-hero-form.df-style2 .df-form-body .wpcf7-form>p {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.df-hero-form.df-style2 .df-btn.df-style4:hover {
+  -webkit-transform: initial;
+  -ms-transform: initial;
+  transform: initial;
+}
+
+.df-hero-form.df-style2 .df-btn.df-style4:focus {
+  background-color: #13ce66;
+  border-color: #13ce66 !important;
+}
+
+.wpcf7-not-valid-tip {
+  letter-spacing: 0;
+  text-transform: capitalize;
+  display: block;
+  margin-top: 3px;
+  margin-left: 1px;
+  font-size: 12px;
+}
+
+.wpcf7-validation-errors,
+.wpcf7-acceptance-missing {
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #f00;
+  text-transform: initial;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 16px !important;
+  letter-spacing: 0;
+  line-height: 1.6em;
+  margin-bottom: 0 !important;
+}
+
+.df-contact-form-wrapper.df-style1 p,
+.df-contact-form-wrapper.df-style2 p {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.df-contact-form-wrapper.df-style1 p.df-active label {
+  top: -11px;
+  left: 7px;
+}
+
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap input,
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap textarea,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap input,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap textarea {
+  border: none;
+  border-bottom: 2px solid #eaeaea;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 3px 0;
+  height: 32px;
+  background-color: transparent;
+}
+
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap input:focus,
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap textarea:focus,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap input:focus,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap textarea :focus {
+  border-color: #5D5BCA;
+}
+
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap textarea,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap textarea {
+  height: 100px;
+}
+
+.df-contact-form-wrapper.df-style2 label {
+  background-color: transparent;
+  left: 0;
+  padding: 0;
+  top: 2px;
+  color: #666;
+}
+
+.df-contact-form-wrapper.df-style2 p.df-active label {
+  top: -20px;
+  color: #b5b5b5;
+}
+
+.df-contact-form-wrapper.df-style2 p {
+  margin-bottom: 30px;
+}
+
+.df-contact-form-wrapper.df-style2 .wpcf7-form-control-wrap:before,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap:before {
+  background-color: #5D5BCA;
+}
+
+.df-contact-form-wrapper.df-style3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.df-contact-form-wrapper.df-style3 .df-form-img {
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  margin-right: 50px;
+  background-position: center center;
+}
+
+.df-contact-form-wrapper.df-style3 .wpcf7 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: -20px;
+}
+
+.df-contact-form-wrapper.df-style3 p {
+  margin-bottom: 20px;
+}
+
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap input,
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap textarea {
+  height: 40px;
+}
+
+.df-contact-form-wrapper.df-style3 .wpcf7-form-control-wrap textarea {
+  height: 100px;
+}
+
+.df-contact-form-wrapper input::-webkit-input-placeholder,
+.df-contact-form-wrapper textarea::-webkit-input-placeholder {
+  color: #b5b5b5;
+}
+
+.df-contact-form-wrapper input::-moz-placeholder,
+.df-contact-form-wrapper textarea::-moz-placeholder {
+  color: #b5b5b5;
+}
+
+.df-contact-form-wrapper input:-ms-input-placeholder,
+.df-contact-form-wrapper textarea:-ms-input-placeholder {
+  color: #b5b5b5;
+}
+
+.df-contact-form-wrapper input:-moz-placeholder,
+.df-contact-form-wrapper textarea:-moz-placeholder {
+  color: #b5b5b5;
+}
+
+.df-contact-form-wrapper.df-style2 .wpcf7 .ajax-loader {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  margin-left: 0;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  background-color: #fafafa;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.df-contact-form-wrapper.df-style4 label {
+  width: 100%;
+  display: block;
+  margin: 0;
+  color: #b5b5b5;
+  margin-bottom: 4px;
+}
+
+.df-contact-form-wrapper.df-style4 p {
+  margin-bottom: 20px;
+}
+
+.df-contact-form-wrapper.df-style4 label {
+  color: #b5b5b5;
+  margin-bottom: 6px;
+}
+
+.df-contact-form-wrapper.df-style5 p {
+  margin-bottom: 20px;
+}
+
+.df-contact-form-wrapper.df-style4 .wpcf7-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.df-contact-form-wrapper.df-style4 p,
+.df-contact-form-wrapper.df-style4 div {
+  width: 100%;
+
+}
+
+.df-contact-form-wrapper.df-style4 div+p,
+.df-contact-form-wrapper.df-style4 div+p+p {
+  width: calc(50% - 8px);
+}
+
+.df-contact-form-wrapper.df-style4 input[type="submit"] {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .df-contact-form-wrapper.df-style3 {
+    display: block;
+    padding-right: 0;
+  }
+
+  .df-contact-form-wrapper.df-style3 .df-form-img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .df-contact-form-wrapper.df-style3 .wpcf7 {
+    margin-bottom: 0;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+}

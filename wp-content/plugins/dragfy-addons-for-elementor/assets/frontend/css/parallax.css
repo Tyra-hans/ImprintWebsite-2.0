@@ -1,0 +1,18 @@
+.df-parallax-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.df-parallax-wrapper .df-parallax-shape {
+  position: absolute;
+}
+
+.df-parallax-wrapper .df-parallax-shape.df-shape0 {
+  left: 14%;
+  top: 25%;
+}
+
+.df-parallax-wrapper .df-parallax-shape.df-shape1 {
+  left: 70%;
+  bottom: 260px;
+}

@@ -1,0 +1,215 @@
+.df-contact-card.df-style1 {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.df-contact-card.df-style1:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.df-contact-card.df-style1 .df-contact-card-body {
+  padding: 35px 30px;
+}
+
+.df-contact-card.df-style1 .df-contact-card-title {
+  margin-bottom: 11px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.df-contact-card.df-style1 .df-contact-card-footer {
+  border-top: 1px solid #eaeaea;
+  height: 55px;
+  background-color: #fafafa;
+}
+
+.df-contact-card.df-style1 p,
+.df-contact-card.df-style2 p {
+  margin-bottom: 0;
+}
+
+.df-contact-card.df-style2 {
+  height: 350px;
+  border-radius: 4px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 30px 30px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.df-contact-card.df-style2:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.85)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.85));
+  background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.85));
+}
+
+.df-contact-card.df-style2 .df-contact-card-body,
+.df-contact-card.df-style2 .df-contact-card-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.df-contact-card.df-style2 .df-contact-card-body {
+  margin-bottom: 8px;
+}
+
+.df-contact-card.df-style2 .df-contact-card-title {
+    color: #fff;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.df-contact-card.df-style2 .df-info-content {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.df-contact-card.df-style2 .df-info-link,
+.df-contact-card.df-style3 .df-info-link {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.df-contact-card.df-style2 .df-info-link:hover,
+.df-contact-card.df-style3 .df-info-link:hover {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  -webkit-transform: initial;
+  -ms-transform: initial;
+  transform: initial;
+}
+
+.df-contact-card.df-style2 .df-info-link:before,
+.df-contact-card.df-style3 .df-info-link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.df-contact-card.df-style2 .df-info-link:after,
+.df-contact-card.df-style3 .df-info-link:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.df-contact-card.df-style2 .df-info-link:hover:after,
+.df-contact-card.df-style3 .df-info-link:hover:after {
+  opacity: 1;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.df-contact-card.df-style2 .df-info-link:after,
+.df-contact-card.df-style3 .df-info-link:after {
+  height: 2px;
+  background-color: #b5b5b5;
+}
+
+.df-contact-card.df-style3 {
+  padding: 0 30px 30px;
+  border-radius: 4px;
+}
+
+.df-contact-card.df-style3 .df-contact-card-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 8px;
+  margin-left: -8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.df-contact-card.df-style3 {
+  padding: 0 30px 30px;
+  border-radius: 4px;
+}
+
+.df-contact-card.df-style3 .df-contact-card-body {
+  margin-top: -10px;
+}
+
+.df-contact-card.df-style3 .df-contact-card-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 8px;
+  margin-left: -8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.df-contact-card.df-style3 .df-info-content p {
+  margin-bottom: 0;
+}
+
+.df-contact-card.df-style3 .df-info-link {
+  color: #222;
+}
+
+.df-contact-card.df-style3 .df-info-link:before {
+  background-color: #b5b5b5;
+}
+
+.df-contact-card.df-style3 .df-info-link:after {
+  background-color: #666;
+}
+
+.df-contact-card.df-style3 .df-info-content {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-bottom: 8px;
+  color: #666;
+}

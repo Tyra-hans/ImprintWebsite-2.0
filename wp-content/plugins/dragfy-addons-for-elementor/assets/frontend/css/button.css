@@ -1,0 +1,458 @@
+/*--------------------------------------------------------------
+## Button Style
+--------------------------------------------------------------*/
+.df-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: none;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  line-height: 1.6em;
+}
+
+.df-btn:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.df-btn span {
+  position: relative;
+  z-index: 2;
+}
+
+.df-btn i {
+  margin-right: 10px;
+}
+
+.df-btn.df-style1 {
+    color: #222;
+    font-size: 14px;
+}
+
+.df-btn.df-style1:hover {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  -webkit-transform: initial;
+  -ms-transform: initial;
+  transform: initial;
+}
+
+.df-btn.df-style1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
+
+.df-btn.df-style1:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.df-btn.df-style1:hover:after {
+  opacity: 1;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.df-btn.df-style1:after {
+  height: 2px;
+  background-color: #b5b5b5;
+}
+
+.df-btn.df-style1.df-type1 {
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #d69b9a;
+}
+
+.df-btn.df-style1.df-type1:before {
+  display: none;
+}
+
+.df-btn.df-style1.df-type1:after {
+  background-color: #d69b9a;
+}
+
+.df-btn.df-style2 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.df-btn.df-style2:hover {
+  color: #222;
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  -webkit-transform: initial;
+  -ms-transform: initial;
+  transform: initial;
+}
+
+.df-btn.df-style2 i {
+  margin-left: 5px;
+  margin-right: 0;
+  font-size: 14px;
+  line-height: inherit;
+}
+
+.df-btn.df-style3,
+.df-btn.df-style4,
+.df-btn.df-style5,
+.df-btn.df-style6,
+.df-btn.df-style7,
+.df-btn.df-style8 {
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.df-btn.df-style3,
+.df-btn.df-style5 {
+  min-width: 150px;
+  padding: 0.7em 2.1em;
+}
+
+.df-btn.df-style4,
+.df-btn.df-style6 {
+  padding: 0.7em 2.4em;
+  min-width: 180px;
+}
+
+.df-btn.df-style7 {
+  min-width: 150px;
+  padding: 0.65em 2.1em;
+  border: 1px solid #eaeaea;
+}
+
+.df-btn.df-style8 {
+  padding: 0.75em 2.4em;
+  min-width: 180px;
+  border: 1px solid #eaeaea;
+}
+
+.df-btn.df-style5,
+.df-btn.df-style6,
+.df-btn.df-btn-style.df-btn-br50 {
+  border-radius: 1.6em;
+}
+
+.df-btn.df-btn-style.df-btn-br4 {
+  border-radius: 4px;
+}
+
+.df-btn i {
+  margin-right: 10px;
+}
+
+/*Button Color*/
+.df-btn.df-color1 {
+  background-color: #fff;
+  color: #222;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.df-btn.df-color2,
+.df-btn.df-color3,
+.df-btn.df-color4,
+.df-btn.df-color6,
+.df-btn.df-color8,
+.df-btn.df-color9,
+.df-btn.df-color10,
+.df-btn.df-color11,
+.df-btn.df-color12,
+.df-btn.df-color13,
+.df-btn.df-color14,
+.df-btn.df-color15,
+.df-btn.df-color16,
+.df-btn.df-color17,
+.df-btn.df-color18,
+.df-btn.df-color19,
+.df-btn.df-color20,
+.df-btn.df-color23,
+.df-btn.df-color24 {
+  color: #fff;
+}
+
+.df-btn.df-color2 {
+  background-color: #222;
+}
+
+.df-btn.df-color3 {
+  background-color: #488bf8;
+}
+
+.df-btn.df-color4 {
+  background-color: #5D5BCA;
+}
+
+.df-btn.df-color4:hover {
+  background-color: #5D5BCA;
+}
+
+.df-btn.df-color5 {
+  background-color: rgba(92, 106, 196, 0.1);
+  color: #5c6ac4;
+}
+
+.df-btn.df-color5:hover {
+  color: #fff;
+  background-color: #5c6ac4;
+}
+
+.df-btn.df-color6 {
+  background-color: #5D5BCA;
+}
+
+.df-btn.df-color7 {
+  color: #488bf8;
+}
+
+.df-btn.df-color8 {
+  background-color: #13ce66;
+}
+
+.df-btn.df-color9 {
+  background-color: #4ed55f;
+}
+
+.df-btn.df-color10 {
+  background-color: #5ac4f6;
+}
+
+.df-btn.df-color11 {
+  background-color: #485f95;
+}
+
+.df-btn.df-color12 {
+  background-color: #49c4f0;
+}
+
+.df-btn.df-color13 {
+  background-color: #4a7393;
+}
+
+.df-btn.df-color14 {
+  background-color: #f99205;
+}
+
+.df-btn.df-color15 {
+  background-color: #e4002b;
+}
+
+.df-btn.df-color16 {
+  background-color: #5c6ac4;
+}
+
+.df-btn.df-color17 {
+  background-color: #2e5bff;
+}
+
+.df-btn.df-color18 {
+  background-color: #6673c7;
+}
+
+.df-btn.df-color19 {
+  background-color: #62B0E2;
+}
+
+.df-btn.df-color20 {
+  background-color: #1db954;
+}
+
+.df-btn.df-color21:hover {
+  background-color: #1db954;
+  border-color: #1db954;
+  color: #fff;
+}
+
+.df-btn.df-color22 {
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+.df-btn.df-color22:hover {
+  background-color: #eaeaea;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.df-btn.df-color23 {
+  background-color: #34c759;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.df-btn.df-color24 {
+  background-color: #1b9eff;
+}
+
+.df-btn.df-color25 {
+  background-color: rgba(27, 158, 255, 0.1);
+  color: #1b9eff;
+}
+
+.df-btn.df-color25:hover {
+  background-color: #1b9eff;
+  color: #fff;
+}
+
+.df-newsletter.df-style3 .df-btn,
+.df-newsletter.df-style5 .df-btn,
+.df-newsletter.df-style6 .df-btn {
+  position: relative;
+  height: 40px;
+}
+
+.df-newsletter.df-style3 .df-btn input,
+.df-newsletter.df-style5 .df-btn input,
+.df-newsletter.df-style6 .df-btn input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.df-newsletter.df-style5 .df-btn {
+  height: 30px;
+  padding: 0.4em 1.5em;
+  min-width: 120px;
+  font-size: 14px;
+}
+
+.df-btn-group.df-style1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -7px;
+  margin-right: -7px;
+  margin-top: -15px;
+}
+
+.df-btn-group.df-style1 .df-btn {
+  margin: 0 7px;
+  margin-top: 15px;
+}
+
+.df-btn.df-style9,
+.df-btn.df-style10 {
+  border: 1px solid #eaeaea;
+  min-width: 150px;
+  padding: 0.7em 2.1em;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.5em;
+  background-color: #fff;
+}
+
+.df-btn.df-style9 {
+  border-radius: 1.6em;
+}
+
+.df-btn.df-style10 {
+  border-radius: 4px;
+}
+
+.df-btn.df-style9:hover,
+.df-btn.df-style10:hover {
+  border-color: transparent;
+}
+
+.df-btn.df-style11 {
+  font-size: 16px;
+  color: #222;
+  border: 2px solid #222;
+  min-width: 180px;
+  padding: 0.7em 2.1em;
+}
+
+.df-btn.df-style11:hover {
+  color: #fff;
+  background-color: #222;
+}
+
+.df-btn.df-style12 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0.7em 2.1em;
+  border-radius: 4px;
+}
+
+.df-btn.df-style13 {
+  font-size: 14px;
+  border-radius: 4px;
+  min-width: 150px;
+  padding: 0.5em 1.5em;
+}
+
+.df-btn.df-color1:hover,
+.df-btn.df-color23:hover {
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 767px) {
+  .df-btn.df-style11 {
+    padding: 0.6em 1.5em;
+  }
+
+  .df-btn.df-style4,
+  .df-btn.df-style6 {
+    padding: 0.77em 2em;
+    min-width: 150px;
+  }
+
+  .df-btn.df-style3,
+  .df-btn.df-style5 {
+    min-width: 140px;
+    padding: 0.65em 1.7em;
+  }
+}

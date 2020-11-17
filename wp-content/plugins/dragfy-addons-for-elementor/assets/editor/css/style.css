@@ -1,0 +1,217 @@
+#elementor-panel-categories {
+  display: flex;
+  flex-direction: column;
+}
+
+#elementor-panel-categories>div {
+  order: 2;
+}
+
+#elementor-panel-categories #elementor-panel-category-dragfy-addons-for-elementor {
+  order: 1;
+}
+
+.elem_icon {
+  width: 30px;
+  height: 32px;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: invert(39%) sepia(15%) saturate(350%) hue-rotate(163deg) brightness(89%) contrast(91%);
+}
+
+.warning {
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f3cad3;
+  color: #882634;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.elementor-navigator__element__element-type .elem_icon {
+  width: 15px;
+  height: 15px;
+}
+
+.accordion {
+  background-image: url('../svg/001-accordion.svg');
+}
+
+.cta {
+  background-image: url('../svg/003-cta.svg');
+}
+
+.contact_form {
+  background-image: url('../svg/002-contact-form.svg');
+}
+
+.count_down {
+  background-image: url('../svg/004-countdown.svg');
+}
+
+.counter {
+  background-image: url('../svg/005-counter.svg');
+}
+
+.filterable_gallery {
+  background-image: url('../svg/021-website.svg');
+}
+
+.google_map {
+  background-image: url('../svg/007-google.svg');
+}
+
+.heading {
+  background-image: url('../svg/008-font.svg');
+}
+
+.icon_box_slider {
+  background-image: url('../svg/039-icon-box-slider.svg');
+}
+
+.icon_box {
+  background-image: url('../svg/036-icon-box.svg');
+}
+
+.image_box_slider {
+  background-image: url('../svg/024-slider-1.svg');
+}
+
+.image_box {
+  background-image: url('../svg/016-ads.svg');
+}
+
+.image_comparison {
+  background-image: url('../svg/011-ab.svg');
+}
+
+.image_gallery {
+  background-image: url('../svg/006-gallery.svg');
+}
+
+.image_scroll {
+  background-image: url('../svg/013-open-scroll-outline.svg');
+}
+
+.image_slider {
+  background-image: url('../svg/010-albums.svg');
+}
+
+.info_card {
+  background-image: url('../svg/014-note.svg');
+}
+
+.interactive_banner {
+  background-image: url('../svg/015-banner.svg');
+}
+
+.interactive_slider {
+  background-image: url('../svg/017-slider.svg');
+}
+
+.line_chart {
+  background-image: url('../svg/018-graph.svg');
+}
+
+.logo_carousel {
+  background-image: url('../svg/012-carousel.svg');
+}
+
+.newsletter {
+  background-image: url('../svg/020-newsletter.svg');
+}
+
+.post_slider {
+  background-image: url('../svg/038-post-slider.svg');
+}
+
+.post {
+  background-image: url('../svg/022-blogging.svg');
+}
+
+.pricing_table {
+  background-image: url('../svg/023-pricing.svg');
+}
+
+.product_slider {
+  background-image: url('../svg/037-product-slider.svg');
+}
+
+.progress_bar {
+  background-image: url('../svg/035-progress.svg');
+}
+
+.road_map {
+  background-image: url('../svg/026-mail-1.svg');
+}
+
+.round_chart {
+  background-image: url('../svg/027-pie-chart.svg');
+}
+
+.tabs {
+  background-image: url('../svg/029-content-1.svg');
+}
+
+.team_member_slider {
+  background-image: url('../svg/030-team-member.svg');
+}
+
+.team_member {
+  background-image: url('../svg/031-analyst.svg');
+}
+
+.testimonial_slider {
+  background-image: url('../svg/028-content.svg');
+}
+
+.testimonial {
+  background-image: url('../svg/032-customer-review.svg');
+}
+
+.video_box {
+  background-image: url('../svg/009-video.svg');
+}
+
+.youtube_video_playlist {
+  background-image: url('../svg/034-album.svg');
+}
+
+.flip_box {
+  background-image: url('../svg/040-flip-box.svg');
+}
+
+.content_toggle {
+  background-image: url('../svg/041-content-toggle.svg');
+}
+
+.business_hours {
+  background-image: url('../svg/042-business-hours.svg');
+}
+
+.fancy_heading {
+  background-image: url('../svg/043-fancy-heading.svg');
+}
+
+.hotspot {
+  background-image: url('../svg/044-hotspot.svg');
+}
+
+.filterable_video_gallery {
+  background-image: url('../svg/045-filterable-video-gallery.svg');
+}
+
+.interactive_card {
+  background-image: url('../svg/046-interactive-card.svg');
+}
+
+.table {
+  background-image: url('../svg/047-table.svg');
+}
+
+.timeline {
+  background-image: url('../svg/048-timeline.svg');
+}

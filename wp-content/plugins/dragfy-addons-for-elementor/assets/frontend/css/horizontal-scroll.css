@@ -1,0 +1,186 @@
+/*--------------------------------------------------------------
+## Horizontal Scroll
+--------------------------------------------------------------*/
+
+.df-horizontal-scroll-wrap *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.df-horizontal-scroll-wrap *::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.df-horizontal-scroll-wrap {
+  overflow: hidden;
+  height: 700px;
+  padding: 0 30px;
+  position: relative;
+}
+
+.df-horizontal-scroll-wrap:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  right: 0;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.df-horizontal-scroll {
+  width: 100vh;
+  height: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: rotate(-90deg) translate3d(0, -100vh, 0);
+  transform: rotate(-90deg) translate3d(0, -100vh, 0);
+}
+
+.df-horizontal-scroll>div {
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transform: rotate(90deg) translate3d(0, calc(-100vh + 60px), 0);
+  transform: rotate(90deg) translate3d(0, -100vh, 0);
+}
+
+.df-horizontal-scroll-in {
+  height: calc(100vh);
+  position: relative;
+}
+
+.df-horizontal-scroll-in .df-horizontal-scroll-bar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+}
+
+.df-horizontal-scroll-item {
+  float: initial;
+  margin-bottom: 0;
+  width: 25%;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.df-horizontal-scroll-right-padd {
+  width: 30px !important;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+}
+
+.df-horizontal-scroll-item .df-bg {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.df-horizontal-scroll-item .df-bg:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-horizontal-scroll-item .df-bg:hover:before {
+  opacity: 0.5;
+}
+
+.df-horizontal-scroll-item .df-bg:hover {
+  cursor: url(../../frontend/img/plus.svg) 16 9, ew-resize !important;
+}
+
+.df-horizontal-scroll-bar .df-horizontal-scroll-item:not(:nth-last-child(2)),
+.df-horizontal-scroll-bar .df-horizontal-scroll-item:not(:nth-last-child(2)) {
+  margin-right: 30px;
+}
+
+.lg-img-wrap {
+  padding: 50px 30px !important;
+}
+
+.df-horizontal-scroll-item .df-bg img {
+  width: 0;
+}
+
+.df-horizontal-scroll-bar.df-style2 .df-horizontal-scroll-item {
+  width: 40%;
+}
+
+.df-horizontal-scroll-bar.df-style2 .df-horizontal-scroll-item:nth-child(2n+0) {
+  width: 23%;
+}
+
+.df-horizontal-scroll-bar.df-style2 .df-horizontal-scroll-item:nth-child(3n+0) {
+  width: 30%;
+}
+
+.df-horizontal-scroll-bar.df-style3 .df-horizontal-scroll-item {
+  width: 47.2%;
+}
+
+.df-horizontal-scroll-bar.df-no-grid .df-horizontal-scroll-item:not(:nth-last-child(2)),
+.df-horizontal-scroll-bar.df-no-grid .df-horizontal-scroll-item:not(:nth-last-child(2)) {
+  margin-right: 0;
+}
+
+.df-horizontal-scroll-bar.df-no-grid .df-horizontal-scroll-item {
+  width: 27.5%;
+}
+
+.df-horizontal-scroll-bar.df-style2.df-no-grid .df-horizontal-scroll-item {
+  width: 40%;
+}
+
+.df-horizontal-scroll-bar.df-style2.df-no-grid .df-horizontal-scroll-item:nth-child(2n+0) {
+  width: 23%;
+}
+
+.df-horizontal-scroll-bar.df-style2.df-no-grid .df-horizontal-scroll-item:nth-child(3n+0) {
+  width: 30%;
+}
+
+.df-horizontal-scroll-bar.df-style3.df-no-grid .df-horizontal-scroll-item {
+  width: 47.2%;
+}
+
+
+.df-horizontal-scroll-bar.df-style3.df-no-grid .df-horizontal-scroll-item {
+  width: 48%;
+}
+
+@media screen and (max-width: 1199px) {
+
+  .df-horizontal-scroll-item {
+    width: 50% !important;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .df-horizontal-scroll-item {
+    width: 80% !important;
+  }
+
+}

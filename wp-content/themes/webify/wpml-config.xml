@@ -1,0 +1,17 @@
+<wpml-config>
+  <admin-texts>
+    <key name="_tb_options">
+      <key name="top-header-msg" />
+      <key name="header-btn-text" />
+      <key name="shop-newsletter-heading" />
+      <key name="shop-newsletter-sub-heading" />
+      <key name="error-page-heading" />
+      <key name="error-page-content" />
+      <key name="error-page-btn-text" />
+      <key name="footer-cta-heading" />
+      <key name="footer-cta-btn-text" />
+      <key name="footer-content" />
+      <key name="footer-copyright-text" />
+    </key>
+  </admin-texts>
+</wpml-config>

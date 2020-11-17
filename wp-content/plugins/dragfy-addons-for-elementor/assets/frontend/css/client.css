@@ -1,0 +1,141 @@
+/*--------------------------------------------------------------
+## Client Style
+--------------------------------------------------------------*/
+.df-client.df-style1 {
+  min-height: 80px;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-client.df-style1 img,
+.df-client.df-style2 img {
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-client.df-style1:hover img,
+.df-client.df-style2:hover img {
+  opacity: 1;
+}
+
+.df-client.df-style2 {
+  min-height: 90px;
+  border: 1px solid #eaeaea;
+  padding: 15px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-client.df-style2:hover {
+  border-color: rgba(102, 102, 102, 0.35);
+}
+
+.df-slider.df-style1.df-logo-carouser-2 .df-swiper-inner-pad {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.df-client.df-style3 {
+  min-height: 52px;
+}
+
+.df-client.df-style3 img {
+  max-height: 100%;
+}
+
+.df-clients.df-style1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.df-client.df-style4 {
+  padding: 0 15px;
+}
+
+
+.df-client5-wrap {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.df-client5-wrap-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -1px;
+}
+
+.df-client.df-style5 {
+  height: 200px;
+  width: 25%;
+  border-left: 1px solid #eaeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: -1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.df-client.df-style5 .df-btn {
+  border-radius: 0;
+}
+
+.df-client.df-style5 .df-client-btn {
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-client.df-style5:hover .df-client-btn {
+  bottom: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .df-client.df-style5 {
+    width: 33.333333%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .df-client.df-style5 {
+    width: 50%;
+  }
+}

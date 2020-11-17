@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+## Isotope
+--------------------------------------------------------------*/
+.df-isotop {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-isotop.df-has-gutter {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -30px;
+}
+
+.df-isotop.df-has-gutter .df-isotop-item {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.df-port-col-6 .df-grid-sizer,
+.df-port-col-6 .df-isotop-item {
+  width: 16.666667%;
+}
+
+.df-port-col-5 .df-grid-sizer,
+.df-port-col-5 .df-isotop-item {
+  width: 20%;
+}
+
+.df-port-col-4 .df-grid-sizer,
+.df-port-col-4 .df-isotop-item {
+  width: 25%;
+}
+
+.df-port-col-3 .df-grid-sizer,
+.df-port-col-3 .df-isotop-item {
+  width: 33.333333%;
+}
+
+.df-port-col-2 .df-grid-sizer,
+.df-port-col-2 .df-isotop-item {
+  width: 50%;
+}
+
+.df-port-col-1 .df-grid-sizer,
+.df-port-col-1 .df-isotop-item {
+  width: 100%;
+}
+
+.df-grid-sizer {
+  width: 33.333333%;
+}
+
+.df-port-col-5 .df-w20,
+.df-port-col-4 .df-w20,
+.df-port-col-3 .df-w20,
+.df-port-col-2 .df-w20,
+.df-port-col-1 .df-w20 {
+  width: 20%;
+}
+
+.df-port-col-5 .df-w25,
+.df-port-col-4 .df-w25,
+.df-port-col-3 .df-w25,
+.df-port-col-2 .df-w25,
+.df-port-col-1 .df-w25 {
+  width: 25%;
+}
+
+.df-port-col-5 .df-w33,
+.df-port-col-4 .df-w33,
+.df-port-col-3 .df-w33,
+.df-port-col-2 .df-w33,
+.df-port-col-1 .df-w33 {
+  width: 33.333333%;
+}
+
+.df-port-col-5 .df-w50,
+.df-port-col-4 .df-w50,
+.df-port-col-3 .df-w50,
+.df-port-col-2 .df-w50,
+.df-port-col-1 .df-w50 {
+  width: 50%;
+}
+
+.df-port-col-5 .df-w66,
+.df-port-col-4 .df-w66,
+.df-port-col-3 .df-w66,
+.df-port-col-2 .df-w66,
+.df-port-col-1 .df-w66 {
+  width: 66.666666%;
+}
+
+.df-port-col-5 .df-w100,
+.df-port-col-4 .df-w100,
+.df-port-col-3 .df-w100,
+.df-port-col-2 .df-w100,
+.df-port-col-1 .df-w100 {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+
+  .df-port-col-4 .df-grid-sizer,
+  .df-port-col-4 .df-isotop-item {
+    width: 50%;
+  }
+
+  .df-port-col-4 .df-w50 {
+    width: 100%;
+  }
+
+  .df-port-col-3 .df-grid-sizer,
+  .df-port-col-3 .df-isotop-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .df-port-col-5 .df-w50,
+  .df-port-col-4 .df-w50,
+  .df-port-col-3 .df-w50,
+  .df-port-col-2 .df-w50,
+  .df-port-col-1 .df-w50,
+  .df-port-col-5 .df-w66,
+  .df-port-col-4 .df-w66,
+  .df-port-col-3 .df-w66,
+  .df-port-col-2 .df-w66,
+  .df-port-col-1 .df-w66 {
+    width: 100%;
+  }
+
+  .df-port-col-5 .df-grid-sizer,
+  .df-port-col-5 .df-isotop-item {
+    width: 100%;
+  }
+
+  .df-port-col-4 .df-grid-sizer,
+  .df-port-col-4 .df-isotop-item {
+    width: 100%;
+  }
+
+  .df-port-col-3 .df-grid-sizer,
+  .df-port-col-3 .df-isotop-item {
+    width: 100%;
+  }
+
+  .df-port-col-2 .df-grid-sizer,
+  .df-port-col-2 .df-isotop-item {
+    width: 100%;
+  }
+}
+
+/*Isotop Menu Style1*/
+.df-isotop-filter.df-style1 {
+  margin-bottom: 34px;
+}
+
+.df-isotop-filter.df-style1 li {
+  margin: 0 5px;
+}
+
+.df-isotop-filter.df-style1 li a {
+  padding: 3px 15px;
+  border: 1px solid transparent;
+  color: #666;
+  border-radius: 1.5em;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.df-isotop-filter.df-style1 li.active a {
+  border-color: #eaeaea;
+}
+
+.df-isotop-filter.df-style1 li a:hover {
+  color: rgba(102, 102, 102, 0.7);
+}
+
+.dialog-type-lightbox {
+  display: none !important;
+}

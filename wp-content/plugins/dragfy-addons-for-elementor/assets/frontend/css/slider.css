@@ -1,0 +1,789 @@
+/*--------------------------------------------------------------
+## Slider Style
+--------------------------------------------------------------*/
+.df-slider {
+  position: relative;
+}
+
+.df-slider.df-style9 {
+  overflow: hidden;
+}
+
+.df-slider.df-style1 .df-swiper-inner-pad,
+.df-slider.df-style4 .df-swiper-inner-pad,
+.df-slider.df-style6 .df-swiper-inner-pad,
+.df-slider.df-style8 .df-swiper-inner-pad,
+.df-slider.df-style9 .df-swiper-inner-pad,
+.df-slider.df-style10 .df-swiper-inner-pad {
+  padding: 0 15px;
+}
+
+.df-slider.df-style7 .df-swiper-inner-pad {
+  padding: 0 10px;
+}
+
+.df-slider.df-style1 .df-swiper-inner-pad-wrap,
+.df-slider.df-style4 .df-swiper-inner-pad-wrap,
+.df-slider.df-style6 .df-swiper-inner-pad-wrap,
+.df-slider.df-style8 .df-swiper-inner-pad-wrap,
+.df-slider.df-style9 .df-swiper-inner-pad-wrap,
+.df-slider.df-style10 .df-swiper-inner-pad-wrap {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+
+.df-slider.df-style7 .df-swiper-inner-pad-wrap {
+  width: calc(100% + 20px);
+  margin-left: -10px;
+}
+
+.df-slider.df-style2 .df-swiper-inner-pad {
+  padding: 0 5px;
+}
+
+.df-slider.df-style2 .df-swiper-inner-pad-wrap {
+  width: calc(100% + 10px);
+  margin-left: -5px;
+}
+
+.df-slider.df-style3 .df-swiper-inner-pad {
+  padding: 0 10px;
+}
+
+.df-slider.df-style3 .df-swiper-inner-pad-wrap {
+  width: calc(100% + 20px);
+  margin-left: -10px;
+}
+
+.df-slider.df-style4 {
+  padding: 0 65px;
+}
+
+.df-slider.df-style1.df-logo-carouser-2 .df-swiper-inner-pad-wrap {
+  width: calc(100% + 16px);
+  margin-left: -8px;
+}
+
+.df-slider.df-style1.df-type1:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.8);
+  left: 0;
+  top: 0;
+}
+
+.slick-list {
+  width: 100%;
+}
+
+/*Slider Controler Button Style*/
+/*Arrow Style1*/
+.swipe-arrow.df-style1 i,
+.swipe-arrow.df-style3 i,
+.swipe-arrow.df-style5 i,
+.swipe-arrow.df-style6 i {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: #666666;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -24px;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  font-weight: bold;
+  border: 1px solid #eaeaea;
+}
+
+.swipe-arrow.df-style3.df-type1 i {
+  margin-top: -85px;
+}
+
+.swipe-arrow.df-style6 i {
+  height: 38px;
+  width: 38px;
+}
+
+.swipe-arrow.df-style1 .slick-arrow-left i {
+  left: -22px;
+}
+
+.swipe-arrow.df-style1 .slick-arrow-right i {
+  right: -22px;
+}
+
+.swipe-arrow.df-style3 .slick-arrow-left i {
+  left: 20px;
+}
+
+.swipe-arrow.df-style3 .slick-arrow-right i {
+  right: 20px;
+}
+
+.swipe-arrow.df-style5 .slick-arrow-left i {
+  left: 15px;
+}
+
+.swipe-arrow.df-style5 .slick-arrow-right i {
+  right: 15px;
+}
+
+.swipe-arrow.df-style6 .slick-arrow-left i {
+  left: 33.333333%;
+  margin-left: -10px;
+}
+
+.swipe-arrow.df-style6 .slick-arrow-right i {
+  right: 33.333333%;
+  margin-right: -10px;
+}
+
+.swipe-arrow.df-style1 i:hover,
+.swipe-arrow.df-style3 i:hover,
+.swipe-arrow.df-style5 i:hover,
+.swipe-arrow.df-style6 i:hover {
+  color: #222;
+}
+
+.df-slider:hover .swipe-arrow.df-style1 i,
+.df-slider:hover .swipe-arrow.df-style3 i,
+.df-slider:hover .swipe-arrow.df-style5 i,
+.df-slider:hover .swipe-arrow.df-style6 i {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Styoe7*/
+.swipe-arrow.df-style7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  width: 50%;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.swipe-arrow.df-style2>div,
+.swipe-arrow.df-style7>div {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.swipe-arrow.df-style7>div {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #666;
+  margin-right: 10px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.swipe-arrow.df-style7>div:hover {
+  color: #fff;
+}
+
+.swipe-arrow.df-style7>div:focus {
+  outline: none;
+}
+
+/*Arrow Style2 and style3*/
+.swipe-arrow.df-style2>div {
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  background: rgba(1, 1, 1, 0.6);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  font-size: 12px;
+}
+
+.df-slider:hover .swipe-arrow.df-style2>div {
+  opacity: 1;
+}
+
+.swipe-arrow.df-style2 .slick-arrow-left {
+  left: 15px;
+}
+
+.swipe-arrow.df-style2 .slick-arrow-right {
+  right: 15px;
+}
+
+.swipe-arrow.df-style2>div:hover {
+  background: rgba(1, 1, 1, 0.9);
+  color: #fff;
+}
+
+/*Style4*/
+.swipe-arrow.df-style4>div {
+  position: absolute;
+  top: 50%;
+  height: 22px;
+  width: 22px;
+  border: 2px solid #b5b5b5;
+  -webkit-transform: rotate(45deg) translateY(-50%);
+  -ms-transform: rotate(45deg) translateY(-50%);
+  transform: rotate(45deg) translateY(-50%);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 2px;
+  margin-top: -2px;
+}
+
+.swipe-arrow.df-style4>div:hover {
+  border-color: #111;
+}
+
+.swipe-arrow.df-style4>.slick-arrow-left {
+  left: 18px;
+  border-right: none;
+  border-top: none;
+}
+
+.swipe-arrow.df-style4>.slick-arrow-right {
+  right: 35px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.pagination.df-style2,
+.pagination.df-style3 {
+  display: none;
+}
+
+.df-overflow-hidden .df-slider.df-style1 {
+  width: calc(100% + 1px);
+}
+
+/*Slider Style 5*/
+.df-slider.df-style5 .slick-wrapper {
+  /*margin-left: 10%;*/
+}
+
+.df-slider.df-style5 .slick-slide-in {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: calc(100% - 60px);
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-top: 30px;
+}
+
+.df-slider.df-style5 .slick-center .slick-slide-in {
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  margin-top: 0;
+  height: 100%;
+}
+
+.df-slider.df-style5 .slick-slide-in-active .df-bg {
+  height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 15px 14.25px 0.75px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 15px 14.25px 0.75px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+.df-slider.df-style5 .slick-slide {
+  height: 460px;
+}
+
+.df-slider.df-style5 .slick-slide>div {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.df-slider.df-style5 .df-bg {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.df-slider.df-style5 .slick-container {
+  width: 190%;
+  margin-left: -45%;
+}
+
+.df-slider.df-style5 {
+  margin-bottom: -40px;
+  margin-top: -40px;
+  overflow: hidden;
+}
+
+.df-slider.df-style5 .swipe-arrow.df-style3 .slick-arrow-left i {
+  left: 5%;
+}
+
+.df-slider.df-style5 .swipe-arrow.df-style3 .slick-arrow-right i {
+  right: 5%;
+}
+
+.df-slider.df-style5.df-type1 .swipe-arrow.df-style3 .slick-arrow-left i {
+  left: 18.3%;
+  margin-left: -24px;
+}
+
+.df-slider.df-style5.df-type1 .swipe-arrow.df-style3 .slick-arrow-right i {
+  right: 18.3%;
+  margin-right: -24px;
+}
+
+.swipe-arrow.df-style4>div:focus {
+  outline: none;
+}
+
+.df-slider.df-style6 .slick-container:before,
+.df-slider.df-style6 .slick-container:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: calc(33.333333% + 12px);
+  background-color: #fff;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.df-slider.df-style6 .slick-container:before {
+  left: 0;
+}
+
+.df-slider.df-style6 .slick-container:after {
+  right: 0;
+}
+
+.df-slider.df-style8 .slick-wrapper {
+  margin-left: 20%;
+}
+
+.df-slider.df-style8 .slick-slide-in {
+  width: 60%;
+}
+
+.df-slider.df-style9 .slick-slide-in {
+  width: 28%;
+}
+
+.df-slider.df-style9 .slick-container {
+  padding: 30px 50px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.df-slider.df-style10 {
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+}
+
+.df-slider.df-style10 .slick-slide-in:nth-child(even) {
+  width: 50%;
+}
+
+.df-slider.df-style10 .slick-slide-in:nth-child(odd) {
+  width: 25%;
+}
+
+.df-hero.df-style6 {
+  background-size: cover;
+}
+
+.slick-wrapper {
+  cursor: initial !important;
+}
+
+.df-hero.df-style8.df-type1 {
+  height: 800px;
+}
+
+
+.df-hero.df-style8.df-type1 .df-hero-img {
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  max-width: 730px;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.df-slider .slick-active .df-hero.df-style8.df-type1 .df-hero-img {
+  opacity: 1;
+  right: 5%;
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.pagination.df-style1,
+.pagination.df-style1,
+.pagination.df-style3 {
+  margin-top: 20px;
+}
+
+.pagination.df-style1 .slick-dots,
+.pagination.df-style2 .slick-dots,
+.pagination.df-style3 .slick-dots {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.pagination.df-style1 .slick-dots li,
+.pagination.df-style2 .slick-dots li,
+.pagination.df-style3 .slick-dots li {
+  height: 13px;
+  width: 13px;
+  background: #b5b5b5;
+  border-radius: 2px;
+  margin: 0 3px;
+}
+
+.pagination.df-style1 .slick-dots li.slick-active,
+.pagination.df-style2 .slick-dots li.slick-active,
+.pagination.df-style3 .slick-dots li.slick-active {
+  background-color: #666;
+}
+
+.pagination.df-style1 .slick-dots button,
+.pagination.df-style2 .slick-dots button,
+.pagination.df-style3 .slick-dots button {
+  display: none;
+}
+
+.pagination.hidden {
+  display: none;
+}
+
+.slick-slide .df-testimonial img {
+  display: inline-block;
+}
+
+.df-slider.df-style1.df-type3 .slick-list {
+  padding: 30px 0;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.df-slider.df-style11 {
+  max-width: 600px;
+  margin: auto;
+
+  -webkit-animation: 1.7s infinite alternate imageUpAnimation;
+
+  animation: 1.7s infinite alternate imageUpAnimation;
+}
+
+.df-slider.df-style11 .slick-wrapper {
+  -webkit-transform: rotateX(8deg) rotateY(8deg) rotateZ(0deg);
+  transform: rotateX(8deg) rotateY(8deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes imageUpAnimation {
+  from {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  to {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+@keyframes imageUpAnimation {
+  from {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  to {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+.df-slider.df-style11 .df-hero {
+  height: 400px;
+}
+
+.df-slider.df-style11 .slick-list {
+  overflow: initial;
+}
+
+.df-slider.df-style11 .slick-slide {
+  z-index: 1000 !important;
+}
+
+.df-slider.df-style11 .slick-slide .df-hero {
+  -webkit-transform: scale(1.05) matrix(1.2, 0, 0, 1, 0, 0);
+  -ms-transform: scale(1.05) matrix(1.2, 0, 0, 1, 0, 0);
+  transform: scale(1.05) matrix(1.2, 0, 0, 1, 0, 0);
+  -webkit-transition: all 0.7s ease-in;
+  -o-transition: all 0.7s ease-in;
+  transition: all 0.7s ease-in;
+  position: relative;
+  top: 50px;
+  left: -80px;
+}
+
+.df-slider.df-style11 .slick-slide.slick-active .df-hero {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  top: 0px;
+  left: 0;
+
+}
+
+.df-style1.df-type2 .slick-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.df-extra-padd-30 .slick-wrapper {
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+
+.df-extra-padd-30 .slick-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .df-slider.df-style9 .slick-wrapper {
+    margin-left: 10%
+  }
+
+  .df-slider.df-style9 .slick-slide-in {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .df-slider.df-style6 .slick-container:before,
+  .df-slider.df-style6 .slick-container:after {
+    display: none;
+  }
+
+  .df-slider.df-style10 .slick-slide-in:nth-child(even),
+  .df-slider.df-style10 .slick-slide-in:nth-child(odd) {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .df-mobile-padd15 {
+    padding: 0 15px;
+  }
+
+  .pagination.df-style1.hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pagination.df-style2.hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    z-index: 2;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #eaeaea;
+    margin: 5px 5px 0;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet:focus {
+    outline: none;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #666;
+    opacity: 1;
+  }
+
+  .swipe-arrow.df-style1,
+  .swipe-arrow.df-style2,
+  .swipe-arrow.df-style3,
+  .swipe-arrow.df-style5,
+  .swipe-arrow.df-style6,
+  .swipe-arrow.df-style7 {
+    display: none;
+  }
+
+  .pagination.df-style1.df-type1 {
+    padding-bottom: 30px;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 0;
+  }
+
+  .pagination.hidden.df-mobile-hidden {
+    display: none;
+  }
+
+  .pagination.df-style2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .pagination.df-style3 {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    display: block;
+  }
+
+  .df-style4 .pagination.df-style3 {
+    display: none;
+  }
+
+  .df-slider.df-style9 .slick-wrapper {
+    margin-left: 15%
+  }
+
+  .df-slider.df-style9 .slick-slide-in {
+    width: 70%;
+  }
+
+  .pagination.hidden {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  .df-slider.df-style8 .slick-wrapper,
+  .df-slider.df-style9 .slick-wrapper {
+    margin-left: 0;
+  }
+
+  .df-slider.df-style8 .slick-slide-in,
+  .df-slider.df-style9 .slick-slide-in {
+    width: 100%;
+  }
+
+  .df-slider.df-style8 .df-swiper-inner-pad-wrap,
+  .df-slider.df-style9 .df-swiper-inner-pad-wrap {
+    width: 100%;
+    margin-left: 0;
+  }
+}

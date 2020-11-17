@@ -1,0 +1,11 @@
+.tb-map-wrap.tb-style1 #map {
+  height: 500px;
+}
+
+.tb-map-wrap.tb-style2 {
+  padding: 10px;
+}
+
+.tb-map-wrap.tb-style2 #map {
+  height: 387px;
+}

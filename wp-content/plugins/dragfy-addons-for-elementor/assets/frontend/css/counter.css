@@ -1,0 +1,120 @@
+/*--------------------------------------------------------------
+## Counter
+--------------------------------------------------------------*/
+.df-counter.df-style1 .df-counter-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.df-counter.df-style1.df-color1 .df-counter-icon {
+  color: #5752d0;
+}
+
+.df-counter.df-style1 {
+  padding: 40px 30px 35px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.df-counter.df-style1:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+}
+
+/* counter */
+.counter.counter-auto-theme,
+.counter.counter-auto-theme .counter-digit,
+.counter.counter-theme-default,
+.counter.counter-theme-default .counter-digit {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative
+}
+
+.counter.counter-auto-theme .counter-digit .counter-digit-spacer,
+.counter.counter-theme-default .counter-digit .counter-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  visibility: hidden
+}
+
+.counter.counter-auto-theme .counter-digit .counter-digit-inner,
+.counter.counter-theme-default .counter-digit .counter-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden
+}
+
+.counter.counter-auto-theme .counter-digit .counter-ribbon,
+.counter.counter-theme-default .counter-digit .counter-ribbon {
+  display: block
+}
+
+.counter.counter-auto-theme .counter-digit .counter-ribbon-inner,
+.counter.counter-theme-default .counter-digit .counter-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden
+}
+
+.counter.counter-auto-theme .counter-digit .counter-value,
+.counter.counter-theme-default .counter-digit .counter-value {
+  display: block;
+  -webkit-transform: translateZ(0)
+}
+
+.counter.counter-auto-theme .counter-digit .counter-value.counter-last-value,
+.counter.counter-theme-default .counter-digit .counter-value.counter-last-value {
+  position: absolute
+}
+
+.counter.counter-auto-theme.counter-animating-up .counter-ribbon-inner,
+.counter.counter-theme-default.counter-animating-up .counter-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: -webkit-transform 2s;
+  -o-transition: transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s
+}
+
+.counter.counter-auto-theme.counter-animating-down .counter-ribbon-inner,
+.counter.counter-auto-theme.counter-animating-up.counter-animating .counter-ribbon-inner,
+.counter.counter-theme-default.counter-animating-down .counter-ribbon-inner,
+.counter.counter-theme-default.counter-animating-up.counter-animating .counter-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%)
+}
+
+.counter.counter-auto-theme.counter-animating-down.counter-animating .counter-ribbon-inner,
+.counter.counter-theme-default.counter-animating-down.counter-animating .counter-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: -webkit-transform 2s;
+  -o-transition: transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0)
+}
+
+.counter.counter-auto-theme,
+.counter.counter-theme-default {
+  line-height: 1.1em
+}
+
+.counter.counter-auto-theme .counter-value,
+.counter.counter-theme-default .counter-value {
+  text-align: center
+}

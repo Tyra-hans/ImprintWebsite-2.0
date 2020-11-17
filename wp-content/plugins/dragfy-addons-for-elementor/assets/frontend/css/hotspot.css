@@ -1,0 +1,340 @@
+/*Point Image*/
+.df-hotspot-wrap {
+  position: relative;
+}
+
+.df-hotspots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-hotspot-img img {
+  width: 100%;
+}
+
+.df-hotspot {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 3px;
+  background: rgba(17, 17, 17, 0.3);
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+}
+
+.df-hotspot:hover {
+  background: rgba(17, 17, 17, 0.6);
+  z-index: 11;
+}
+
+.df-hotspot-box {
+  height: 26px;
+  width: 26px;
+  background: #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+}
+
+.df-hotspot-info {
+  position: absolute;
+  -webkit-box-shadow: -1.392px 9.903px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -1.392px 9.903px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 4px;
+  bottom: 25px;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+.df-hotspot:hover .df-hotspot-info {
+  bottom: 45px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-hotspot-info:before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 24px;
+  background: #fff;
+  z-index: 1;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -12px;
+  -webkit-transform: rotate(-29deg) skew(34deg);
+  -ms-transform: rotate(-29deg) skew(34deg);
+  transform: rotate(-29deg) skew(34deg);
+}
+
+.df-hotspot-info:after {
+  content: '';
+  height: 25px;
+  width: 50px;
+  position: absolute;
+  background: transparent;
+  bottom: -23px;
+  left: 74px;
+}
+
+.df-hotspot-product-img {
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.df-hotspot-product-meta {
+  padding: 15px;
+}
+
+.df-hotspot-product-meta {
+  padding: 15px;
+}
+
+.df-hotspot-wrap.df-style1 .df-hotspot-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 15px;
+  text-transform: initial;
+}
+
+.df-hotspot-product-price {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 14px;
+  line-height: 13px;
+}
+
+.df-hotspot-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 24px;
+  width: 48px;
+  background: rgba(0, 0, 0, 0.31);
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.df-hotspot-btn .df-hotspot-btn-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #b5b5b5;
+  position: absolute;
+  top: 2px;
+  left: 26px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.df-hotspot-btn .df-hotspot-btn-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.df-hotspot-btn .df-hotspot-btn-icon i:first-child {
+  opacity: 1;
+  visibility: visible;
+}
+
+.df-hotspot-btn .df-hotspot-btn-icon i:last-child {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.df-hotspot-wrap.active .df-hotspot-btn .df-hotspot-btn-icon i:first-child {
+  opacity: 0;
+  visibility: visible;
+}
+
+.df-hotspot-wrap.active .df-hotspot-btn .df-hotspot-btn-icon i:last-child {
+  opacity: 1;
+  visibility: visible;
+}
+
+.df-hotspot-btn:hover .df-hotspot-btn-icon {
+  color: #666;
+}
+
+.df-hotspot-wrap.active .df-hotspot-btn .df-hotspot-btn-icon {
+  left: 2px;
+}
+
+.df-hotspot-wrap.active .df-hotspots {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.df-hotspot-wrap.active .df-hotspot {
+  -webkit-transform: translate(-50%, -50%) scale(0.2);
+  -ms-transform: translate(-50%, -50%) scale(0.2);
+  transform: translate(-50%, -50%) scale(0.2);
+}
+
+.df-hotspot-box:before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: df-point-animation 2s infinite;
+  animation: df-point-animation 2s infinite;
+}
+
+.df-hotspot:hover .df-hotspot-box:before {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.df-hotspots .df-hotspot:nth-child(2n+0) .df-hotspot-box:before {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.df-hotspots .df-hotspot:nth-child(3n+0) .df-hotspot-box:before {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.df-hotspot-checkout-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: none;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  line-height: 1.6em;
+  padding: 0.6em 2.1em;
+  background-color: #3FC65F;
+  color: #fff;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.df-hotspot-checkout-btn:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+@-webkit-keyframes df-point-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(17, 17, 17, 0.3);
+    box-shadow: 0 0 0 0 rgba(17, 17, 17, 0.3)
+  }
+
+  70% {
+    -webkit-box-shadow: 0 0 05px rgba(17, 17, 17, 0);
+    box-shadow: 0 0 0 5px rgba(17, 17, 17, 0)
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 0 0 rgba(17, 17, 17, 0);
+    box-shadow: 0 0 0 0 rgba(17, 17, 17, 0)
+  }
+}
+
+@keyframes df-point-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(17, 17, 17, 0.3);
+    box-shadow: 0 0 0 0 rgba(17, 17, 17, 0.3)
+  }
+
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(17, 17, 17, 0);
+    box-shadow: 0 0 0 5px rgba(17, 17, 17, 0)
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 0 0 rgba(17, 17, 17, 0);
+    box-shadow: 0 0 0 0 rgba(17, 17, 17, 0)
+  }
+}
+
+.df-hotspot-wrap.df-style2 .df-hotspot-box {
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+  color: #167EFD;
+}
+
+.df-hotspot-wrap.df-style2 .df-hotspot:hover .df-hotspot-info {
+  bottom: 55px;
+}
